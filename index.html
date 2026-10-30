@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bescherelle hébreu – conjugaison des verbes hébreux en français</title>
+    <meta name="description" content="Conjugueur hébreu–français gratuit : plus de 2000 verbes conjugués avec nikoud, écriture pleine et prononciation. Recherche par français, racine, forme conjuguée ou lettres." />
+    <meta name="theme-color" content="#1d4ed8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta property="og:title" content="Bescherelle hébreu" />
+    <meta property="og:description" content="Conjugueur hébreu–français gratuit, avec recherche intelligente." />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <a class="skip" href="#app">Aller au contenu</a>
+    <header class="top">
+      <a class="logo" href="/" aria-label="Accueil"><span lang="he">בְּ</span>Bescherelle <small>hébreu</small></a>
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="/">Recherche</a>
+        <a href="/binyanim">Binyanim</a>
+        <a href="/liste">Liste</a>
+        <a href="/comparer">Comparer</a>
+        <a href="/quiz">Quiz</a>
+        <a href="/favoris">Favoris</a>
+      </nav>
+      <details class="settings" id="settings">
+        <summary aria-label="Réglages" title="Réglages">⚙︎</summary>
+        <div class="settings-panel">
+          <label><input type="checkbox" data-setting="niqqud" checked /> Nikoud (voyelles)</label>
+          <label><input type="checkbox" data-setting="ktiv" checked /> Écriture pleine (sans nikoud)</label>
+          <label><input type="checkbox" data-setting="tr" checked /> Translittération</label>
+          <fieldset>
+            <legend>Style de translittération</legend>
+            <label><input type="radio" name="trStyle" value="fr" data-setting="trStyle" checked /> Française (chamar, lichmor)</label>
+            <label><input type="radio" name="trStyle" value="en" data-setting="trStyle" /> Anglaise (shamar, lishmor)</label>
+          </fieldset>
+          <fieldset>
+            <legend>Thème</legend>
+            <label><input type="radio" name="theme" value="auto" data-setting="theme" checked /> Auto</label>
+            <label><input type="radio" name="theme" value="light" data-setting="theme" /> Clair</label>
+            <label><input type="radio" name="theme" value="dark" data-setting="theme" /> Sombre</label>
+          </fieldset>
+        </div>
+      </details>
+    </header>
+    <main id="app"><!--app--><p class="loading">Chargement des verbes…</p><!--/app--></main>
+    <footer class="foot">
+      <p>Bescherelle hébreu · <a href="/a-propos">À propos & sources</a> · Données <a href="https://en.wiktionary.org/" rel="noopener">Wiktionary</a> (CC BY-SA 4.0), <a href="https://tatoeba.org" rel="noopener">Tatoeba</a> (CC BY 2.0 FR) · Site <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.fr" rel="noopener">CC BY-NC 4.0</a> · <a href="https://github.com/Bben01/bescherelle" rel="noopener">GitHub</a></p>
+      <p class="tip">Astuce : touche <kbd>/</kbd> pour chercher · cliquez une forme pour l'écouter et la copier.</p>
+    </footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

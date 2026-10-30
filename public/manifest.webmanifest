@@ -1,0 +1,22 @@
+{
+  "name": "Bescherelle hébreu – conjugaison hébreu/français",
+  "short_name": "Bescherelle ע",
+  "description": "Conjugueur hébreu–français hors ligne : plus de 2000 verbes, nikoud, translittération, recherche par racine, lettres ou français.",
+  "lang": "fr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1d4ed8",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "Quiz", "url": "/quiz" },
+    { "name": "Binyanim", "url": "/binyanim" },
+    { "name": "Favoris", "url": "/favoris" }
+  ]
+}
