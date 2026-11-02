@@ -102,6 +102,9 @@ export function renderSearchForm(q = '', mode: SearchMode = 'auto', b = '', g = 
       <button type="submit" class="primary">Chercher</button>
     </div>
     <div id="kbd" class="kbd" hidden></div>
+    <details class="adv"${mode !== 'auto' || b || g ? ' open' : ''}>
+      <summary>Options de recherche${mode !== 'auto' || b || g ? ' <span class="adv-on" aria-label="actives">•</span>' : ''}</summary>
+      <div class="adv-body">
     <div class="modes" role="radiogroup" aria-label="Mode de recherche">
       ${MODES.map(([m, label, title]) => `<label title="${esc(title)}"><input type="radio" name="mode" value="${m}"${m === mode ? ' checked' : ''}><span>${esc(label)}</span></label>`).join('')}
     </div>
@@ -111,6 +114,8 @@ export function renderSearchForm(q = '', mode: SearchMode = 'auto', b = '', g = 
       <select name="g" aria-label="Type de racine"><option value="">Tous types de racines</option>
         ${Object.entries(GIZROT).map(([k, x]) => `<option value="${k}"${k === g ? ' selected' : ''}>${esc(x.fr)}</option>`).join('')}</select>
     </div>
+      </div>
+    </details>
   </form>`;
 }
 
@@ -121,12 +126,12 @@ export function renderHome(ctx: Ctx, daily?: Verb): string {
     <h1>Conjugueur hébreu – français</h1>
     <p class="lead">${n.toLocaleString('fr-FR')} verbes conjugués à tous les temps, avec nikoud, écriture pleine et prononciation. Cherchez en français, en hébreu (avec ou sans nikoud), par racine, par forme conjuguée, ou par lettres.</p>
     ${renderSearchForm()}
-    <p class="examples">Exemples : ${examples.map((e) => `<a href="/?q=${encodeURIComponent(e)}">${esc(e)}</a>`).join(' · ')}</p>
+    <p class="examples">Exemples : ${examples.map((e) => `<span class="ex"><a href="/?q=${encodeURIComponent(e)}">${esc(e)}</a></span>`).join('')}</p>
   </section>
   <div id="results"></div>
   <div id="home-extra"><section class="home-grid">
-    ${daily ? `<div class="panel"><h2>Verbe du jour</h2>${verbCard(daily)}</div>` : ''}
-    <div class="panel"><h2>Explorer</h2><ul class="links">
+    ${daily ? `<div class="panel"><h2>Verbe du jour</h2>${verbCard(daily)}<p class="more"><a href="/hasard" data-random>Un verbe au hasard 🎲</a></p></div>` : ''}
+    <div class="panel explore"><h2>Explorer</h2><ul class="links">
       <li><a href="/binyanim">Les 7 binyanim et les types de racines</a></li>
       <li><a href="/liste">Liste de tous les verbes</a> · <a href="/liste?tri=freq">les plus courants</a></li>
       <li><a href="/comparer">Comparer des verbes</a></li>
@@ -135,7 +140,7 @@ export function renderHome(ctx: Ctx, daily?: Verb): string {
       <li><a href="/hasard" data-random>Un verbe au hasard 🎲</a></li>
     </ul></div>
   </section>
-  <section><h2>Les verbes les plus courants</h2>
+  <section class="common"><h2>Les verbes les plus courants</h2>
     <div class="cards">${[...ctx.verbs].sort((x, y) => (y.q ?? 0) - (x.q ?? 0)).slice(0, 12).map((v) => verbCard(v)).join('')}</div>
     <p><a href="/liste?tri=freq">Voir la liste complète par fréquence →</a></p>
   </section></div>`;

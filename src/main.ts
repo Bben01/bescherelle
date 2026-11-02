@@ -201,6 +201,8 @@ function bindSearch() {
   form.addEventListener('submit', (e) => { e.preventDefault(); runSearch(); });
   form.addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = window.setTimeout(() => runSearch(), 120); });
   form.addEventListener('change', () => runSearch());
+  const adv = form.querySelector<HTMLDetailsElement>('details.adv');
+  if (adv && matchMedia('(min-width: 641px)').matches) adv.open = true;
   bindKeyboard(form);
 }
 
