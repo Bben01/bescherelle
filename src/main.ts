@@ -194,11 +194,17 @@ function runSearch(updateUrl = true) {
   if (q) document.title = `${q} – recherche | Bescherelle hébreu`;
 }
 
+// On touch devices, Enter ("Rechercher"/"OK") should hide the virtual keyboard so results are visible.
+const touchScreen = matchMedia('(pointer: coarse)');
+function dismissKeyboard() {
+  if (touchScreen.matches && document.activeElement instanceof HTMLInputElement) document.activeElement.blur();
+}
+
 let searchTimer = 0;
 function bindSearch() {
   const form = app.querySelector<HTMLFormElement>('form.search');
   if (!form) return;
-  form.addEventListener('submit', (e) => { e.preventDefault(); runSearch(); });
+  form.addEventListener('submit', (e) => { e.preventDefault(); dismissKeyboard(); runSearch(); });
   form.addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = window.setTimeout(() => runSearch(), 120); });
   form.addEventListener('change', () => runSearch());
   const adv = form.querySelector<HTMLDetailsElement>('details.adv');
@@ -272,7 +278,7 @@ function showCompare(params: URLSearchParams) {
     const hits = index.search(input.value, { limit: 8 });
     sugg.innerHTML = hits.map((h) => `<button type="button" data-add="${esc(h.verb.id)}">${formHtml(headForm(h.verb), { button: false })} <small>${esc(h.verb.fr[0] ?? h.verb.en[0] ?? '')} · ${esc(BINYANIM[h.verb.b]?.fr ?? '')}</small></button>`).join('');
   });
-  input.form!.addEventListener('submit', (e) => { e.preventDefault(); sugg.querySelector<HTMLButtonElement>('[data-add]')?.click(); });
+  input.form!.addEventListener('submit', (e) => { e.preventDefault(); dismissKeyboard(); sugg.querySelector<HTMLButtonElement>('[data-add]')?.click(); });
   app.onclick = (e) => {
     const t = e.target as HTMLElement;
     const add = t.closest<HTMLElement>('[data-add]')?.dataset.add;

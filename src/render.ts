@@ -1,5 +1,5 @@
 // Pure HTML-string renderers, shared by the client app and the static prerenderer.
-import { BINYANIM, BINYAN_ORDER, BINYAN_SUB, GIZROT, formatRoot, hkey, translit } from './hebrew.ts';
+import { BINYANIM, BINYAN_ORDER, BINYAN_SUB, GIZROT, formatRoot, hkey, stripNiqqud, translit } from './hebrew.ts';
 import { CELL_LABEL, OTHER_CELLS, TENSES, headForm, type Form, type TatoebaEx, type Verb } from './data.ts';
 import { SECTIONS, describeCells, type Hit, type SearchMode } from './search.ts';
 
@@ -96,7 +96,7 @@ const MODES: [SearchMode, string, string][] = [
 export function renderSearchForm(q = '', mode: SearchMode = 'auto', b = '', g = ''): string {
   return `<form class="search" role="search" action="/" method="get">
     <div class="search-row">
-      <input id="q" name="q" type="search" value="${esc(q)}" autocomplete="off" autocapitalize="off" spellcheck="false"
+      <input id="q" name="q" type="search" enterkeyhint="search" value="${esc(q)}" autocomplete="off" autocapitalize="off" spellcheck="false"
         placeholder="garder, שמר, לשמור, אשמור, ש?ר, lichmor…" aria-label="Rechercher un verbe" dir="auto" autofocus>
       <button type="button" class="icon" id="kbd-toggle" title="Clavier hébreu" aria-label="Clavier hébreu">⌨︎ א</button>
       <button type="submit" class="primary">Chercher</button>
@@ -151,12 +151,34 @@ function findVerbByForm(ctx: Ctx, s?: string): Verb | undefined {
   return ctx.byKey.get(hkey(s))?.[0];
 }
 
+/** Grammatical person of a Hebrew pronoun: אני/אנחנו → 1, את… → 2, הוא/היא/הם/הן → 3. */
+const pronPerson = (p: string) => { const s = stripNiqqud(p); return s.startsWith('אנ') ? 1 : s.startsWith('את') ? 2 : 3; };
+
+/** Pronoun list ("אֲנִי, אַתָּה, הוּא") with each pronoun colour-coded by person. */
+export const pronHtml = (pron: string) => pron.split(', ').map((p) => `<span class="pp${pronPerson(p)}">${esc(p)}</span>`).join(', ');
+
+/** Cell key → person (imperative is always 2nd; present mixes all persons) and number. */
+function cellGroup(k: string): { person: string; plural: boolean } {
+  return { person: /\.(\d)/.exec(k)?.[1] ?? (k.startsWith('imp.') ? '2' : ''), plural: k.endsWith('p') };
+}
+
+/** Gizrot grouped by which radical is weak (1st, 2nd, 3rd), plus regular and quadriliteral roots. */
+const GIZRA_POS: Record<string, string> = {
+  shlemim: 'reg', merubaim: 'quad', pg: 'first', pn: 'first', py: 'first', pa: 'first',
+  ag: 'mid', aw: 'mid', aa: 'mid', lg: 'last', lh: 'last', la: 'last',
+};
+
 function tenseTable(v: Verb, t: (typeof TENSES)[number], hl: Set<string>): string {
   const rows = t.cells.filter((c) => v.forms[c.k]?.length);
   if (!rows.length) return '';
-  const body = rows.map((c) => `<tr class="${hl.has(c.k) ? 'hl' : ''}" id="c-${c.k.replace('.', '-')}">
-      <th scope="row"><span class="pron" lang="he" dir="rtl">${esc(c.pron)}</span><span class="pfr">${esc(c.fr)}</span></th>
-      <td>${v.forms[c.k].map((f) => formHtml(f)).join('<span class="or">ou</span>')}</td></tr>`).join('');
+  const firstPlural = rows.find((c) => cellGroup(c.k).plural);
+  const body = rows.map((c) => {
+    const { person } = cellGroup(c.k);
+    const cls = [hl.has(c.k) && 'hl', person && `pers-${person}`, c === firstPlural && c !== rows[0] && 'pl-start'].filter(Boolean).join(' ');
+    return `<tr class="${cls}" id="c-${c.k.replace('.', '-')}">
+      <th scope="row"><span class="pron" lang="he" dir="rtl">${pronHtml(c.pron)}</span><span class="pfr">${esc(c.fr)}</span></th>
+      <td>${v.forms[c.k].map((f) => formHtml(f)).join('<span class="or">ou</span>')}</td></tr>`;
+  }).join('');
   let note = '';
   if (t.id === 'imp' && v.forms['fut.2ms']?.[0]) {
     note = `<p class="note">Impératif négatif : <span lang="he" dir="rtl">אַל</span> + futur, ex. ${he('אַל ' + v.forms['fut.2ms'][0].p, 'p')}${he('אל ' + v.forms['fut.2ms'][0].u, 'u')}</p>`;
@@ -190,14 +212,14 @@ const verbUrlCell = (v: Verb, cell: string) => verbUrl(v, [cell]);
 export function renderVerb(v: Verb, ctx: Ctx, hlCells: string[] = [], tatoeba?: TatoebaEx[]): string {
   const hl = new Set(hlCells);
   const f = headForm(v);
-  const g = v.g.map((k) => GIZROT[k] ? `<a class="badge g" href="/liste?g=${k}" title="${esc(GIZROT[k].desc)}">${esc(GIZROT[k].fr)}</a>` : '').join(' ');
+  const g = v.g.map((k) => GIZROT[k] ? `<a class="badge g gz-${GIZRA_POS[k] ?? 'reg'}" href="/liste?g=${k}" title="${esc(GIZROT[k].desc)}">${esc(GIZROT[k].fr)}</a>` : '').join(' ');
   const passV = findVerbByForm(ctx, v.pass), actV = findVerbByForm(ctx, v.act);
   const others = (ctx.byRoot?.get(v.rootKey) ?? []).filter((x) => x !== v);
   const gkey = v.g.join(',');
   const model = ctx.verbs.filter((x) => x !== v && x.b === v.b && x.g.join(',') === gkey && x.fr.length).slice(0, 12);
   const other = OTHER_CELLS.filter((o) => v.forms[o.k]?.length).map((o) => `<div class="kv"><dt>${esc(o.fr)} <span lang="he">${esc(o.he)}</span></dt><dd>${v.forms[o.k].map((x) => formHtml(x)).join(' ')}</dd></div>`).join('');
   return `<article class="verb" data-id="${esc(v.id)}">
-  <header class="verb-head">
+  <header class="verb-head vh-${esc(v.b)}">
     <div class="title-row">
       <h1>${formHtml(f, { big: true })}</h1>
       <div class="actions">
@@ -218,6 +240,7 @@ export function renderVerb(v: Verb, ctx: Ctx, hlCells: string[] = [], tatoeba?: 
       ${other}
     </dl>
   </header>
+  <p class="legend" aria-hidden="true">Personnes : <span class="pp1">1<sup>re</sup> (je, nous)</span> <span class="pp2">2<sup>e</sup> (tu, vous)</span> <span class="pp3">3<sup>e</sup> (il, elle, ils, elles)</span></p>
   <div class="tables">${TENSES.map((t) => tenseTable(v, t, hl)).join('')}</div>
   ${v.ex?.length ? `<section class="examples-sec"><h2>Exemples</h2><ul>${v.ex.map((e) => `<li><p lang="he" dir="rtl" class="ex-he">${esc(e.he)}</p>${e.fr ? `<p class="ex-fr">${esc(e.fr)}</p>` : ''}<p class="ex-en">${esc(e.en)}</p></li>`).join('')}</ul></section>` : ''}
   <section class="examples-sec" id="tatoeba">${renderTatoeba(v, tatoeba)}</section>
@@ -307,7 +330,7 @@ export function renderAbout(ctx: Ctx): string {
 export function renderCompareShell(): string {
   return `<h1>Comparer des verbes</h1>
   <p class="lead">Ajoutez jusqu'à 4 verbes pour comparer leurs conjugaisons côte à côte.</p>
-  <form class="compare-add"><input id="cmp-q" type="search" placeholder="Ajouter un verbe (français, hébreu…)" autocomplete="off" dir="auto"><div id="cmp-sugg" class="sugg"></div></form>
+  <form class="compare-add"><input id="cmp-q" type="search" enterkeyhint="done" placeholder="Ajouter un verbe (français, hébreu…)" autocomplete="off" dir="auto"><div id="cmp-sugg" class="sugg"></div></form>
   <div id="cmp"></div>`;
 }
 
@@ -316,9 +339,9 @@ export function renderCompare(vs: Verb[]): string {
   const head = `<tr><th></th>${vs.map((v) => `<th><a href="${verbUrl(v)}">${formHtml(headForm(v), { button: false })}</a><br><small>${esc(BINYANIM[v.b]?.fr ?? '')} · ${esc(v.fr[0] ?? v.en[0] ?? '')}</small><br><button type="button" class="link" data-remove="${esc(v.id)}">retirer</button></th>`).join('')}</tr>`;
   let rows = '';
   for (const t of TENSES) {
-    rows += `<tr class="sep"><th colspan="${vs.length + 1}">${esc(t.fr)} <span lang="he">${esc(t.he)}</span></th></tr>`;
+    rows += `<tr class="sep t-${t.id}"><th colspan="${vs.length + 1}">${esc(t.fr)} <span lang="he">${esc(t.he)}</span></th></tr>`;
     for (const c of t.cells) {
-      rows += `<tr><th><span class="pron" lang="he">${esc(c.pron)}</span> <span class="pfr">${esc(c.fr)}</span></th>${vs.map((v) => `<td>${(v.forms[c.k] ?? []).map((f) => formHtml(f)).join(' ') || '—'}</td>`).join('')}</tr>`;
+      rows += `<tr><th><span class="pron" lang="he">${pronHtml(c.pron)}</span> <span class="pfr">${esc(c.fr)}</span></th>${vs.map((v) => `<td>${(v.forms[c.k] ?? []).map((f) => formHtml(f)).join(' ') || '—'}</td>`).join('')}</tr>`;
     }
   }
   for (const o of OTHER_CELLS) rows += `<tr><th>${esc(o.fr)}</th>${vs.map((v) => `<td>${(v.forms[o.k] ?? []).map((f) => formHtml(f)).join(' ') || '—'}</td>`).join('')}</tr>`;
