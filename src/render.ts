@@ -44,8 +44,9 @@ export function binyanBadge(v: Verb): string {
 
 function translations(v: Verb, max = 6): string {
   if (v.fr.length) {
-    return `<span class="fr-tr">${v.fr.slice(0, max).map(esc).join(', ')}</span>${v.mt ? ' <span class="mt" title="Traduction automatique depuis l\'anglais">auto</span>' : ''}`;
+    return `<span class="fr-tr">${v.fr.slice(0, max).map(esc).join(', ')}</span>${v.mt ? ' <span class="mt" title="Traduction automatique (à vérifier)">auto</span>' : ''}`;
   }
+  if (!v.en.length) return '<span class="en-tr">Traduction non disponible</span>';
   return `<span class="en-tr" title="Pas encore de traduction française : glose anglaise">🇬🇧 ${v.en.slice(0, 3).map(esc).join('; ')}</span>`;
 }
 
@@ -246,7 +247,9 @@ export function renderVerb(v: Verb, ctx: Ctx, hlCells: string[] = [], tatoeba?: 
   <section class="examples-sec" id="tatoeba">${renderTatoeba(v, tatoeba)}</section>
   ${others.length ? `<section><h2>Même racine <span lang="he">${esc(formatRoot(v.r))}</span></h2><div class="cards">${others.map((x) => verbCard(x)).join('')}</div></section>` : ''}
   ${model.length ? `<section><h2>Verbes qui se conjuguent pareil</h2><p class="note">${esc(BINYANIM[v.b]?.fr ?? '')}, ${v.g.map((k) => esc(GIZROT[k]?.fr ?? k)).join(', ')}</p><div class="cards">${model.map((x) => verbCard(x)).join('')}</div></section>` : ''}
-  <p class="source">Source : <a href="https://en.wiktionary.org/wiki/${encodeURIComponent(v.w)}#Hebrew" rel="noopener" target="_blank">Wiktionary « ${esc(v.w)} »</a> (CC BY-SA 4.0). Voir aussi <a href="https://www.pealim.com/search/?q=${encodeURIComponent(v.w)}" rel="noopener" target="_blank">Pealim</a>, <a href="https://www.morfix.co.il/${encodeURIComponent(v.w)}" rel="noopener" target="_blank">Morfix</a>.</p>
+  <p class="source">Source : ${v.src === 'et'
+    ? `conjugaison générée par le système d'<a href="${ET_URL}" rel="noopener" target="_blank">Eran Tomer</a> (Université Ben-Gourion, CC BY 4.0), racine déduite automatiquement`
+    : `<a href="https://en.wiktionary.org/wiki/${encodeURIComponent(v.w)}#Hebrew" rel="noopener" target="_blank">Wiktionary « ${esc(v.w)} »</a> (CC BY-SA 4.0)`}. Voir aussi <a href="https://www.pealim.com/search/?q=${encodeURIComponent(v.w)}" rel="noopener" target="_blank">Pealim</a>, <a href="https://www.morfix.co.il/${encodeURIComponent(v.w)}" rel="noopener" target="_blank">Morfix</a>.</p>
 </article>`;
 }
 
@@ -276,12 +279,19 @@ export function renderList(ctx: Ctx, params: URLSearchParams): string {
     const s = p.toString();
     return `/liste${s ? '?' + s : ''}`;
   };
+  const opt = (v: string, label: string, cur: string) => `<option value="${esc(v)}"${v === cur ? ' selected' : ''}>${esc(label)}</option>`;
   const title = [b && BINYANIM[b]?.fr, g && GIZROT[g]?.fr].filter(Boolean).join(' · ') || 'Tous les verbes';
   const desc = b ? BINYANIM[b]?.desc : g ? GIZROT[g]?.desc : '';
   return `<h1>${esc(title)}</h1>${desc ? `<p class="lead">${esc(desc)}</p>` : ''}
-  <nav class="chips">${BINYAN_ORDER.map((k) => `<a class="chip${k === b ? ' on' : ''}" href="${qs({ b: k === b ? '' : k, page: 1 })}">${esc(BINYANIM[k].fr)}</a>`).join('')}</nav>
-  <nav class="chips">${Object.entries(GIZROT).map(([k, x]) => `<a class="chip${k === g ? ' on' : ''}" href="${qs({ g: k === g ? '' : k, page: 1 })}">${esc(x.fr)}</a>`).join('')}</nav>
-  <nav class="chips letters" lang="he" dir="rtl">${[...ALEPHBET].map((l) => `<a class="chip${l === letter ? ' on' : ''}" href="${qs({ l: l === letter ? '' : l, page: 1 })}">${l}</a>`).join('')}</nav>
+  <form class="list-filters" action="/liste" method="get">
+    <select name="b" aria-label="Binyan"><option value="">Binyan : tous</option>${BINYAN_ORDER.map((k) => opt(k, BINYANIM[k].fr, b)).join('')}</select>
+    <select name="g" aria-label="Type de racine"><option value="">Racine : toutes</option>${Object.entries(GIZROT).map(([k, x]) => opt(k, x.fr, g)).join('')}</select>
+    <select name="l" aria-label="Première lettre de la racine"><option value="">Lettre : toutes</option>${[...ALEPHBET].map((l) => opt(l, l, letter)).join('')}</select>
+    ${sort ? `<input type="hidden" name="tri" value="${esc(sort)}" />` : ''}<noscript><button type="submit">OK</button></noscript>
+  </form>
+  <nav class="chips list-chips">${BINYAN_ORDER.map((k) => `<a class="chip${k === b ? ' on' : ''}" href="${qs({ b: k === b ? '' : k, page: 1 })}">${esc(BINYANIM[k].fr)}</a>`).join('')}</nav>
+  <nav class="chips list-chips">${Object.entries(GIZROT).map(([k, x]) => `<a class="chip${k === g ? ' on' : ''}" href="${qs({ g: k === g ? '' : k, page: 1 })}">${esc(x.fr)}</a>`).join('')}</nav>
+  <nav class="chips list-chips letters" lang="he" dir="rtl">${[...ALEPHBET].map((l) => `<a class="chip${l === letter ? ' on' : ''}" href="${qs({ l: l === letter ? '' : l, page: 1 })}">${l}</a>`).join('')}</nav>
   <p class="count">${vs.length} verbes · tri : ${sort === 'freq' ? `<a href="${qs({ tri: '', page: 1 })}">alphabétique (racine)</a> · <strong>les plus courants</strong>` : `<strong>alphabétique (racine)</strong> · <a href="${qs({ tri: 'freq', page: 1 })}">les plus courants</a>`}</p>
   <div class="cards">${vs.slice((page - 1) * per, page * per).map((v) => verbCard(v)).join('')}</div>
   ${pages > 1 ? `<nav class="pager">${page > 1 ? `<a href="${qs({ page: page - 1 })}">← Précédent</a>` : ''}<span>Page ${page} / ${pages}</span>${page < pages ? `<a href="${qs({ page: page + 1 })}">Suivant →</a>` : ''}</nav>` : ''}`;
@@ -302,9 +312,12 @@ export function renderBinyanim(ctx: Ctx): string {
   </tbody></table></div>`;
 }
 
+const ET_URL = 'https://github.com/NNLP-IL/Hebrew-Resources/tree/master/linguistic_resources/word_lists/hebrew_verbs_eran_tomer';
+
 export function renderAbout(ctx: Ctx): string {
   const withFr = ctx.verbs.filter((v) => v.fr.length && !v.mt).length;
   const mt = ctx.verbs.filter((v) => v.mt).length;
+  const et = ctx.verbs.filter((v) => v.src === 'et').length;
   return `<h1>À propos</h1>
   <p>Ce site est un hommage à <em>hebreu.mobi</em>, le « GPS pour verbes hébreux » aujourd'hui hors ligne : un Bescherelle hébreu–français gratuit, rapide, utilisable hors connexion.</p>
   <h2>Fonctionnalités</h2>
@@ -318,8 +331,9 @@ export function renderAbout(ctx: Ctx): string {
   <h2>Données et licences</h2>
   <ul>
     <li>Conjugaisons, racines, binyanim, gloses anglaises et exemples : <a href="https://en.wiktionary.org/">Wiktionary</a> (anglais), via <a href="https://kaikki.org/">kaikki.org / wiktextract</a> — licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>.</li>
-    <li>Traductions françaises : <a href="https://fr.wiktionary.org/">Wiktionnaire</a> et tables de traduction du Wiktionary anglais — CC BY-SA 4.0 (${withFr} verbes)${mt ? `, complétées par traduction automatique de la glose anglaise (${mt} verbes, marquées « auto »)` : ''}.</li>
-    <li>Traduction automatique : modèle Llama 3.3 via Cloudflare Workers AI, à partir des gloses anglaises du Wiktionary.</li>
+    <li>${et} verbes supplémentaires (absents des tableaux du Wiktionary) et quelques formes manquantes : listes de verbes fléchis et vocalisés du mémoire de master d'Eran Tomer (Université Ben-Gourion, dir. Michael Elhadad), via <a href="${ET_URL}">NNLP-IL Hebrew-Resources</a> — licence <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC BY 4.0</a>. Leurs racines sont déduites automatiquement.</li>
+    <li>Traductions françaises : <a href="https://fr.wiktionary.org/">Wiktionnaire</a> et tables de traduction du Wiktionary anglais — CC BY-SA 4.0 (${withFr} verbes)${mt ? `, complétées par traduction automatique (${mt} verbes, marquées « auto »)` : ''}.</li>
+    <li>Traduction automatique : Llama 3.3 (Cloudflare Workers AI) à partir des gloses anglaises du Wiktionary ; Gemini (Google) pour les verbes sans glose, à partir de l'hébreu et des verbes de même racine.</li>
     <li>Phrases d'exemple hébreu–français : <a href="https://tatoeba.org">Tatoeba</a> — licence <a href="https://creativecommons.org/licenses/by/2.0/fr/">CC BY 2.0 FR</a>, chaque phrase renvoie vers sa page et ses auteurs (<a href="/data/examples.json">examples.json</a>).</li>
     <li>Le fichier de données <a href="/data/verbs.json">verbs.json</a> est donc diffusé sous CC BY-SA 4.0.</li>
     <li>Le code et le design du site : <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.fr">CC BY-NC 4.0</a>. Code source sur <a href="https://github.com/Bben01/bescherelle">GitHub</a>.</li>

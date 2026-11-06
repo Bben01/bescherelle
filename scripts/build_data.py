@@ -6,6 +6,7 @@ Inputs (see scripts/fetch_sources.sh), in .cache/:
   fr_he.jsonl     French Wiktionary, French verbs having Hebrew translations (filtered)
   en_pivot.jsonl  English Wiktionary, English verbs translated into both Hebrew and French (filtered)
   fr_hebreu.jsonl French Wiktionary, Hebrew entries (FR glosses)
+  et_inflected.csv Eran Tomer's inflected verbs (CC BY 4.0): extra verbs and missing cells, see eran_tomer.py
   ../data/fr_mt.json  committed machine translations EN gloss -> FR (fallback, flagged)
 """
 import json
@@ -14,6 +15,8 @@ import re
 import sys
 import math
 from collections import Counter, defaultdict
+
+import eran_tomer
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, ".cache")
@@ -183,13 +186,15 @@ def clean_gloss(g):
 def build():
     verbs = []
     by_word = defaultdict(list)
+    stubs = []  # verb entries without a conjugation table (glosses reused for Eran Tomer verbs)
     for d in load_jsonl("he.jsonl"):
         if d.get("pos") != "verb":
             continue
         cells = parse_tables(d.get("forms", []))
-        if len(cells) < 10:
-            continue
         head = next((h["args"] for h in d.get("head_templates", []) if h["name"] == "he-verb"), {})
+        if len(cells) < 10:
+            stubs.append((d, head))
+            continue
         conj = next((t["args"] for t in d.get("inflection_templates", []) if t["name"] == "he-conj"), {})
         b, bs = BINYAN.get(conj.get("1") or head.get("1") or "", ("", ""))
         root = root_from_args(conj)
@@ -241,6 +246,7 @@ def build():
         seen[base] += 1
         v["id"] = base if seen[base] == 1 else f"{base}-{seen[base]}"
 
+    add_eran_tomer(verbs, stubs)
     attach_french(verbs)
     verbs.sort(key=lambda v: key(v["w"]))
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
@@ -249,6 +255,105 @@ def build():
         json.dump({"v": 1, "cells": CELL_KEYS, "verbs": verbs}, fh, ensure_ascii=False, separators=(",", ":"))
     n_fr = sum(1 for v in verbs if v["fr"])
     print(f"{len(verbs)} verbs, {n_fr} with French, {os.path.getsize(OUT) // 1024} KiB -> {OUT}")
+
+
+def known_roots(verbs):
+    roots = {"".join(eran_tomer.letters(v["r"])) for v in verbs}
+    path = os.path.join(CACHE, "he.jsonl")
+    if os.path.exists(path):
+        with open(path) as fh:
+            for line in fh:
+                for m in re.finditer(r"Hebrew terms belonging to the root ([\u05D0-\u05EA\u05BE־\u05C1\u05C2 -]+)", line):
+                    roots.add("".join(eran_tomer.letters(m.group(1))))
+    return roots
+
+
+def add_eran_tomer(verbs, stubs):
+    """Fill empty cells of Wiktionary verbs and add the verbs Wiktionary has no table for (flagged `src: "et"`)."""
+    et = eran_tomer.load(CACHE)
+    if not et:
+        return
+    by_skel = {}
+    for v in verbs:
+        by_skel.setdefault((eran_tomer.skeleton(v["l"]), v["b"]), v)
+    # Sources sometimes disagree on the shin/sin dot (חִפֵּשׂ / חִפֵּשׁ): match on bare consonants when unambiguous.
+    plain = lambda s, b: (eran_tomer.skeleton(s).replace("שׂ", "ש"), b)
+    ours_plain = Counter(plain(v["l"], v["b"]) for v in verbs)
+    et_plain = Counter(plain(e["l"], e["b"]) for e in et.values())
+    by_plain = {plain(v["l"], v["b"]): v for v in verbs}
+    for k, e in et.items():
+        pk = plain(e["l"], e["b"])
+        if k not in by_skel and ours_plain[pk] == 1 and et_plain[pk] == 1:
+            by_skel[k] = by_plain[pk]
+
+    guesser = eran_tomer.RootGuesser(known_roots(verbs))
+    filled = 0
+    for k, e in et.items():
+        v = by_skel.get(k)
+        if not v:
+            continue
+        guesser.learn(e["cls"], e["l"], v["r"])
+        for i, c in enumerate(CELL_KEYS):
+            if not v["c"][i] and e["cells"].get(c):
+                v["c"][i] = encode_cell(e["cells"][c])
+                filled += 1
+
+    # English glosses from Wiktionary verb entries lacking a conjugation table, same binyan only.
+    glosses = defaultdict(list)
+    for d, head in stubs:
+        b = BINYAN.get(head.get("1", ""), ("", ""))[0]
+        for s in d.get("senses", []):
+            if s.get("form_of") or s.get("alt_of"):
+                continue
+            for g in s.get("glosses", []):
+                g = clean_gloss(g)
+                if g and g not in glosses[(key(d["word"]), b)]:
+                    glosses[(key(d["word"]), b)].append(g)
+
+    used = {v["id"] for v in verbs}
+    added = []
+    for k, e in sorted(et.items(), key=lambda kv: kv[1]["l"]):
+        if k in by_skel:
+            continue
+        cells = e["cells"]
+        w = cells["p.3ms"][0][1] if cells.get("p.3ms") else strip(e["l"])
+        root = guesser.guess(e["cls"], e["l"], e["b"])
+        v = {
+            "w": w,
+            "l": e["l"].replace("'", "\u05F3"),
+            "b": e["b"],
+            "r": root,
+            "g": gizra(root),
+            "t": "",
+            "en": (glosses.get((key(w), e["b"])) or glosses.get((key(e["l"]), e["b"])) or [])[:8],
+            "fr": [],
+            "c": [encode_cell(cells.get(c, [])) for c in CELL_KEYS],
+            "src": "et",
+        }
+        vid, n = w, 1
+        while vid in used:
+            n += 1
+            vid = f"{w}-{e['b']}" if n == 2 else f"{w}-{e['b']}-{n - 1}"
+        v["id"] = vid
+        used.add(vid)
+        verbs.append(v)
+        added.append(v)
+
+    # Passive links pi'el -> pu'al, hif'il -> huf'al when one side comes from Eran Tomer.
+    by_root = defaultdict(lambda: defaultdict(list))
+    for v in verbs:
+        by_root[key(v["r"])][v["b"]].append(v)
+    linked = 0
+    for v in added:
+        sibs = by_root[key(v["r"])]
+        for act_b, pass_b in (("pi", "pu"), ("hif", "huf")):
+            if len(sibs[act_b]) != 1 or len(sibs[pass_b]) != 1:  # ambiguous homonymous roots
+                continue
+            a, p = sibs[act_b][0], sibs[pass_b][0]
+            if (v is a or v is p) and not a.get("pass") and not p.get("act"):
+                a["pass"], p["act"] = p["l"], a["l"]
+                linked += 1
+    print(f"Eran Tomer: {len(added)} verbs added, {filled} empty cells filled, {linked} active/passive links")
 
 
 # Function words / nouns that collide with short verb forms and would produce bogus examples.
@@ -304,6 +409,11 @@ def build_examples(verbs):
                 u = variant.split("|")[1] if "|" in variant else strip(variant)
                 if len(u) >= 3 and u not in nonverb:
                     form_index[u].add((vi, CELL_KEYS[ci]))
+    # Forms shared with a Wiktionary verb are credited to it, not to (usually rarer) Eran Tomer homographs.
+    for u, hits in form_index.items():
+        wikt = {h for h in hits if not verbs[h[0]].get("src")}
+        if wikt:
+            form_index[u] = wikt
 
     def match(tok):
         for p in EX_PREFIXES:

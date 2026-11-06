@@ -420,6 +420,13 @@ document.addEventListener('click', (e) => {
 
 document.addEventListener('change', (e) => {
   const el = e.target as HTMLInputElement;
+  const filters = el.closest?.<HTMLFormElement>('form.list-filters');
+  if (filters) {
+    const p = new URLSearchParams();
+    for (const [k, v] of new FormData(filters)) if (v) p.set(k, String(v));
+    navigate(`/liste${p.size ? '?' + p : ''}`);
+    return;
+  }
   const k = el.dataset?.setting as keyof Settings | undefined;
   if (!k) return;
   settings = { ...settings, [k]: el.type === 'checkbox' ? el.checked : el.value } as Settings;

@@ -2,7 +2,7 @@
 
 **https://bescherelle.pages.dev** — conjugueur hébreu ↔ français gratuit, hommage à feu *hebreu.mobi*.
 
-- **2 139 verbes** conjugués à tous les temps (présent, passé, futur, impératif, infinitif, nom d'action, participe passif) avec nikoud, écriture pleine (כתיב מלא) et translittération française ou anglaise.
+- **4 462 verbes** conjugués à tous les temps (présent, passé, futur, impératif, infinitif, nom d'action, participe passif) avec nikoud, écriture pleine (כתיב מלא) et translittération française ou anglaise.
 - **Recherche intelligente** (instantanée, côté client) :
   - français (`garder`, `ecrire` sans accent), anglais (`to write`) ;
   - hébreu avec ou sans nikoud, **n'importe quelle forme conjuguée**, même avec préfixe (`ונכתוב`, `כשאמרתי`) ;
@@ -24,13 +24,13 @@
 
 ```sh
 npm run data        # télécharge Wiktionary/kaikki + Tatoeba dans .cache/ et construit public/data/
-npm run translate   # (optionnel) traductions FR manquantes via Workers AI (free tier, wrangler login)
+npm run translate   # (optionnel) traductions FR manquantes : Gemini si GEMINI_API_KEY, sinon Workers AI (wrangler login)
 python3 scripts/build_data.py   # reconstruit après traduction
 ```
 
 Les traductions automatiques déjà produites sont versionnées dans `data/fr_mt.json` (marquées « auto » dans l'interface), ce qui rend la reconstruction reproductible sans rappeler l'IA.
 
-Sources : Wiktionary anglais (tableaux `he-conj`), Wiktionnaire, pivot par les tables de traduction anglaises, Tatoeba. Voir [DATA_LICENSE.md](DATA_LICENSE.md).
+Sources : Wiktionary anglais (tableaux `he-conj`), Wiktionnaire, pivot par les tables de traduction anglaises, Tatoeba, et les [listes de verbes d'Eran Tomer](https://github.com/NNLP-IL/Hebrew-Resources/tree/master/linguistic_resources/word_lists/hebrew_verbs_eran_tomer) (CC BY 4.0) pour les verbes sans tableau sur le Wiktionary (racines déduites par classe de flexion, ~96 % d'exactitude mesurée sur les verbes communs). Voir [DATA_LICENSE.md](DATA_LICENSE.md).
 
 Les corrections de conjugaison ou de traduction se font idéalement **directement sur le Wiktionnaire / Wiktionary** : elles seront reprises à la prochaine reconstruction.
 

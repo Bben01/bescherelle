@@ -35,7 +35,7 @@ function write(path: string, file: string, title: string, desc: string, body: st
   urls.push(path);
 }
 
-const D = 'Conjugueur hébreu–français gratuit : plus de 2000 verbes conjugués avec nikoud, écriture pleine et prononciation.';
+const D = 'Conjugueur hébreu–français gratuit : plus de 4000 verbes conjugués avec nikoud, écriture pleine et prononciation.';
 write('/', 'index.html', 'Bescherelle hébreu – conjugaison des verbes hébreux en français', D, renderHome(ctx));
 write('/binyanim', 'binyanim.html', 'Les binyanim et gizrot | Bescherelle hébreu', 'Les 7 binyanim de l’hébreu et leurs modèles de conjugaison, avec exemples.', renderBinyanim(ctx));
 write('/a-propos', 'a-propos.html', 'À propos | Bescherelle hébreu', 'Sources, licences et fonctionnalités du Bescherelle hébreu.', renderAbout(ctx));

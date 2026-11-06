@@ -82,8 +82,9 @@
 "indiquer"
 ],
 "אזכר": [
-"référencer",
-"citer"
+"mentionner",
+"citer",
+"faire référence à"
 ],
 "אזל": [
 "être épuisé",
@@ -108,7 +109,7 @@
 "verrouiller"
 ],
 "אידה": [
-"vaporiser"
+"évaporer"
 ],
 "איווה": [
 "désirer ardemment",
@@ -356,7 +357,8 @@
 "confondre"
 ],
 "בעבע": [
-"faire bouillonner"
+"bouillonner",
+"faire des bulles"
 ],
 "בעל": [
 "avoir des relations sexuelles"
@@ -530,7 +532,8 @@
 "être déprimé"
 ],
 "דומה": [
-"s'imaginer"
+"être comparé",
+"être assimilé"
 ],
 "דחס": [
 "compresser"
@@ -573,11 +576,11 @@
 ],
 "דמם": [
 "s'arrêter",
-"pauser"
+"s'interrompre"
 ],
 "דמע": [
 "pleurer",
-"s'esclaffer"
+"avoir les larmes aux yeux"
 ],
 "דן": [
 "discuter",
@@ -678,7 +681,8 @@
 "rétablir"
 ],
 "הבריק": [
-"briller"
+"polir",
+"faire briller"
 ],
 "הגביה": [
 "élever",
@@ -724,7 +728,7 @@
 ],
 "הדיח-hif-2": [
 "inciter",
-"abandonner"
+"reléguer"
 ],
 "הדק": [
 "attacher",
@@ -747,7 +751,9 @@
 "faire taire"
 ],
 "הואיל": [
-"continuer à"
+"vouloir bien",
+"daigner",
+"consentir"
 ],
 "הואץ": [
 "être accéléré"
@@ -784,7 +790,7 @@
 "s'inquiéter"
 ],
 "הווריד": [
-"rose"
+"faire rosir"
 ],
 "הוזז": [
 "être déplacé",
@@ -804,7 +810,7 @@
 "être objectifié"
 ],
 "הוטב": [
-"s'améliorer"
+"être amélioré"
 ],
 "הוכה": [
 "être frappé"
@@ -856,7 +862,8 @@
 "être renversé"
 ],
 "הופשט": [
-"se déshabiller"
+"être déshabillé",
+"être dépouillé"
 ],
 "הופתע": [
 "être surpris"
@@ -865,6 +872,9 @@
 "être supprimé"
 ],
 "הוציא": [
+"sortir",
+"faire sortir",
+"emporter",
 "présenter"
 ],
 "הוצל-huf": [
@@ -1026,6 +1036,8 @@
 "mettre en œuvre"
 ],
 "החכים": [
+"devenir sage",
+"s'instruire",
 "rendre sage",
 "enseigner"
 ],
@@ -1153,10 +1165,11 @@
 "exiger"
 ],
 "הכשיל": [
-"trébucher",
-"gêner"
+"faire trébucher",
+"entraver"
 ],
 "הכשיר": [
+"casheriser",
 "préparer",
 "former",
 "entraîner"
@@ -1342,8 +1355,7 @@
 "couronner"
 ],
 "העיז": [
-"protéger",
-"mener à l'abri"
+"oser"
 ],
 "העלה": [
 "élever",
@@ -1423,7 +1435,8 @@
 "différencier"
 ],
 "הפריש": [
-"sécréter"
+"sécréter",
+"séparer"
 ],
 "הפתיע": [
 "surprendre"
@@ -1432,7 +1445,7 @@
 "saluer"
 ],
 "הצהיב": [
-"jaunir"
+"faire jaunir"
 ],
 "הצהיר": [
 "déclarer formellement"
@@ -1483,7 +1496,9 @@
 "mettre en parallèle"
 ],
 "הקדים": [
-"arriver tôt"
+"devancer",
+"avancer",
+"faire précéder"
 ],
 "הקהיל": [
 "rassembler"
@@ -1544,8 +1559,9 @@
 ],
 "הרחיק": [
 "éloigner",
+"écarter",
 "séparer",
-"distantier"
+"renvoyer"
 ],
 "הריץ": [
 "faire courir",
@@ -1582,8 +1598,8 @@
 ],
 "השבית": [
 "éteindre",
-"permettre",
-"déclencher une grève"
+"priver de",
+"mettre en grève"
 ],
 "השגיח": [
 "superviser"
@@ -1638,8 +1654,8 @@
 ],
 "השמיט": [
 "laisser tomber",
-"omitter",
-"couper"
+"omettre",
+"retirer"
 ],
 "השמין": [
 "grossir",
@@ -1684,8 +1700,8 @@
 ],
 "השתהה": [
 "s'attarder",
-"resté",
-"différer"
+"rester",
+"tarder"
 ],
 "השתוחח": [
 "se pencher",
@@ -1818,7 +1834,9 @@
 "se régénérer"
 ],
 "התחזק": [
-"se renforcer"
+"se renforcer",
+"se fortifier",
+"devenir plus religieux"
 ],
 "התחזר": [
 "se goinfrer",
@@ -1828,8 +1846,9 @@
 "se réchauffer"
 ],
 "התחמק": [
-"s'égarer",
-"éviter"
+"se dérober",
+"éviter",
+"esquiver"
 ],
 "התחנך": [
 "s'éduquer",
@@ -1911,7 +1930,7 @@
 "se comporter humblement"
 ],
 "התעצל": [
-"se laisser aller à la paresse"
+"paresser"
 ],
 "התערבב": [
 "se mélanger"
@@ -1960,8 +1979,8 @@
 "se faire connaître"
 ],
 "התפרע": [
-"se laisser aller",
-"perdre le contrôle"
+"se déchaîner",
+"se conduire mal"
 ],
 "התפרק": [
 "se désagréger"
@@ -1979,9 +1998,9 @@
 "être accepté"
 ],
 "התקבץ": [
-"être collecté",
+"se rassembler",
 "s'assembler",
-"se rassembler"
+"se regrouper"
 ],
 "התקדם": [
 "progresser",
@@ -2114,7 +2133,8 @@
 ],
 "זיגג": [
 "vitrer",
-"vernisser"
+"glacer",
+"émailler"
 ],
 "זיהם": [
 "infecter",
@@ -2366,9 +2386,10 @@
 "se dessécher"
 ],
 "חרבן": [
-"causer un échec",
 "gâcher",
-"se moquer"
+"foirer",
+"chier",
+"s'en foutre"
 ],
 "חרד": [
 "craindre",
@@ -2487,8 +2508,9 @@
 "saboter"
 ],
 "טשטש": [
-"flouer",
-"rendre méconnaissable"
+"brouiller",
+"estomper",
+"rendre flou"
 ],
 "ידה": [
 "jeter",
@@ -2516,7 +2538,8 @@
 "prendre l'initiative"
 ],
 "ייאש": [
-"désespérer"
+"décourager",
+"faire désespérer"
 ],
 "ייבא": [
 "importer"
@@ -2589,11 +2612,11 @@
 "construire"
 ],
 "כונס": [
-"s'assembler",
-"se rassembler"
+"être réuni",
+"être rassemblé"
 ],
 "כחל": [
-"se maquiller les yeux"
+"maquiller les yeux"
 ],
 "כיבד": [
 "respecter",
@@ -2620,7 +2643,8 @@
 "cacher"
 ],
 "כייס": [
-"faire le pickpocket"
+"faire les poches",
+"voler à la tire"
 ],
 "כיכב": [
 "jouer le rôle principal"
@@ -2650,8 +2674,8 @@
 "nourrir"
 ],
 "כסה": [
-"cacher",
-"être caché"
+"couvrir",
+"cacher"
 ],
 "כפה": [
 "renverser",
@@ -2703,8 +2727,9 @@
 "stresser"
 ],
 "ליבב": [
-"captiver",
-"gagner"
+"réconforter",
+"gagner le cœur de",
+"faire frire des galettes"
 ],
 "ליווה": [
 "accompagner"
@@ -2742,9 +2767,9 @@
 "ramasser"
 ],
 "מאס": [
-"en avoir marre",
-"être excédé",
-"être dégoûté"
+"détester",
+"mépriser",
+"rejeter"
 ],
 "מהל-pa": [
 "circoncire"
@@ -2754,7 +2779,7 @@
 "atténuer"
 ],
 "מהר": [
-"épouser"
+"payer le prix nuptial"
 ],
 "מוזג": [
 "être fusionné",
@@ -2811,8 +2836,9 @@
 "établir une carte"
 ],
 "מיקד": [
-"mettre au point",
-"se concentrer"
+"concentrer",
+"focaliser",
+"mettre au point"
 ],
 "מיקש": [
 "miner"
@@ -2827,7 +2853,7 @@
 "murmurer"
 ],
 "מלצר": [
-"travailler comme serveur"
+"servir"
 ],
 "מנגל": [
 "faire un barbecue"
@@ -2860,8 +2886,8 @@
 "éduquer"
 ],
 "נאבד": [
-"se perdre",
-"disparaître"
+"être perdu",
+"périr"
 ],
 "נאגר": [
 "être thésaurisé",
@@ -2879,8 +2905,8 @@
 "accepter"
 ],
 "נאחז": [
-"s'emparer",
-"se saisir"
+"être saisi",
+"s'accrocher"
 ],
 "נאכל": [
 "être mangé",
@@ -2981,7 +3007,8 @@
 "jeter un sort"
 ],
 "נחקר": [
-"être enquêté"
+"faire l'objet d'une enquête",
+"être interrogé"
 ],
 "נחשב": [
 "être considéré"
@@ -3039,7 +3066,7 @@
 "être vu"
 ],
 "ניכש": [
-"éliminer"
+"désherber"
 ],
 "ניסח": [
 "formuler"
@@ -3051,9 +3078,9 @@
 "gonfler"
 ],
 "ניפץ": [
-"détruire",
-"exploser",
-"éclater"
+"briser",
+"fracasser",
+"faire exploser"
 ],
 "ניצב": [
 "se tenir debout",
@@ -3157,7 +3184,8 @@
 "reculer"
 ],
 "נסח": [
-"détruire"
+"arracher",
+"déraciner"
 ],
 "נסך": [
 "verser"
@@ -3194,7 +3222,10 @@
 "être blessé"
 ],
 "נפקד": [
-"être visité"
+"être visité",
+"manquer",
+"faire défaut",
+"être nommé"
 ],
 "נפרד": [
 "se séparer"
@@ -3255,7 +3286,7 @@
 "סינן": [
 "filtrer",
 "tamiser",
-"écraner"
+"passer au crible"
 ],
 "סינף": [
 "affilier",
@@ -3398,6 +3429,7 @@
 "inhiber"
 ],
 "עילף": [
+"faire s'évanouir",
 "assommer"
 ],
 "עיפש": [
@@ -3537,8 +3569,9 @@
 "concentrer"
 ],
 "פירק": [
-"démonté",
-"défaire"
+"démonter",
+"défaire",
+"tabasser"
 ],
 "פירש": [
 "interpréter",
@@ -3578,6 +3611,7 @@
 "écarter"
 ],
 "פסע": [
+"faire un pas",
 "marcher"
 ],
 "פעם": [
@@ -3594,7 +3628,7 @@
 "ouvrir la bouche"
 ],
 "פצע": [
-"blessé"
+"blesser"
 ],
 "פקח": [
 "ouvrir les yeux",
@@ -3607,8 +3641,8 @@
 "boucher"
 ],
 "פרגן": [
-"éprouver de la fierté",
-"se réjouir"
+"se réjouir pour autrui",
+"être fier de"
 ],
 "פרה": [
 "porter des fruits",
@@ -3646,8 +3680,9 @@
 "commettre un crime"
 ],
 "צבא": [
-"rassembler",
-"lever une armée"
+"s'assembler",
+"se mobiliser",
+"partir en guerre"
 ],
 "צבע": [
 "peindre"
@@ -3690,7 +3725,7 @@
 ],
 "צילם": [
 "photographier",
-"photocopyer"
+"photocopier"
 ],
 "צינן": [
 "rafraîchir",
@@ -3749,14 +3784,16 @@
 "collecter"
 ],
 "קדר-pa": [
-"assombrir"
+"s’assombrir",
+"être sombre"
 ],
 "קדר-pa-2": [
 "couper",
 "percer"
 ],
 "קהה": [
-"s'épaser"
+"s'émousser",
+"s'affadir"
 ],
 "קובע": [
 "être stabilisé",
@@ -3800,8 +3837,9 @@
 "immobiliser"
 ],
 "קיבץ": [
-"emballer",
-"paqueter"
+"rassembler",
+"regrouper",
+"réunir"
 ],
 "קידם": [
 "faire progresser",
@@ -3818,7 +3856,7 @@
 ],
 "קיטע": [
 "couper",
-"rogné"
+"rogner"
 ],
 "קיים": [
 "créer",
@@ -3880,7 +3918,8 @@
 "connecter"
 ],
 "קלה": [
-"toasté"
+"griller",
+"torréfier"
 ],
 "קלח": [
 "couler",
@@ -3984,7 +4023,8 @@
 "être vidé"
 ],
 "רוקן-pu-2": [
-"être dépeuplé"
+"être vidé",
+"être évacué"
 ],
 "רושש": [
 "appauvrir"
@@ -4019,7 +4059,8 @@
 "exciter"
 ],
 "רידד": [
-"dérouler"
+"aplatir",
+"étaler"
 ],
 "ריטט": [
 "vibrer",
@@ -4038,7 +4079,7 @@
 "ריסק": [
 "hacher",
 "pulvériser",
-"brisser"
+"briser"
 ],
 "ריפא": [
 "guérir",
@@ -4062,8 +4103,8 @@
 "marteler"
 ],
 "רישת": [
-"réseau",
-"mailler"
+"mailler",
+"mettre en réseau"
 ],
 "רמש": [
 "glisser",
@@ -4079,8 +4120,8 @@
 "secouer"
 ],
 "רעה": [
-"pâturer",
-"conduire",
+"faire paître",
+"paître",
 "guider"
 ],
 "רעש": [
@@ -4116,7 +4157,7 @@
 ],
 "שגל": [
 "violer",
-"abuser"
+"posséder sexuellement"
 ],
 "שהה": [
 "rester",
@@ -4144,9 +4185,8 @@
 "être paralysé"
 ],
 "שזף": [
-"se bronzé",
 "bronzer",
-"scanner"
+"scruter"
 ],
 "שחה": [
 "nager"
@@ -4229,7 +4269,8 @@
 "évaluer"
 ],
 "שיעשע": [
-"jouer"
+"amuser",
+"divertir"
 ],
 "שיפר": [
 "améliorer",
@@ -4263,9 +4304,9 @@
 "révoquer"
 ],
 "שלם": [
-"être en sécurité",
-"se résigner",
-"être terminé"
+"être entier",
+"être achevé",
+"être en paix"
 ],
 "שלף": [
 "tirer",
@@ -4318,7 +4359,7 @@
 "s'efforcer"
 ],
 "שקט": [
-"se reposer",
+"se calmer",
 "être en paix"
 ],
 "שקלל": [
@@ -4364,7 +4405,7 @@
 ],
 "תאם": [
 "correspondre",
-"coincer"
+"s'accorder"
 ],
 "תגבר": [
 "renforcer",
@@ -4388,13 +4429,13 @@
 "être délimité"
 ],
 "תוחקר": [
-"être enquêté"
+"être interrogé",
+"faire l'objet d'une enquête"
 ],
 "תויק": [
 "être classé"
 ],
 "תוסכל": [
-"se frustrer",
 "être frustré"
 ],
 "תועד": [
@@ -4500,7 +4541,7 @@
 "se syndiquer"
 ],
 "התאגרף": [
-"lutter",
+"boxer",
 "se battre"
 ],
 "התאדה": [
@@ -4515,8 +4556,8 @@
 "se remettre"
 ],
 "התאזן": [
-"se stabiliser",
-"se balancer"
+"s'équilibrer",
+"se stabiliser"
 ],
 "התאזרח": [
 "devenir citoyen",
@@ -4552,8 +4593,8 @@
 "s'organiser"
 ],
 "התבודד": [
-"se retirer",
-"se isoler"
+"s'isoler",
+"se retirer"
 ],
 "התבוסס": [
 "se vautrer",
@@ -4639,7 +4680,8 @@
 "se laisser aller"
 ],
 "התמצא": [
-"se familiariser"
+"s'y connaître",
+"être au fait"
 ],
 "התמקח": [
 "marchander",
@@ -4647,7 +4689,8 @@
 ],
 "התמרמר": [
 "se plaindre",
-"se fâcher"
+"s'aigrir",
+"s'emporter"
 ],
 "התמתח": [
 "s'étirer"
@@ -4683,8 +4726,9 @@
 "comploter"
 ],
 "התנסה": [
-"être testé",
-"endurer"
+"faire l'expérience de",
+"être mis à l'épreuve",
+"s'initier à"
 ],
 "התנער": [
 "se secouer",
@@ -4748,7 +4792,7 @@
 "נבע": [
 "jaillir",
 "surgir",
-"prendre source"
+"prendre sa source"
 ],
 "נבעת": [
 "être effrayé",
@@ -4871,11 +4915,9 @@
 "être capturé"
 ],
 "נשה-pa": [
-"oublier",
-"prêter à intérêt"
+"oublier"
 ],
 "נשה-pa-2": [
-"oublier",
 "prêter à intérêt"
 ],
 "נשכח": [
@@ -4924,13 +4966,9016 @@
 "être classé"
 ],
 "סוכך": [
-"cacher",
-"protéger"
+"couvrir",
+"protéger",
+"abriter"
 ],
 "סונכרן": [
 "être synchronisé"
 ],
 "סונתז": [
 "être synthétisé"
+],
+"מחה": [
+"protester",
+"essuyer",
+"effacer"
+],
+"הבחין": [
+"remarquer",
+"distinguer",
+"discerner"
+],
+"התרשם": [
+"être impressionné"
+],
+"חיבב": [
+"aimer bien",
+"apprécier",
+"affectionner"
+],
+"אייש": [
+"pourvoir",
+"occuper",
+"doter en personnel"
+],
+"הטריד": [
+"harceler",
+"déranger",
+"importuner",
+"préoccuper"
+],
+"נעדר": [
+"être absent",
+"manquer",
+"disparaître"
+],
+"לווה-pu": [
+"être accompagné",
+"être escorté"
+],
+"נדרש": [
+"être exigé",
+"être requis",
+"être demandé"
+],
+"לעג": [
+"se moquer",
+"railler"
+],
+"התלוצץ": [
+"plaisanter",
+"se moquer",
+"railler"
+],
+"הוזמן": [
+"être invité",
+"être commandé"
+],
+"חסר": [
+"manquer"
+],
+"עצבן": [
+"énerver",
+"agacer",
+"irriter"
+],
+"ארה": [
+"cueillir",
+"récolter"
+],
+"נאלץ": [
+"être contraint",
+"être forcé",
+"être obligé"
+],
+"בייל": [
+"affranchir",
+"timbrer"
+],
+"הושיט": [
+"tendre",
+"avancer"
+],
+"עסק": [
+"s'occuper de",
+"pratiquer",
+"travailler dans"
+],
+"אילץ": [
+"contraindre",
+"forcer",
+"obliger"
+],
+"העטה": [
+"revêtir",
+"envelopper",
+"couvrir"
+],
+"ירק": [
+"cracher",
+"verdir"
+],
+"הינה": [
+"réjouir",
+"faire plaisir"
+],
+"התברר": [
+"s'avérer",
+"se révéler",
+"s'éclaircir"
+],
+"החלים": [
+"guérir",
+"se rétablir"
+],
+"האכיל": [
+"nourrir",
+"donner à manger"
+],
+"התקשה": [
+"avoir du mal",
+"éprouver des difficultés",
+"se durcir"
+],
+"פטפט": [
+"bavarder",
+"papoter"
+],
+"הורק": [
+"être vidé"
+],
+"הסתבר": [
+"s'avérer",
+"se révéler",
+"apparaître"
+],
+"עייר": [
+"urbaniser"
+],
+"הוטרד": [
+"être dérangé",
+"être harcelé",
+"être importuné"
+],
+"נעצר": [
+"s'arrêter",
+"être arrêté"
+],
+"התחשק": [
+"avoir envie de",
+"faire envie"
+],
+"השתלם": [
+"valoir la peine",
+"être rentable",
+"payer"
+],
+"התעצבן": [
+"s'énerver",
+"s'agacer",
+"se fâcher"
+],
+"איחה": [
+"recoudre",
+"cicatriser",
+"raccommoder"
+],
+"נאם": [
+"prononcer un discours",
+"discourir"
+],
+"התרחק": [
+"s'éloigner",
+"prendre ses distances",
+"s'écarter"
+],
+"כוון": [
+"être dirigé",
+"être réglé",
+"être orienté",
+"être ajusté"
+],
+"ביטח": [
+"assurer"
+],
+"הריע": [
+"acclamer",
+"ovationner",
+"sonner du shofar"
+],
+"העסיק": [
+"employer",
+"occuper",
+"embaucher"
+],
+"נספה": [
+"périr",
+"mourir"
+],
+"נכח": [
+"être présent",
+"assister à"
+],
+"בירר": [
+"clarifier",
+"élucider",
+"vérifier",
+"se renseigner"
+],
+"החריד": [
+"terrifier",
+"épouvanter",
+"alarmer"
+],
+"הציק": [
+"déranger",
+"harceler",
+"importuner",
+"embêter"
+],
+"טרח": [
+"se donner la peine",
+"prendre la peine",
+"peiner"
+],
+"נדהם": [
+"être stupéfait",
+"être abasourdi",
+"être sidéré"
+],
+"התעתד": [
+"se préparer",
+"se disposer à"
+],
+"הגשים": [
+"réaliser",
+"concrétiser",
+"accomplir"
+],
+"נקט": [
+"prendre",
+"adopter"
+],
+"שדד": [
+"voler",
+"piller",
+"dévaliser"
+],
+"בייש": [
+"faire honte à",
+"humilier",
+"déshonorer"
+],
+"דגל": [
+"prôner",
+"défendre",
+"revendiquer"
+],
+"הצחין": [
+"puer",
+"empester"
+],
+"יילד": [
+"accoucher",
+"faire accoucher"
+],
+"פקפק": [
+"douter",
+"mettre en doute"
+],
+"נחר": [
+"ronfler"
+],
+"רגע": [
+"se reposer",
+"se calmer",
+"s'apaiser"
+],
+"מוקד": [
+"être focalisé",
+"être centré",
+"être mis au point"
+],
+"נרשם": [
+"s'inscrire",
+"être noté",
+"être enregistré"
+],
+"פגם": [
+"endommager",
+"altérer",
+"abîmer"
+],
+"השתבש": [
+"se troubler",
+"se brouiller",
+"se dérégler"
+],
+"התעסק": [
+"s'occuper de",
+"toucher à",
+"bricoler"
+],
+"שרר": [
+"régner",
+"prévaloir",
+"dominer"
+],
+"החשיב": [
+"estimer",
+"considérer",
+"valoriser"
+],
+"העיד": [
+"témoigner",
+"attester"
+],
+"השתעשע": [
+"s'amuser",
+"se divertir"
+],
+"התמקד": [
+"se concentrer",
+"se focaliser"
+],
+"נערך": [
+"avoir lieu",
+"se tenir",
+"être organisé",
+"être préparé"
+],
+"תינה": [
+"raconter",
+"relater",
+"déplorer"
+],
+"הקפיד": [
+"veiller à",
+"faire attention",
+"être rigoureux"
+],
+"זלזל": [
+"dédaigner",
+"mépriser",
+"négliger"
+],
+"נתקע": [
+"être coincé",
+"se coincer",
+"se bloquer"
+],
+"קירב": [
+"rapprocher"
+],
+"שימח": [
+"réjouir",
+"rendre heureux"
+],
+"הואשם": [
+"être accusé",
+"être inculpé"
+],
+"הסריח": [
+"puer",
+"empester"
+],
+"נחפז": [
+"se hâter",
+"se dépêcher",
+"s'empresser"
+],
+"תקשר": [
+"relier",
+"connecter",
+"mettre en communication"
+],
+"הנהן": [
+"hocher la tête",
+"acquiescer"
+],
+"הניע": [
+"motiver",
+"inciter",
+"démarrer",
+"faire bouger"
+],
+"התאכסן": [
+"loger",
+"séjourner",
+"descendre à l'hôtel"
+],
+"כובד": [
+"être honoré",
+"être respecté",
+"être servi"
+],
+"נשען": [
+"s'appuyer",
+"reposer sur"
+],
+"ריסן": [
+"réfréner",
+"freiner",
+"maîtriser",
+"brider"
+],
+"אורגן": [
+"être organisé"
+],
+"הפריז": [
+"exagérer",
+"abuser"
+],
+"הרעיש": [
+"faire du bruit",
+"provoquer un vacarme",
+"agiter",
+"ébranler"
+],
+"מחא": [
+"frapper",
+"applaudir",
+"protester"
+],
+"סופק": [
+"être fourni",
+"être pourvu",
+"être satisfait"
+],
+"גסס": [
+"agoniser",
+"être mourant",
+"être à l'article de la mort"
+],
+"ניזוק": [
+"être endommagé",
+"subir des dommages",
+"être lésé"
+],
+"נתקף": [
+"être attaqué",
+"être assailli",
+"être pris d'assaut",
+"être saisi"
+],
+"פענח": [
+"déchiffrer",
+"décoder",
+"élucider"
+],
+"התקוטט": [
+"se quereller",
+"se disputer",
+"se chamailler"
+],
+"מוקם": [
+"être établi",
+"être fondé",
+"être érigé"
+],
+"פיעם": [
+"battre",
+"palpiter",
+"animer"
+],
+"צונן": [
+"être refroidi",
+"être rafraîchi"
+],
+"הבהיל": [
+"effrayer",
+"alarmer",
+"paniquer",
+"transporter d'urgence"
+],
+"הוגש": [
+"être servi",
+"être présenté",
+"être soumis"
+],
+"הקניט": [
+"taquiner",
+"agacer",
+"provoquer",
+"harceler"
+],
+"התפשר": [
+"faire un compromis",
+"transiger",
+"s'arranger"
+],
+"שחזר": [
+"reconstituer",
+"restaurer",
+"reproduire"
+],
+"תוחכם": [
+"être sophistiqué",
+"être perfectionné"
+],
+"החמיר": [
+"aggraver",
+"empirer",
+"durcir"
+],
+"התבגר": [
+"mûrir",
+"grandir",
+"vieillir"
+],
+"התרצה": [
+"s'apaiser",
+"consentir",
+"se laisser fléchir",
+"agréer"
+],
+"סבר": [
+"penser",
+"estimer",
+"croire"
+],
+"ריחם": [
+"avoir pitié",
+"épargner",
+"plaindre"
+],
+"התפזר": [
+"se disperser",
+"s'éparpiller"
+],
+"זלל": [
+"bâfrer",
+"s'empiffrer",
+"dévorer",
+"engloutir"
+],
+"נמנם": [
+"somnoler",
+"faire un somme",
+"roupiller"
+],
+"סעד": [
+"dîner",
+"manger",
+"restaurer",
+"soutenir"
+],
+"ריתק": [
+"fasciner",
+"captiver",
+"immobiliser",
+"clouer"
+],
+"איפס": [
+"remettre à zéro",
+"réinitialiser",
+"calibrer",
+"recadrer"
+],
+"הטריח": [
+"déranger",
+"importuner",
+"embêter",
+"donner de la peine"
+],
+"התחלף": [
+"changer",
+"s'échanger",
+"se remplacer",
+"alterner"
+],
+"טרק": [
+"claquer",
+"fermer brusquement"
+],
+"שומש": [
+"être utilisé",
+"être employé"
+],
+"הוצף": [
+"être inondé",
+"être submergé"
+],
+"נואש": [
+"être désespéré"
+],
+"נפנף": [
+"agiter",
+"faire signe",
+"chasser"
+],
+"נרתע": [
+"reculer",
+"hésiter",
+"être intimidé"
+],
+"קודם": [
+"être promu",
+"être avancé"
+],
+"שועשע": [
+"être amusé",
+"être diverti"
+],
+"הצדיק": [
+"justifier"
+],
+"מיצב": [
+"positionner"
+],
+"נעלב": [
+"se vexer",
+"être offensé",
+"s'offusquer"
+],
+"תורגם": [
+"être traduit"
+],
+"הבריש": [
+"brosser"
+],
+"ההין": [
+"oser"
+],
+"התבהר": [
+"s'éclaircir",
+"se clarifier"
+],
+"התחפף": [
+"déguerpir",
+"filer",
+"se carapater"
+],
+"התנה": [
+"conditionner",
+"stipuler"
+],
+"התפרץ": [
+"faire irruption",
+"éclater",
+"exploser"
+],
+"התרברב": [
+"se vanter",
+"fanfaronner"
+],
+"אולץ": [
+"être forcé",
+"être contraint"
+],
+"בידר": [
+"divertir",
+"amuser"
+],
+"התדרדר": [
+"se dégrader",
+"dégringoler",
+"empirer"
+],
+"התהפך": [
+"se retourner",
+"se renverser",
+"basculer"
+],
+"התכבד": [
+"se servir",
+"s'honorer"
+],
+"התלבט": [
+"hésiter",
+"délibérer"
+],
+"חלץ": [
+"ôter",
+"enlever",
+"déboucher"
+],
+"סטר": [
+"gifler"
+],
+"פותח": [
+"être développé"
+],
+"צולם": [
+"être photographié",
+"être filmé"
+],
+"שרט": [
+"griffer",
+"égratigner",
+"rayer"
+],
+"גיהץ": [
+"repasser"
+],
+"הסיח": [
+"distraire",
+"détourner"
+],
+"הרהיב": [
+"éblouir",
+"émerveiller",
+"oser"
+],
+"השתולל": [
+"se déchaîner",
+"chahuter",
+"faire des bêtises"
+],
+"התגנב": [
+"se faufiler",
+"se glisser",
+"s'infiltrer"
+],
+"ציער": [
+"attrister",
+"peiner",
+"chagriner"
+],
+"רענן": [
+"rafraîchir",
+"revigorer",
+"réactualiser"
+],
+"שיפה": [
+"indemniser",
+"dédommager"
+],
+"הסוה": [
+"camoufler",
+"masquer",
+"déguiser"
+],
+"חיטט": [
+"fouiller",
+"farfouiller",
+"curer"
+],
+"מוגן": [
+"être protégé",
+"être défendu"
+],
+"נזקק": [
+"avoir besoin de",
+"nécessiter",
+"recourir à"
+],
+"נקלע": [
+"se retrouver",
+"atterrir",
+"tomber dans"
+],
+"סער": [
+"faire rage",
+"s'agiter",
+"tempêter"
+],
+"עודכן": [
+"être mis à jour",
+"être actualisé"
+],
+"גרע": [
+"retrancher",
+"soustraire",
+"déduire"
+],
+"הומצא": [
+"être inventé"
+],
+"החליש": [
+"affaiblir",
+"atténuer"
+],
+"הלהיב": [
+"enthousiasmer",
+"enflammer",
+"passionner"
+],
+"השכיל": [
+"réussir",
+"comprendre",
+"agir avec sagesse"
+],
+"השתקע": [
+"s'installer",
+"s'établir",
+"se fixer"
+],
+"התהלך": [
+"se promener",
+"déambuler",
+"marcher"
+],
+"מיסך": [
+"faire écran",
+"masquer",
+"occulter"
+],
+"נדון": [
+"être jugé",
+"être condamné",
+"être débattu"
+],
+"נדלק": [
+"s'allumer",
+"prendre feu",
+"s'enflammer"
+],
+"נפסק": [
+"cesser",
+"s'arrêter",
+"s'interrompre"
+],
+"רחש": [
+"fourmiller",
+"grouiller",
+"éprouver"
+],
+"רקם": [
+"broder",
+"tramer",
+"tisser"
+],
+"בילף": [
+"bluffer"
+],
+"גער": [
+"gronder",
+"réprimander",
+"tancer"
+],
+"החריב": [
+"détruire",
+"dévaster",
+"ravager"
+],
+"הסתכם": [
+"s'élever à",
+"se chiffrer à",
+"se résumer à"
+],
+"הפקיד": [
+"déposer",
+"confier"
+],
+"השתרע": [
+"s'étendre",
+"s'étaler",
+"s'allonger"
+],
+"כפר": [
+"nier",
+"renier",
+"contester"
+],
+"עירב": [
+"mélanger",
+"mêler",
+"impliquer"
+],
+"ענב": [
+"nouer",
+"attacher"
+],
+"הובא": [
+"être apporté",
+"être amené",
+"être introduit"
+],
+"הוגדר": [
+"être défini"
+],
+"הוטעה": [
+"être induit en erreur",
+"être trompé"
+],
+"הוקיר": [
+"estimer",
+"chérir",
+"honorer",
+"apprécier"
+],
+"הושפל": [
+"être humilié",
+"être rabaissé"
+],
+"הידרדר": [
+"dégringoler",
+"se dégrader",
+"empirer",
+"se détériorer"
+],
+"השתתק": [
+"se taire",
+"devenir silencieux"
+],
+"התמחה": [
+"se spécialiser",
+"faire un stage"
+],
+"חיסר": [
+"soustraire",
+"retrancher",
+"priver"
+],
+"נגס": [
+"croquer",
+"mordre",
+"mordiller"
+],
+"נחטף": [
+"être enlevé",
+"être kidnappé",
+"être arraché"
+],
+"נלכד": [
+"être capturé",
+"être piégé",
+"être pris"
+],
+"פוזר": [
+"être dispersé",
+"être éparpillé"
+],
+"דווח": [
+"être rapporté",
+"être signalé"
+],
+"הזעיק": [
+"alerter",
+"appeler d'urgence",
+"convoquer"
+],
+"החריש": [
+"faire taire",
+"réduire au silence",
+"assourdir"
+],
+"התאכזר": [
+"se montrer cruel",
+"maltraiter",
+"s'acharner"
+],
+"התכעס": [
+"se fâcher",
+"s'emporter",
+"se mettre en colère"
+],
+"התרוצץ": [
+"courir partout",
+"s'agiter",
+"trotter"
+],
+"חישל": [
+"forger",
+"endurcir",
+"tremper"
+],
+"נוצח": [
+"être vaincu",
+"être battu"
+],
+"נטף": [
+"goutter",
+"suinter",
+"dégouliner"
+],
+"נכון": [
+"être prêt",
+"s'apprêter",
+"être disposé"
+],
+"קד": [
+"s'incliner",
+"faire une révérence"
+],
+"רגז": [
+"se fâcher",
+"s'irriter",
+"s'agiter",
+"trembler"
+],
+"אושפז": [
+"être hospitalisé"
+],
+"איבק": [
+"épousseter",
+"dépoussiérer",
+"poudrer",
+"polliniser"
+],
+"בוסס": [
+"être fondé",
+"être basé",
+"être établi"
+],
+"בוסס-pi": [
+"patauger",
+"piétiner"
+],
+"דחק": [
+"pousser",
+"presser",
+"bousculer",
+"repousser"
+],
+"דייק": [
+"être précis",
+"être ponctuel",
+"préciser"
+],
+"הורגל": [
+"être habitué",
+"être accoutumé"
+],
+"היתל": [
+"se moquer",
+"duper",
+"mystifier",
+"tromper"
+],
+"השביע": [
+"faire jurer",
+"adjurer"
+],
+"השביע-hif": [
+"rassasier",
+"satisfaire",
+"combler"
+],
+"השתרר": [
+"régner",
+"s'installer",
+"prévaloir"
+],
+"התמזל": [
+"avoir de la chance",
+"être chanceux"
+],
+"התממש": [
+"se réaliser",
+"se concrétiser",
+"s'accomplir"
+],
+"התעצב": [
+"s'attrister",
+"s'affliger"
+],
+"התפקע": [
+"éclater",
+"se rompre",
+"expirer"
+],
+"כימת": [
+"quantifier"
+],
+"נדנד": [
+"balancer",
+"bercer",
+"harceler",
+"importuner"
+],
+"נחשף": [
+"être exposé",
+"être révélé",
+"être dévoilé"
+],
+"נכחד": [
+"s'éteindre",
+"disparaître",
+"être anéanti"
+],
+"עונה": [
+"être torturé",
+"être tourmenté"
+],
+"פורט": [
+"être détaillé",
+"être énuméré",
+"être spécifié"
+],
+"שיכך": [
+"apaiser",
+"calmer",
+"soulager",
+"atténuer"
+],
+"שכך": [
+"se calmer",
+"s'apaiser",
+"retomber"
+],
+"שפת": [
+"mettre sur le feu",
+"poser sur le feu",
+"mettre à bouillir"
+],
+"גידר": [
+"clôturer",
+"enclore",
+"barricader"
+],
+"גנח": [
+"gémir",
+"soupirer"
+],
+"הוכרז": [
+"être proclamé",
+"être déclaré",
+"être annoncé"
+],
+"הוסח": [
+"être détourné",
+"être distrait"
+],
+"מומש": [
+"être réalisé",
+"être mis en œuvre"
+],
+"מזער": [
+"minimiser",
+"réduire"
+],
+"מחט": [
+"se moucher"
+],
+"מיגן": [
+"protéger",
+"défendre"
+],
+"מיכן": [
+"préparer",
+"apprêter"
+],
+"מסחר": [
+"commercialiser",
+"mettre en vente"
+],
+"נאמד": [
+"être estimé",
+"être évalué"
+],
+"נבלם": [
+"être arrêté",
+"être freiné"
+],
+"נבלע": [
+"être avalé",
+"être absorbé"
+],
+"נבצר": [
+"être impossible",
+"être hors de portée"
+],
+"נגדע": [
+"être coupé",
+"être tronçonné"
+],
+"נגזל": [
+"être volé",
+"être dépouillé"
+],
+"נוהל": [
+"être géré",
+"être dirigé"
+],
+"נוכה": [
+"être déduit",
+"être retranché"
+],
+"נחסך": [
+"être épargné",
+"être économisé"
+],
+"נחסם": [
+"être bloqué",
+"être obstrué"
+],
+"נחקק": [
+"être promulgué",
+"être gravé"
+],
+"נטבח": [
+"être égorgé",
+"être massacré"
+],
+"נטבל": [
+"être immergé",
+"être plongé"
+],
+"ניגש-nif": [
+"s’approcher",
+"se présenter"
+],
+"ניטע": [
+"être planté"
+],
+"נימוק": [
+"se décomposer",
+"pourrir"
+],
+"נימר": [
+"tacheter",
+"marquer de taches"
+],
+"נלאה": [
+"se fatiguer",
+"se lasser"
+],
+"נלחץ": [
+"être pressé",
+"être soumis à la pression"
+],
+"נמזג": [
+"être mélangé",
+"se mêler"
+],
+"נמלא": [
+"être rempli"
+],
+"נמק": [
+"se décomposer",
+"pourrir"
+],
+"נסתר": [
+"se cacher",
+"être dissimulé"
+],
+"נעקר": [
+"être arraché",
+"être déraciné"
+],
+"פייס": [
+"apaiser",
+"concilier"
+],
+"פילג": [
+"diviser",
+"répartir"
+],
+"פסטר": [
+"pasteuriser"
+],
+"צוחצח": [
+"être poli",
+"être lustré"
+],
+"צוין": [
+"être indiqué",
+"être mentionné"
+],
+"צומצם": [
+"être réduit",
+"être restreint"
+],
+"צידק": [
+"justifier",
+"légitimer"
+],
+"קובץ": [
+"être regroupé"
+],
+"קוטב": [
+"être polarisé"
+],
+"קוקו": [],
+"קורב": [
+"être rapproché",
+"être offert en sacrifice"
+],
+"קורר": [
+"être refroidi"
+],
+"קיזז": [
+"déduire",
+"compenser"
+],
+"קימץ": [
+"économiser",
+"lésiner"
+],
+"קרין": [
+"annoncer",
+"commenter"
+],
+"קרם": [
+"former une croûte"
+],
+"קרקס": [],
+"ראין": [
+"interviewer"
+],
+"רוטש": [
+"être écrasé",
+"être fracassé"
+],
+"רוכז": [
+"être concentré"
+],
+"רומזר": [
+"être équipé de feux tricolores"
+],
+"רושת": [
+"être mis en réseau",
+"être maillé"
+],
+"ריטש": [
+"écraser",
+"fracasser"
+],
+"רקח": [
+"préparer",
+"concocter"
+],
+"שווק": [
+"être commercialisé"
+],
+"שוכלל": [
+"être perfectionné",
+"être amélioré"
+],
+"שוכפל": [
+"être dupliqué"
+],
+"שולהב": [
+"être enflammé",
+"être exalté"
+],
+"שונן": [
+"être aiguisé",
+"être appris par cœur"
+],
+"שועבד": [
+"être asservi",
+"être soumis"
+],
+"נרקם": [
+"être brodé",
+"se tramer",
+"se tisser"
+],
+"נרתם": [
+"s’impliquer",
+"se mobiliser",
+"s’atteler à"
+],
+"נשמד": [
+"être détruit",
+"être exterminé"
+],
+"נשפך": [
+"se déverser",
+"se répandre",
+"être versé"
+],
+"נתרם": [
+"être donné",
+"être versé"
+],
+"סוגנן": [
+"être stylisé",
+"être formulé"
+],
+"סוכל": [
+"être contrecarré"
+],
+"סופח": [
+"être annexé",
+"être absorbé"
+],
+"סותת": [
+"être taillé",
+"être ciselé"
+],
+"סיקל": [
+"lapider",
+"éperrer",
+"dépierrer"
+],
+"סכסך": [
+"brouiller",
+"dresser contre"
+],
+"ספח": [
+"attacher",
+"joindre",
+"absorber"
+],
+"ספסר": [
+"spéculer",
+"revendre au marché noir"
+],
+"סרח": [
+"puer",
+"pourrir"
+],
+"עגב": [
+"désirer",
+"convoiter"
+],
+"עוקל": [
+"être courbé",
+"être incurvé"
+],
+"עושן": [
+"être fumé"
+],
+"עימר": [
+"mettre en gerbes"
+],
+"עימת": [
+"confronter",
+"opposer"
+],
+"עינה": [
+"tourmenter",
+"torturer"
+],
+"עינן": [
+"assombrir",
+"obscurcir"
+],
+"עירם": [
+"entasser",
+"empiler"
+],
+"עמלן": [],
+"ענין": [
+"intéresser",
+"concerner"
+],
+"עשק": [
+"opprimer",
+"exploiter"
+],
+"פוחלץ": [
+"être empaillé"
+],
+"פוטם": [
+"être engraissé",
+"être gavé"
+],
+"פורז": [],
+"פטרל": [],
+"פיחם": [
+"noircir",
+"charbonner"
+],
+"שוער": [
+"être estimé",
+"être supposé"
+],
+"שותף": [
+"être associé",
+"être partagé",
+"être inclus"
+],
+"שידך": [
+"marier",
+"fiancer"
+],
+"שיוע": [
+"implorer",
+"crier au secours"
+],
+"שיכן": [
+"loger",
+"installer",
+"établir"
+],
+"שילש": [
+"tripler",
+"faire pour la troisième fois"
+],
+"שינע": [
+"transporter",
+"acheminer"
+],
+"שיפד": [
+"embrocher",
+"enfiler sur une broche"
+],
+"שרבב": [
+"insérer",
+"intercaler"
+],
+"תבנת": [],
+"תוגמל": [
+"être récompensé",
+"être rétribué"
+],
+"תודרך": [
+"être guidé",
+"être instruit"
+],
+"תויג": [
+"être étiqueté",
+"être marqué"
+],
+"תוסבך": [
+"être emmêlé",
+"être compliqué"
+],
+"תופעל": [
+"être mis en marche",
+"être exploité"
+],
+"תישר": [],
+"תמלל": [
+"transcrire",
+"mettre par écrit"
+],
+"תעתע": [
+"tromper",
+"duper"
+],
+"תשש": [
+"s'affaiblir",
+"s'épuiser"
+],
+"אגף": [
+"fermer",
+"boucher"
+],
+"אגרף": [
+"frapper du poing",
+"boxer"
+],
+"אובן": [
+"être pétrifié",
+"être transformé en pierre"
+],
+"אוגף": [
+"être pris de flanc",
+"être débordé"
+],
+"אודה": [
+"être vaporisé",
+"être évaporé"
+],
+"אוזרח": [
+"être naturalisé"
+],
+"אוחה": [
+"être recousu",
+"être soudé",
+"être cicatrisé"
+],
+"אוחזר": [
+"être restauré",
+"être récupéré"
+],
+"אויר": [
+"être illustré"
+],
+"אויש": [
+"être pourvu en personnel",
+"être occupé"
+],
+"אוכזב": [
+"être déçu",
+"être trompé"
+],
+"בותר": [
+"être découpé",
+"être démembré"
+],
+"בחל": [
+"être écœuré",
+"avoir la nausée"
+],
+"ביאס-pi": [
+"déprimer",
+"attrister"
+],
+"ביטן": [],
+"בישם": [
+"parfumer",
+"embaumer"
+],
+"בנאם": [],
+"ברמן": [],
+"בשל": [
+"cuire",
+"cuisiner",
+"mûrir"
+],
+"גדר": [
+"clôturer",
+"enclore"
+],
+"גובס": [
+"être plâtré",
+"être immobilisé dans le plâtre"
+],
+"גודף": [
+"être insulté",
+"être injurié"
+],
+"גודר": [
+"être clôturé",
+"être enclavé"
+],
+"גודש": [
+"être entassé",
+"être comblé"
+],
+"גוהץ": [
+"être repassé"
+],
+"גויר": [
+"être converti au judaïsme"
+],
+"גולגל": [
+"être roulé",
+"être mis en mouvement"
+],
+"גולון": [],
+"גולל": [
+"faire rouler",
+"rouler",
+"dérouler"
+],
+"גולם": [
+"être incarné",
+"être matérialisé"
+],
+"גולען": [
+"être dénoyauté"
+],
+"גומד": [
+"être rapetissé",
+"être miniaturisé"
+],
+"גונב": [
+"être volé",
+"être dérobé"
+],
+"גיבב": [
+"entasser",
+"accumuler"
+],
+"גיבס": [
+"plâtrer",
+"enduire de plâtre"
+],
+"גילם": [
+"incarner",
+"matérialiser"
+],
+"גיפף": [
+"câliner",
+"embrasser"
+],
+"גלון": [
+"galvaniser",
+"zinguer"
+],
+"גמא": [],
+"גנדר": [
+"parer",
+"embellir"
+],
+"געגע": [
+"faire regretter",
+"rendre nostalgique"
+],
+"אוכלס": [
+"être peuplé"
+],
+"אוכן": [
+"être calibré"
+],
+"אוכסן": [
+"être entreposé",
+"être hébergé"
+],
+"אופין": [
+"être caractérisé"
+],
+"אוקלם": [
+"être acclimaté"
+],
+"אותחל": [
+"être initialisé"
+],
+"אחזר": [
+"récupérer",
+"restaurer"
+],
+"איגף": [
+"déborder",
+"flanquer"
+],
+"איטם": [
+"boucher",
+"obturer",
+"étanchéifier"
+],
+"איכן": [
+"calibrer"
+],
+"אירס": [
+"fiancer"
+],
+"אכלל": [],
+"אכף": [
+"imposer",
+"faire appliquer",
+"contraindre"
+],
+"אכשר": [
+"autoriser",
+"approuver",
+"confirmer"
+],
+"אלחש": [
+"chuchoter",
+"murmurer"
+],
+"אנפף": [],
+"אפנן": [
+"moduler"
+],
+"אפרט": [
+"détailler",
+"préciser"
+],
+"אפשט": [
+"simplifier"
+],
+"אצל": [],
+"אקלם": [],
+"אשפר": [],
+"בוזר": [
+"être dispersé",
+"être décentralisé"
+],
+"בויל": [
+"être affranchi",
+"être timbré"
+],
+"בוים": [
+"être mis en scène",
+"être réalisé"
+],
+"בונאם": [],
+"בוקבק": [
+"être mis en bouteille"
+],
+"בוש-pa": [
+"avoir honte",
+"être gêné"
+],
+"בושש": [
+"traîner",
+"tarder"
+],
+"בותק": [
+"être déchiré",
+"être lacéré"
+],
+"הובקע": [
+"être fendu",
+"être percé"
+],
+"הוברג": [
+"être vissé",
+"être boulonné"
+],
+"הוברק": [
+"être poli",
+"être lustré"
+],
+"הוברש": [
+"être brossé"
+],
+"הוגבה": [
+"être élevé",
+"être relevé"
+],
+"הוגדל": [
+"être agrandi",
+"être augmenté"
+],
+"הוגרל": [
+"être tiré au sort"
+],
+"הודבר": [
+"être parlé",
+"être discuté"
+],
+"הודגם": [
+"être démontré",
+"être illustré"
+],
+"הודגש": [
+"être souligné",
+"être mis en évidence"
+],
+"הודחק": [
+"être comprimé",
+"être réprimé"
+],
+"הודלק": [
+"être allumé"
+],
+"הודק": [
+"être serré",
+"être comprimé"
+],
+"הוהדר": [
+"être édité",
+"être publié"
+],
+"הוון": [],
+"הוזח": [],
+"הוזרם": [
+"être acheminé",
+"être déversé"
+],
+"הוזרק": [
+"être injecté"
+],
+"הוחדר": [
+"être inséré",
+"être introduit"
+],
+"הוחיה": [
+"être ressuscité",
+"être ravivé"
+],
+"הוחכר": [
+"être loué",
+"être affermé"
+],
+"הוחלק": [
+"être lissé"
+],
+"הוחלש": [
+"être affaibli",
+"être atténué"
+],
+"הוחנה": [
+"être garé",
+"être stationné"
+],
+"הוחרב": [
+"être détruit",
+"être dévasté"
+],
+"הוחש": [
+"être hâté",
+"être accéléré"
+],
+"הוטען": [
+"être chargé",
+"être rechargé"
+],
+"הוטרח": [
+"être dérangé",
+"être importuné"
+],
+"הוכחד": [
+"être éradiqué",
+"être éliminé"
+],
+"הוכחש": [
+"être nié",
+"être démenti"
+],
+"הוכלא": [
+"être emprisonné",
+"être hybridé"
+],
+"הוכלל": [
+"être inclus"
+],
+"הוכש": [
+"être mordu",
+"être piqué"
+],
+"הולאם": [
+"être nationalisé"
+],
+"הולבן": [
+"être blanchi"
+],
+"הולבש": [
+"être habillé",
+"être vêtu"
+],
+"הולחם": [
+"être soudé"
+],
+"הולחן": [
+"être mis en musique"
+],
+"הולן": [
+"être hébergé",
+"être logé"
+],
+"הולעט": [
+"être gavé",
+"être nourri de force"
+],
+"הולקה": [
+"être fouetté",
+"être flagellé"
+],
+"הומחז": [
+"être dramatisé"
+],
+"הומחש": [
+"être illustré"
+],
+"הומטר": [
+"être arrosé"
+],
+"הומלך": [
+"être intronisé"
+],
+"הומרץ": [
+"être stimulé",
+"être encouragé"
+],
+"הומתק": [
+"être adouci",
+"être sucré"
+],
+"הונחה": [
+"être guidé"
+],
+"הונמך": [
+"être abaissé"
+],
+"הונס": [
+"être chassé",
+"être contraint de fuir"
+],
+"הונע": [
+"être mis en mouvement",
+"être motivé"
+],
+"הונעל": [
+"être chaussé"
+],
+"הונשם": [
+"être réanimé",
+"recevoir la respiration artificielle"
+],
+"הוסג": [
+"être repoussé",
+"être refoulé"
+],
+"הוסוה": [
+"être camouflé",
+"être masqué"
+],
+"הוספד": [
+"être pleuré",
+"être l'objet d'un éloge funèbre"
+],
+"הוסת": [
+"être incité",
+"être poussé à agir"
+],
+"הוסת-huf": [
+"être incité",
+"être poussé à agir"
+],
+"הועדף": [
+"être préféré"
+],
+"הועיד": [
+"désigner",
+"fixer",
+"destiner"
+],
+"הועמק": [
+"être approfondi"
+],
+"הופגז": [
+"être bombardé"
+],
+"הופגש": [
+"être mis en contact",
+"être présenté"
+],
+"הופחד": [
+"être effrayé"
+],
+"הופחת": [
+"être réduit",
+"être diminué"
+],
+"הופלה": [
+"être discriminé"
+],
+"הופקד": [
+"être déposé",
+"être confié"
+],
+"הופקע": [
+"être exproprié"
+],
+"הופרח": [
+"être fait fleurir",
+"être lancé"
+],
+"הופרט": [
+"être détaillé",
+"être énuméré"
+],
+"הופרש": [
+"être sécrété",
+"être séparé",
+"être mis de côté"
+],
+"הופשל": [
+"être retroussé",
+"être relevé"
+],
+"הופשר": [
+"être dégelé",
+"être fondu"
+],
+"הוצהב": [
+"être jauni"
+],
+"הוצעד": [
+"être conduit",
+"être mis en marche"
+],
+"הוקדם": [
+"être avancé",
+"être promu"
+],
+"הוקהה": [
+"être émoussé"
+],
+"הוקהל": [
+"être rassemblé"
+],
+"הוקז": [
+"être drainé",
+"être saigné"
+],
+"הוקטן": [
+"être réduit",
+"être diminué"
+],
+"הוקפץ": [
+"être mobilisé",
+"être précipité",
+"être transféré"
+],
+"הוקצף": [
+"être fouetté",
+"être rendu mousseux"
+],
+"הוקרא": [
+"être lu",
+"être appelé"
+],
+"הורגע": [
+"être calmé",
+"être apaisé"
+],
+"הורדם": [
+"être endormi",
+"être anesthésié"
+],
+"הורטב": [
+"être mouillé",
+"être humidifié"
+],
+"הורכן": [
+"être incliné",
+"être courbé"
+],
+"הורץ": [
+"être précipité",
+"être accéléré"
+],
+"הורתח": [
+"être bouilli",
+"être porté à ébullition"
+],
+"הושהה": [
+"être retardé",
+"être différé",
+"être suspendu"
+],
+"גרבץ": [
+"glander",
+"se gratter les parties"
+],
+"גרען": [
+"épépiner",
+"dénoyauter"
+],
+"דגמן": [
+"défiler",
+"faire le mannequin"
+],
+"דופן": [
+"être doublé",
+"être revêtu"
+],
+"דורדר": [
+"être aggravé",
+"empirer"
+],
+"דיבב": [
+"faire parler",
+"inciter à parler"
+],
+"דיגם": [
+"échantillonner",
+"modéliser"
+],
+"דיהן": [],
+"דיוש": [
+"fouler",
+"battre"
+],
+"דיקר": [
+"poignarder",
+"percer"
+],
+"דישן": [
+"fertiliser",
+"enrichir"
+],
+"דפרס": [],
+"האליל": [
+"idolâtrer",
+"déifier"
+],
+"האניש": [
+"rendre malade",
+"aggraver"
+],
+"הבכיר": [
+"produire précocement",
+"mûrir tôt"
+],
+"הבליח": [
+"apparaître brièvement",
+"poindre"
+],
+"הבריך": [
+"marcotter",
+"greffer"
+],
+"הגלה": [
+"exiler",
+"déporter"
+],
+"הגמיש": [
+"assouplir",
+"rendre flexible"
+],
+"הדביר": [
+"réprimer",
+"éradiquer"
+],
+"הדהיר": [
+"faire galoper",
+"lancer à toute vitesse"
+],
+"הדלה": [
+"hisser",
+"extraire"
+],
+"הדמים": [
+"immobiliser",
+"réduire au silence"
+],
+"הואכל": [
+"être consumé",
+"être rongé"
+],
+"הואפל": [
+"être obscurci",
+"être éclipsé"
+],
+"הובהל": [
+"être effrayé",
+"être alarmé"
+],
+"הובלט": [
+"être mis en valeur",
+"être souligné"
+],
+"הובלע": [
+"être englouti",
+"être insinué"
+],
+"הובע": [
+"être exprimé",
+"être formulé"
+],
+"הובער": [
+"être allumé",
+"être embrasé"
+],
+"הצר": [
+"resserrer",
+"opprimer"
+],
+"הצריד": [],
+"הצריח": [
+"faire crier"
+],
+"הקיז": [
+"saigner",
+"purger"
+],
+"הקצין": [
+"radicaliser",
+"rendre extrême"
+],
+"הקרים": [
+"recouvrir de crème"
+],
+"הקריץ": [],
+"הרעים": [
+"faire tonner",
+"gronder"
+],
+"הרצין": [],
+"הרקיד": [
+"faire danser",
+"faire sautiller"
+],
+"השביז": [],
+"השטנקר": [],
+"השכין": [
+"installer",
+"faire habiter"
+],
+"השמיל": [],
+"השניא": [
+"faire détester",
+"rendre odieux"
+],
+"השפיט": [],
+"השתבץ": [
+"s'insérer",
+"être affecté"
+],
+"השתגר": [
+"se lancer",
+"être lancé"
+],
+"השתדך": [
+"se fiancer",
+"se marier"
+],
+"השתופף": [
+"se courber",
+"s'accroupir"
+],
+"השתכלל": [
+"s'améliorer",
+"se perfectionner"
+],
+"השתלשל": [
+"pendre",
+"descendre",
+"s'enchaîner"
+],
+"השתפל": [
+"s'abaisser",
+"s'humilier"
+],
+"השתפשף": [
+"se frotter",
+"s'écorcher",
+"se faire la main"
+],
+"השתרבב": [
+"se glisser",
+"s'insérer"
+],
+"השתרג": [
+"s'entrelacer",
+"s'enchevêtrer"
+],
+"התאורר": [
+"s'aérer"
+],
+"התאזר": [
+"s'armer",
+"se préparer"
+],
+"התאיד": [
+"s'évaporer"
+],
+"התאכלס": [
+"se peupler",
+"être occupé"
+],
+"הושוה": [
+"être égalé",
+"être comparé"
+],
+"הושחז": [
+"être aiguisé",
+"être affûté"
+],
+"הושחל": [
+"être enfilé",
+"être inséré"
+],
+"הושחם": [],
+"הושכח": [
+"être oublié"
+],
+"הושלש": [
+"être divisé en trois",
+"être triplé"
+],
+"הושמץ": [
+"être diffamé",
+"être dénigré"
+],
+"הושקט": [
+"être calmé",
+"être apaisé"
+],
+"הושר": [],
+"הושרה": [
+"être induit",
+"être imprégné"
+],
+"הותז": [
+"être éclaboussé",
+"être projeté",
+"être décapité"
+],
+"הותנע": [
+"être démarré",
+"être mis en marche"
+],
+"הותסס": [
+"être fermenté",
+"être fomenté"
+],
+"הותעה": [
+"être égaré",
+"être induit en erreur"
+],
+"הותפל-huf": [
+"être dessalé",
+"être purifié"
+],
+"הותר": [
+"être permis",
+"être détaché"
+],
+"הותרם": [
+"être donné",
+"être versé"
+],
+"הזדוג": [
+"s'accoupler",
+"s'apparier"
+],
+"הזדחל": [
+"ramper",
+"se traîner"
+],
+"הזדכה": [],
+"הזדכך": [
+"s'affiner",
+"se purifier"
+],
+"הזדמזם": [
+"fredonner",
+"bourdonner"
+],
+"הזדנב": [
+"traîner derrière",
+"suivre de près"
+],
+"הזדעק": [
+"s'alarmer",
+"crier",
+"appeler au secours"
+],
+"הזדרגג": [],
+"הזחיל": [
+"faire ramper"
+],
+"הזיח": [],
+"הזקין": [
+"faire vieillir"
+],
+"הזקיף": [
+"redresser",
+"dresser"
+],
+"הזריע": [
+"inséminer",
+"ensemencer"
+],
+"החשה": [
+"faire taire",
+"réduire au silence"
+],
+"החשיד": [
+"incriminer",
+"accuser"
+],
+"הטרים": [
+"anticiper",
+"préfigurer"
+],
+"הידין": [
+"débattre",
+"discuter",
+"plaider"
+],
+"הידלדל": [
+"s’appauvrir",
+"s’affaiblir",
+"dépérir"
+],
+"הידלל": [
+"se diluer",
+"s’éclaircir",
+"diminuer"
+],
+"הידר": [
+"orner",
+"embellir",
+"honorer"
+],
+"הישיר": [
+"redresser",
+"rectifier"
+],
+"היתמם": [
+"faire l’innocent",
+"feindre la naïveté"
+],
+"הכהה": [
+"affaiblir",
+"ternir",
+"obscurcir"
+],
+"הכוין": [
+"orienter",
+"diriger",
+"régler"
+],
+"הכליב": [
+"agrafer",
+"coudre à grands points"
+],
+"הכליר": [],
+"הכרית": [
+"éradiquer",
+"exterminer",
+"abattre"
+],
+"הכתיף": [
+"porter sur l’épaule",
+"épauler"
+],
+"הלעיז": [
+"calomnier",
+"diffamer",
+"dénigrer"
+],
+"המם": [
+"étourdir",
+"assommer",
+"stupéfier"
+],
+"המעיד": [
+"faire trébucher",
+"faire tomber"
+],
+"המשיל": [
+"comparer",
+"assimiler"
+],
+"הנביט": [
+"faire germer",
+"faire pousser"
+],
+"הנגיד": [
+"déclarer",
+"annoncer",
+"rapporter"
+],
+"הניס": [
+"faire fuir",
+"chasser"
+],
+"הנשים": [
+"réanimer",
+"pratiquer la respiration artificielle"
+],
+"הסעיד": [
+"servir un repas",
+"nourrir"
+],
+"הסתאב": [
+"se corrompre",
+"se salir"
+],
+"הסתבן": [
+"se savonner"
+],
+"הסתגף": [
+"se mortifier",
+"se flageller"
+],
+"הסתוה": [
+"se camoufler",
+"se déguiser"
+],
+"הסתחבק": [
+"s’embrasser",
+"se serrer dans les bras"
+],
+"הסתיג": [
+"émettre des réserves",
+"prendre ses distances",
+"se désolidariser"
+],
+"הסתיד": [
+"se calcifier"
+],
+"הסתיע": [
+"recourir à",
+"se faire aider"
+],
+"הסתמם": [
+"se droguer",
+"s'intoxiquer"
+],
+"הסתנור": [
+"s'éblouir",
+"être ébloui"
+],
+"הסתנכרן": [
+"se synchroniser"
+],
+"הסתפח": [
+"se joindre à",
+"être rattaché à",
+"s'annexer"
+],
+"הסתרבל": [
+"enfiler une salopette",
+"se compliquer"
+],
+"הסתרח": [
+"s'étendre",
+"se prélasser"
+],
+"העביש": [
+"faire moisir",
+"faire pourrir"
+],
+"העוה": [
+"déformer",
+"tordre"
+],
+"העזיב": [
+"faire partir",
+"expulser"
+],
+"העריף": [
+"décapiter"
+],
+"העתיר": [
+"supplier",
+"implorer"
+],
+"הפליק": [
+"gifler",
+"claquer"
+],
+"הפריט": [
+"détailler",
+"énumérer",
+"privatiser"
+],
+"הצטבע": [
+"se teindre",
+"se colorer"
+],
+"הצטווה": [
+"recevoir l'ordre de",
+"se voir ordonner de"
+],
+"הצטחצח": [
+"se polir",
+"se lustrer"
+],
+"הצטיד": [
+"s'équiper",
+"se pourvoir",
+"s'approvisionner"
+],
+"הצטין": [
+"exceller",
+"se distinguer"
+],
+"הצטיר": [
+"être dessiné",
+"être représenté",
+"apparaître"
+],
+"הצטלל": [
+"s'éclaircir",
+"devenir limpide"
+],
+"הצטלצל": [
+"téléphoner",
+"s'appeler"
+],
+"הצטלק": [
+"se cicatriser"
+],
+"הצטנע": [
+"être modeste",
+"faire preuve de modestie",
+"se faire discret"
+],
+"הצטנף": [
+"se recroqueviller",
+"se blottir"
+],
+"הצטעף": [],
+"הצטעצע": [
+"se pomponner",
+"se faire beau"
+],
+"הצטעק": [
+"crier",
+"s'écrier"
+],
+"הצמיג": [],
+"התאנח": [
+"soupirer",
+"gémir"
+],
+"התבאס": [
+"déprimer",
+"se sentir déprimé"
+],
+"התבאר": [
+"s’éclaircir",
+"devenir clair"
+],
+"התבדה": [
+"se tromper",
+"se révéler dans l’erreur"
+],
+"התבדל": [
+"se séparer",
+"se distinguer"
+],
+"התבהם": [
+"se bestialiser"
+],
+"התבושש": [
+"tarder",
+"s’attarder"
+],
+"התבזה": [
+"se déshonorer",
+"se ridiculiser"
+],
+"התבית": [
+"se domestiquer"
+],
+"התבלגן": [
+"se désorganiser",
+"se dérégler"
+],
+"התברגן": [
+"se bourgeoisifier"
+],
+"התברדק": [
+"se désorganiser"
+],
+"התגבן": [
+"cailler"
+],
+"התגדר": [],
+"התגון": [
+"se diversifier",
+"varier"
+],
+"התגלץ׳": [],
+"התגלש": [
+"surfer",
+"glisser"
+],
+"התגמש": [
+"s’assouplir",
+"devenir flexible"
+],
+"התדבק": [
+"adhérer",
+"se coller"
+],
+"התדין": [
+"discuter",
+"débattre"
+],
+"התהדק": [
+"se resserrer",
+"se comprimer"
+],
+"התהולל": [
+"se déchaîner",
+"faire la fête"
+],
+"התהפנט": [
+"être hypnotisé"
+],
+"התודה": [
+"se confesser",
+"avouer"
+],
+"התועד": [
+"se rencontrer"
+],
+"התחגר": [
+"se ceindre",
+"s’équiper"
+],
+"התחור": [
+"s’éclaircir",
+"devenir clair"
+],
+"התחיב": [
+"s’engager",
+"être obligé",
+"être redevable"
+],
+"התחכם": [
+"faire le malin",
+"ruser"
+],
+"התחלן": [
+"se séculariser"
+],
+"התחלש": [
+"s'affaiblir",
+"devenir faible"
+],
+"התחנחן": [
+"minauder",
+"faire du charme",
+"chercher à amadouer"
+],
+"התחסל": [
+"se faire éliminer",
+"être liquidé"
+],
+"התחספס": [
+"devenir rugueux",
+"se durcir"
+],
+"התחפר": [
+"s'enterrer",
+"se retrancher",
+"s'enfoncer"
+],
+"התחרדן": [
+"devenir ultraorthodoxe"
+],
+"התחרמן": [
+"s'exciter sexuellement",
+"être excité"
+],
+"התחרע": [
+"se déchaîner",
+"faire le fou"
+],
+"התחשש": [
+"s'inquiéter",
+"craindre"
+],
+"התחתך": [
+"se couper",
+"être coupé"
+],
+"התיגע": [
+"s'épuiser",
+"se fatiguer",
+"peiner"
+],
+"התיהר": [
+"se vanter",
+"faire le fier",
+"être arrogant"
+],
+"התיחד": [
+"s'isoler",
+"s'entretenir en privé"
+],
+"התיחם": [
+"entrer en chaleur",
+"être en chaleur"
+],
+"התילד": [
+"faire l'enfant",
+"se comporter comme un enfant"
+],
+"התימר": [
+"prétendre",
+"se targuer de",
+"s'arroger"
+],
+"התיסר": [
+"souffrir",
+"être tourmenté",
+"se tourmenter"
+],
+"התיעל": [
+"gagner en efficacité",
+"devenir plus efficace"
+],
+"התיפה": [
+"s'embellir",
+"se faire beau"
+],
+"התיפיף": [
+"faire le beau",
+"se donner le beau rôle"
+],
+"התישן": [
+"vieillir",
+"devenir désuet"
+],
+"התישר": [
+"se redresser",
+"s'aligner",
+"se mettre droit"
+],
+"התיתם": [
+"devenir orphelin"
+],
+"התכדר": [],
+"התכהה": [
+"s'assombrir",
+"devenir terne"
+],
+"התכלכל": [
+"subvenir à ses besoins",
+"vivre de ses moyens"
+],
+"התכער": [
+"s'enlaidir"
+],
+"התכפתר": [
+"se boutonner"
+],
+"התלבן": [
+"blanchir",
+"devenir blanc"
+],
+"התלהם": [
+"s'emporter",
+"se montrer agressif",
+"se déchaîner"
+],
+"התעות": [
+"se déformer",
+"se tordre"
+],
+"התעכר": [
+"se troubler",
+"se gâter"
+],
+"התעלק": [
+"s'accrocher à",
+"parasiter"
+],
+"התענין": [
+"s'intéresser"
+],
+"התערבל": [
+"se mélanger",
+"tourbillonner"
+],
+"התערטל": [
+"se déshabiller",
+"se dénuder"
+],
+"התערסל": [
+"se balancer"
+],
+"התערער": [
+"s'ébranler",
+"se fragiliser"
+],
+"התפדח": [
+"être gêné",
+"être embarrassé"
+],
+"התפחם": [
+"se noircir",
+"se couvrir de suie"
+],
+"התפטם": [
+"s'engraisser",
+"se gaver"
+],
+"התפיד": [
+"se volatiliser",
+"s'évaporer"
+],
+"התפיח-hit": [
+"se couvrir de suie"
+],
+"התפיס": [
+"se réconcilier",
+"faire la paix"
+],
+"התפלג": [
+"se diviser",
+"se séparer"
+],
+"התפלסף": [
+"philosopher",
+"ergoter"
+],
+"התפלפל": [
+"ergoter",
+"chipoter"
+],
+"התפלץ": [
+"être horrifié",
+"être épouvanté"
+],
+"התפלק": [],
+"התפנן": [
+"se détendre",
+"se prélasser"
+],
+"התפנק": [
+"se faire dorloter",
+"se gâter"
+],
+"התפענח": [
+"se déchiffrer",
+"se résoudre"
+],
+"התפצח": [
+"se fendre",
+"éclater"
+],
+"התפצלח": [],
+"התפקד": [
+"s'inscrire",
+"se faire recenser"
+],
+"התפקח": [
+"reprendre ses esprits",
+"ouvrir les yeux"
+],
+"התפקס": [
+"se concentrer"
+],
+"התפקק": [
+"se boucher",
+"s'obstruer"
+],
+"התפקר": [
+"se détourner de la religion",
+"devenir irréligieux"
+],
+"התפקשש": [
+"foirer",
+"déconner"
+],
+"התלחלח": [
+"s'humidifier"
+],
+"התלחשש": [
+"chuchoter"
+],
+"התלקט": [
+"se rassembler",
+"s'amasser"
+],
+"התלקלק": [],
+"התלקק": [
+"se lécher"
+],
+"התמגל": [
+"suppurer"
+],
+"התמגנט": [
+"s'aimanter"
+],
+"התמין": [
+"être classé",
+"passer une sélection"
+],
+"התממשק": [
+"s'interfacer",
+"se connecter"
+],
+"התמסחר": [
+"se commercialiser"
+],
+"התמסכן": [
+"jouer les malheureux",
+"s'appauvrir"
+],
+"התמסמס": [
+"se dissoudre",
+"s'effacer",
+"s'évanouir"
+],
+"התמעט": [
+"diminuer",
+"se réduire"
+],
+"התמצה": [
+"se résumer à",
+"se réduire à"
+],
+"התמרד": [
+"se rebeller"
+],
+"התמרח": [
+"s'étaler",
+"traîner"
+],
+"התמרכז": [
+"se centraliser"
+],
+"התמשכל": [],
+"התנגב": [
+"s'essuyer",
+"se sécher"
+],
+"התנון": [
+"s'atrophier",
+"dépérir"
+],
+"התנוצץ": [
+"scintiller",
+"étinceler"
+],
+"התנחם": [
+"se consoler"
+],
+"התנמנם": [
+"somnoler",
+"faire un somme"
+],
+"התנסח": [
+"se formuler",
+"s'exprimer"
+],
+"התנצח": [
+"se disputer",
+"débattre"
+],
+"התנקז": [
+"converger",
+"se déverser"
+],
+"התנקנק": [
+"se défiler",
+"se dégonfler"
+],
+"התעבר": [
+"se mettre en colère"
+],
+"התעגל": [
+"s'arrondir"
+],
+"התעה": [
+"égarer",
+"induire en erreur"
+],
+"זווג": [
+"être apparié",
+"être accouplé"
+],
+"זוכך": [
+"être purifié",
+"être affiné"
+],
+"זופת": [
+"être goudronné"
+],
+"זיער": [
+"réduire",
+"diminuer"
+],
+"זיפת": [
+"goudronner"
+],
+"זיקר": [],
+"זלף": [
+"asperger",
+"pulvériser"
+],
+"זפזפ": [],
+"זרגג": [],
+"חוטא": [
+"être désinfecté",
+"être stérilisé"
+],
+"חוטב": [
+"être taillé",
+"être sculpté"
+],
+"חויל": [
+"être enrôlé"
+],
+"חולל-pu": [
+"être profané",
+"être violé"
+],
+"חולן": [
+"être sécularisé"
+],
+"חומש": [
+"être armé",
+"être équipé"
+],
+"חוסן": [
+"être renforcé",
+"être immunisé"
+],
+"חוקק": [
+"être légiféré",
+"être gravé"
+],
+"חותל": [
+"être emmailloté",
+"être enveloppé"
+],
+"חיוה": [
+"exprimer",
+"manifester"
+],
+"חיכך": [
+"frotter",
+"frotter contre"
+],
+"חיסן": [
+"immuniser",
+"renforcer"
+],
+"חישש": [
+"craindre",
+"redouter"
+],
+"חיתל": [
+"emmailloter",
+"envelopper"
+],
+"חנן": [
+"pardonner",
+"gracier",
+"avoir pitié",
+"traiter avec bonté"
+],
+"חספס": [
+"rendre rugueux",
+"rendre rêche"
+],
+"חפן": [
+"saisir à pleines mains",
+"prendre une poignée"
+],
+"חצצר": [
+"sonner de la trompette"
+],
+"חרמן": [
+"exciter sexuellement"
+],
+"חשבן": [
+"régler ses comptes",
+"demander des comptes"
+],
+"חשך": [
+"retenir",
+"épargner",
+"s'abstenir de"
+],
+"התפרכס": [
+"se pomponner",
+"se maquiller avec excès"
+],
+"התפרס": [
+"s’étendre",
+"se déployer"
+],
+"התפרקד": [
+"s’allonger sur le dos"
+],
+"התפשל": [
+"échouer",
+"se planter"
+],
+"התקדר": [
+"s’assombrir",
+"se couvrir de nuages"
+],
+"התקהה": [
+"s’émousser",
+"s’user"
+],
+"התקוצ׳ץ׳": [],
+"התקזז": [
+"se compenser",
+"se déduire"
+],
+"התקיל": [
+"faire trébucher",
+"mettre en difficulté",
+"faire obstacle"
+],
+"התקים": [
+"exister",
+"avoir lieu",
+"se réaliser",
+"être accompli"
+],
+"התקמבק": [
+"faire son retour",
+"revenir"
+],
+"התקמר": [
+"se voûter",
+"se courber"
+],
+"התקער": [
+"se creuser",
+"se bomber vers l’intérieur"
+],
+"התקרזל": [],
+"התקרצף": [
+"se frotter",
+"se récurer"
+],
+"התקרש": [
+"coaguler",
+"se figer",
+"se gélifier"
+],
+"התקשט": [
+"se parer",
+"s’orner"
+],
+"התקשקש": [
+"bavarder",
+"baragouiner"
+],
+"התרבד": [
+"se stratifier",
+"se couvrir d’une couche"
+],
+"התרבע": [],
+"התרוח": [
+"s’étendre",
+"se détendre"
+],
+"התרופף": [
+"se relâcher",
+"se desserrer",
+"s’affaiblir"
+],
+"התרטב": [
+"se mouiller"
+],
+"התרים": [
+"donner",
+"verser",
+"contribuer"
+],
+"התריע": [
+"avertir",
+"donner l’alerte"
+],
+"התרכב": [
+"s’assembler",
+"se monter"
+],
+"התרסן": [
+"se maîtriser",
+"se contenir"
+],
+"התרפט": [
+"s’user",
+"se relâcher"
+],
+"התרקם": [
+"se broder",
+"se tramer",
+"se former"
+],
+"זובל": [
+"être fertilisé",
+"être fumé"
+],
+"טויב": [
+"être bonifié",
+"être amendé"
+],
+"טויח": [
+"être enduit",
+"être blanchi"
+],
+"טומא": [
+"être rendu impur",
+"être souillé"
+],
+"טופח": [
+"être cultivé",
+"être entretenu"
+],
+"טופטף": [
+"être aspergé goutte à goutte"
+],
+"טורפד": [
+"être torpillé",
+"être saboté"
+],
+"טושטש": [
+"être brouillé",
+"être rendu méconnaissable"
+],
+"טיבל": [
+"tremper"
+],
+"טיוח": [
+"viser",
+"régler le tir"
+],
+"טיכס": [],
+"טימא": [
+"souiller",
+"rendre impur"
+],
+"טכסס": [],
+"טמא": [
+"être impur"
+],
+"טמטם": [
+"abrutir",
+"engourdir"
+],
+"טקבק": [],
+"טקטק": [
+"faire tic-tac",
+"taper"
+],
+"טרד": [
+"déranger",
+"harceler"
+],
+"טרלל": [
+"rendre fou",
+"dérailler"
+],
+"יוחד": [
+"être désigné",
+"être réservé"
+],
+"יולד": [
+"être mis au monde",
+"naître"
+],
+"יוסף": [
+"être ajouté"
+],
+"יוער": [
+"être reboisé"
+],
+"יוצב": [
+"être placé",
+"être installé",
+"être stabilisé"
+],
+"יושר": [
+"être redressé",
+"être rectifié",
+"être aligné"
+],
+"ייבם": [
+"épouser en lévirat"
+],
+"יידה": [
+"jeter",
+"lancer"
+],
+"ייהד": [
+"judaïser"
+],
+"ייסף": [],
+"ייקר": [
+"renchérir",
+"augmenter le prix de"
+],
+"יסד": [
+"fonder",
+"établir"
+],
+"כויל": [
+"être calibré"
+],
+"כומת": [
+"être quantifié"
+],
+"כונה": [
+"être nommé",
+"être appelé"
+],
+"כופתר": [
+"être boutonné"
+],
+"כורטס": [],
+"כורסם": [
+"être rongé",
+"être grignoté"
+],
+"כידן": [],
+"כייל": [
+"calibrer",
+"mesurer"
+],
+"כינר": [
+"jouer de la harpe"
+],
+"כיער": [
+"enlaidir",
+"défigurer"
+],
+"כיתת": [
+"écraser",
+"broyer",
+"battre"
+],
+"כנס": [
+"rassembler",
+"réunir",
+"collecter"
+],
+"כסתח": [
+"se couvrir",
+"couvrir ses arrières"
+],
+"כעכע": [],
+"כפתר-pa": [
+"boutonner"
+],
+"כרבל": [
+"câliner"
+],
+"כרטס": [],
+"כרכר": [
+"danser",
+"tournoyer"
+],
+"כתת": [
+"écraser",
+"broyer"
+],
+"לוהק": [
+"être distribué dans un rôle",
+"être auditionné"
+],
+"לוטף": [
+"être caressé",
+"être cajolé"
+],
+"לוכד": [
+"être capturé",
+"être saisi"
+],
+"לופף": [
+"être enroulé",
+"être enveloppé"
+],
+"לוקט": [
+"être ramassé",
+"être collecté",
+"être cueilli"
+],
+"לחשש": [
+"chuchoter",
+"murmurer"
+],
+"ליחף": [],
+"לקלק": [],
+"מדרג": [
+"classer",
+"hiérarchiser"
+],
+"מוגנט": [
+"être aimanté",
+"être magnétisé"
+],
+"מוגר": [
+"être éradiqué",
+"être éliminé"
+],
+"נאק": [
+"gémir",
+"se lamenter"
+],
+"נארג": [
+"être tissé"
+],
+"נארז": [
+"être emballé"
+],
+"נבוך": [],
+"נבחש": [
+"être remué",
+"être mélangé"
+],
+"נבקע": [
+"se fendre",
+"être fendu",
+"éclater"
+],
+"נבר": [],
+"נגזם": [
+"être taillé",
+"être élagué"
+],
+"נגרף": [
+"être ratissé",
+"être balayé"
+],
+"נדחס": [
+"être comprimé"
+],
+"נהדף": [
+"être repoussé"
+],
+"נוגב": [
+"être essuyé",
+"être séché"
+],
+"נוגן": [
+"être joué",
+"résonner"
+],
+"נוחם": [
+"être consolé"
+],
+"נוסח": [
+"être formulé",
+"être rédigé"
+],
+"נוסר": [
+"être scié"
+],
+"נוענע": [
+"être secoué"
+],
+"נופץ": [
+"être brisé",
+"être détruit"
+],
+"נוצר-pu": [
+"être gardé",
+"être protégé"
+],
+"נוקד": [
+"être ponctué",
+"être vocalisé"
+],
+"נוקז": [
+"être drainé",
+"être saigné"
+],
+"נושל": [
+"être arraché",
+"être détaché"
+],
+"נותח": [
+"être opéré",
+"être disséqué"
+],
+"נזעק": [
+"être appelé d'urgence",
+"accourir"
+],
+"נזקף": [
+"se redresser",
+"être redressé"
+],
+"נזרע": [
+"être semé",
+"être ensemencé"
+],
+"נחבט": [
+"être frappé",
+"être heurté"
+],
+"נחבש": [
+"être pansé",
+"être bandé"
+],
+"נחגר": [
+"se ceindre",
+"être ceint"
+],
+"נחטב": [
+"être taillé",
+"être sculpté"
+],
+"נכרך": [
+"s’enrouler",
+"être enveloppé"
+],
+"נלבש": [
+"être porté",
+"être vêtu"
+],
+"נלחש": [
+"être chuchoté",
+"être murmuré"
+],
+"נלטש": [
+"être poli",
+"être affûté"
+],
+"נלעס": [
+"être mâché"
+],
+"נלקט": [
+"être cueilli",
+"être ramassé",
+"être collecté"
+],
+"נמוט": [
+"vaciller",
+"être ébranlé"
+],
+"נמחל": [
+"être pardonné"
+],
+"נמחץ": [
+"être écrasé",
+"être broyé"
+],
+"נמלח": [
+"être salé"
+],
+"נמלך": [
+"consulter",
+"prendre conseil"
+],
+"נמען": [],
+"נמצץ": [
+"être sucé"
+],
+"נמרט": [
+"être épilé",
+"être arraché"
+],
+"נמשה": [
+"être repêché",
+"être retiré de l’eau"
+],
+"נמשח": [
+"être enduit",
+"être oint"
+],
+"נמשל": [
+"être comparé",
+"être assimilé"
+],
+"ננעץ": [
+"être enfoncé",
+"être fiché"
+],
+"נסחב": [
+"être traîné",
+"être porté"
+],
+"נסחר": [
+"être commercialisé",
+"être vendu"
+],
+"נסלח": [
+"être pardonné",
+"être excusé"
+],
+"נסלל": [
+"être pavé"
+],
+"נספח": [
+"être annexé",
+"être rattaché"
+],
+"נספר": [
+"être compté"
+],
+"נסקל": [
+"être lapidé"
+],
+"נסקר": [
+"être examiné",
+"être passé en revue"
+],
+"נסרג": [
+"être tricoté"
+],
+"נסרח": [
+"sentir mauvais",
+"pourrir"
+],
+"נסתם": [
+"être bouché",
+"être fermé"
+],
+"נעבר": [
+"être franchi",
+"être traversé"
+],
+"מודר": [
+"être exclu",
+"être mis à l’écart"
+],
+"מוחשב": [
+"être calculé",
+"être informatisé"
+],
+"מוין": [
+"être trié",
+"être classé",
+"être sélectionné"
+],
+"מוסחר": [
+"être commercialisé",
+"être marchandisé"
+],
+"מוסס": [
+"dissoudre",
+"faire fondre"
+],
+"מוען": [
+"être refusé"
+],
+"מוצה": [
+"être épuisé",
+"être extrait"
+],
+"מורק": [
+"être poli",
+"être nettoyé"
+],
+"מושכן": [
+"être hypothéqué",
+"être mis en gage"
+],
+"מותן": [
+"être modéré",
+"être tempéré"
+],
+"מותת": [
+"tuer",
+"faire mourir"
+],
+"מידר": [
+"compartimenter"
+],
+"מינח": [],
+"מינן": [
+"doser",
+"répartir"
+],
+"מיסד": [
+"institutionnaliser",
+"fonder"
+],
+"מיצק": [
+"couler",
+"mouler"
+],
+"מיתג": [
+"marquer",
+"étiqueter"
+],
+"מלח": [
+"saler"
+],
+"מלכד": [
+"piéger"
+],
+"מלק": [
+"tordre le cou",
+"égorger"
+],
+"מסגר": [
+"encadrer",
+"enfermer"
+],
+"מסטל": [
+"intoxiquer",
+"défoncer"
+],
+"מסמס": [
+"dissoudre",
+"faire fondre",
+"saper"
+],
+"מסמר": [
+"clouer"
+],
+"מסרר": [
+"envoyer un SMS",
+"envoyer un texto"
+],
+"מעכר": [
+"se troubler",
+"s’altérer"
+],
+"נאזר": [
+"s’armer",
+"se ceindre"
+],
+"נאטם": [
+"se boucher",
+"s’obturer",
+"se fermer"
+],
+"נאנס": [
+"être violé",
+"être contraint"
+],
+"נאפה": [
+"être cuit",
+"cuire au four"
+],
+"נחלב": [
+"être trait"
+],
+"נחנך": [
+"être inauguré",
+"être consacré"
+],
+"נחפר": [
+"être creusé"
+],
+"נחצב": [
+"être taillé",
+"être extrait"
+],
+"נחצה": [
+"être divisé en deux",
+"être partagé"
+],
+"נחרז": [
+"être enfilé",
+"être mis en rimes"
+],
+"נחרט": [
+"être gravé",
+"être ciselé"
+],
+"נחרש": [
+"être labouré"
+],
+"נטחן": [
+"être moulu",
+"être broyé"
+],
+"נטמא": [
+"devenir impur",
+"être souillé"
+],
+"נטמן": [
+"être caché",
+"être dissimulé"
+],
+"ניגח": [
+"encorner",
+"charger"
+],
+"ניג׳ס": [],
+"ניגף": [
+"être vaincu",
+"être frappé"
+],
+"ניגר": [
+"faire couler",
+"répandre"
+],
+"ניגר-nif": [
+"s'écouler",
+"couler"
+],
+"ניול": [
+"avilir",
+"dégrader",
+"profaner"
+],
+"ניזק": [
+"être endommagé",
+"être lésé"
+],
+"נימול": [
+"être circoncis"
+],
+"נימך": [
+"abaisser",
+"diminuer"
+],
+"ניפס": [],
+"נישל": [
+"faire tomber",
+"perdre"
+],
+"ניתז": [
+"être éclaboussé",
+"être projeté"
+],
+"ניתק-nif": [
+"être détaché",
+"être déconnecté",
+"être rompu"
+],
+"נכבל": [
+"être enchaîné",
+"être lié"
+],
+"נכבש": [
+"être conquis",
+"être soumis"
+],
+"נכלא": [
+"être emprisonné",
+"être enfermé"
+],
+"נכפל": [
+"être doublé",
+"être multiplié"
+],
+"נכפת": [
+"être lié",
+"être attaché"
+],
+"נכרה": [
+"être creusé",
+"être extrait"
+],
+"נעזב": [
+"être abandonné",
+"être laissé"
+],
+"נעכל": [
+"être digéré"
+],
+"נעלה": [
+"s'élever",
+"monter",
+"être élevé"
+],
+"נעקד": [
+"être lié",
+"être attaché"
+],
+"נערף": [
+"être décapité"
+],
+"נעשק": [
+"être opprimé",
+"être exploité"
+],
+"נפדה": [
+"être racheté",
+"être délivré contre rançon"
+],
+"נפוץ": [
+"être disséminé",
+"se disperser"
+],
+"נפנה": [
+"se tourner",
+"se diriger",
+"être orienté"
+],
+"נפער": [
+"béer",
+"s'ouvrir"
+],
+"נפקע": [
+"être exproprié",
+"être annulé",
+"se rompre"
+],
+"נפרט": [
+"être détaillé",
+"être énuméré"
+],
+"נפרס": [
+"être étalé",
+"se déployer"
+],
+"נפתל": [
+"être tordu",
+"s'enrouler"
+],
+"נצבט": [
+"être pincé"
+],
+"נצבר": [
+"s'accumuler",
+"être accumulé"
+],
+"נצלה": [
+"être rôti",
+"être grillé"
+],
+"נצרב": [
+"être gravé",
+"être brûlé"
+],
+"נצרד": [
+"devenir enroué"
+],
+"נצרף": [
+"être joint",
+"être combiné",
+"être affiné"
+],
+"נקבץ": [
+"être regroupé",
+"être rassemblé"
+],
+"נקדח": [
+"être percé",
+"être foré"
+],
+"נקדש": [
+"être consacré",
+"être sanctifié"
+],
+"נקוה": [
+"s'accumuler",
+"être rassemblé"
+],
+"נקטל": [
+"être tué"
+],
+"נקטם": [],
+"נקטף": [
+"être cueilli",
+"être récolté"
+],
+"נקלה": [
+"être grillé",
+"être toasté"
+],
+"נקמט": [
+"se froisser",
+"se rider"
+],
+"נקנק": [
+"se défiler",
+"se dégonfler"
+],
+"נקצץ": [
+"être coupé",
+"être haché"
+],
+"נקצר": [
+"se raccourcir",
+"être raccourci"
+],
+"נרחץ": [
+"se laver",
+"être lavé"
+],
+"נרכס": [
+"être boutonné",
+"se fermer"
+],
+"נרמז": [
+"être insinué",
+"être suggéré"
+],
+"נרמס": [
+"être piétiné",
+"être écrasé"
+],
+"נרעד": [
+"trembler",
+"être secoué"
+],
+"נרעש": [
+"être ébranlé",
+"trembler"
+],
+"נרקח": [
+"être préparé",
+"être concocté"
+],
+"נשאף": [
+"être inhalé",
+"être aspiré"
+],
+"נשחט": [
+"être égorgé",
+"être abattu"
+],
+"נשחת": [
+"être corrompu",
+"se corrompre"
+],
+"נשכר": [
+"être engagé",
+"être loué",
+"profiter"
+],
+"נשלף": [
+"être retiré",
+"être extrait"
+],
+"נשפד": [
+"être embroché"
+],
+"נשקף": [
+"être visible",
+"se profiler",
+"donner sur"
+],
+"נתחב": [
+"être inséré",
+"s'enfoncer"
+],
+"נתחם": [
+"être délimité",
+"être limité"
+],
+"נתפר": [
+"être cousu"
+],
+"נתש": [
+"arracher",
+"déraciner",
+"démolir"
+],
+"סגנן": [
+"styliser",
+"formuler"
+],
+"סובב-pu": [
+"être tourné",
+"être modifié",
+"être converti"
+],
+"סובך": [
+"être compliqué",
+"être emmêlé"
+],
+"סובן": [
+"être savonné"
+],
+"סובסד": [
+"être subventionné"
+],
+"סויד": [
+"être badigeonné",
+"être blanchi"
+],
+"סולף": [
+"être déformé",
+"être falsifié"
+],
+"סומא": [
+"être aveuglé"
+],
+"סונדל": [
+"être chaussé",
+"être sandalisé"
+],
+"סונור": [
+"être ébloui",
+"être aveuglé"
+],
+"ענטז": [
+"se déhancher",
+"twerker"
+],
+"עפעף": [
+"cligner des yeux",
+"battre des paupières"
+],
+"עץ": [
+"enfoncer",
+"planter",
+"ficher"
+],
+"ערטל": [
+"déshabiller",
+"dénuder"
+],
+"פוגג": [
+"dissiper",
+"dissoudre",
+"faire disparaître"
+],
+"פוחת": [
+"être réduit",
+"être diminué"
+],
+"פויס": [
+"être apaisé",
+"être réconcilié"
+],
+"פולג": [
+"être divisé",
+"être séparé"
+],
+"פולס": [
+"être nivelé"
+],
+"פוסל": [
+"être disqualifié",
+"être invalidé"
+],
+"פוסק": [
+"être interrompu",
+"être arrêté"
+],
+"פוצח": [
+"être cassé",
+"être ouvert",
+"être résolu"
+],
+"פוצץ-pu": [
+"être bombardé",
+"être mitraillé"
+],
+"פוצץ-pu-2": [
+"être bombardé",
+"être mitraillé"
+],
+"פורק": [
+"être démonté",
+"être défait"
+],
+"פורר-pu": [
+"être émietté",
+"être effrité"
+],
+"פורש": [
+"être expliqué",
+"être interprété"
+],
+"פזמן": [
+"composer des chansons",
+"chanter des chansons"
+],
+"פחלץ": [
+"empailler"
+],
+"פידח": [
+"embarrasser",
+"gêner"
+],
+"פיזז": [
+"danser",
+"sautiller",
+"cabrioler"
+],
+"פיחת": [
+"réduire",
+"diminuer"
+],
+"פיטם": [
+"engraisser",
+"gaver"
+],
+"פייד": [],
+"פייח": [
+"couvrir de suie",
+"noircir de suie"
+],
+"פינן": [],
+"פירז": [
+"exagérer",
+"abuser"
+],
+"פירק-pi": [
+"démonter",
+"défaire"
+],
+"פישק": [
+"écarter",
+"écarter les jambes"
+],
+"פישר": [
+"concilier",
+"arbitrer",
+"transiger"
+],
+"סונן": [
+"être filtré",
+"être tamisé"
+],
+"סורס": [
+"être castré",
+"être émasculé"
+],
+"סיאב": [
+"souiller",
+"corrompre"
+],
+"סיבב": [
+"faire tourner",
+"entourer",
+"tourner"
+],
+"סיגף": [
+"mortifier",
+"s’imposer des mortifications"
+],
+"סימא": [
+"aveugler"
+],
+"סיעף": [
+"ramifier",
+"émonder"
+],
+"סיתת": [
+"tailler",
+"ciseler"
+],
+"סלסל": [
+"friser",
+"boucler",
+"exalter"
+],
+"סמסם": [
+"envoyer un SMS",
+"textoter"
+],
+"סמפת": [
+"apprécier",
+"aimer bien",
+"avoir de la sympathie pour"
+],
+"סמרטט": [
+"maltraiter",
+"traiter comme un moins que rien"
+],
+"סמרר": [
+"horrifier",
+"épouvanter"
+],
+"סנדל": [
+"entraver",
+"handicaper"
+],
+"ספרר": [
+"numéroter",
+"attribuer un numéro"
+],
+"סרט": [
+"égratigner",
+"rayer"
+],
+"סרסר": [
+"servir d’intermédiaire",
+"courtiser",
+"proxénétiser"
+],
+"עברת": [
+"hébraïser"
+],
+"עובה": [
+"être épaissi",
+"être densifié"
+],
+"עוגל": [
+"être arrondi"
+],
+"עוכל": [
+"être digéré"
+],
+"עוקר": [
+"être arraché",
+"être déraciné",
+"être éliminé"
+],
+"עורב": [
+"être mélangé",
+"être mêlé"
+],
+"עורבב": [
+"être mélangé",
+"être mêlé"
+],
+"עורבל": [
+"être mélangé",
+"être brassé"
+],
+"עורטל": [
+"être déshabillé",
+"être dénudé"
+],
+"עט": [
+"fondre sur",
+"se jeter sur"
+],
+"עיגן": [
+"ancrer",
+"mouiller"
+],
+"עידן": [
+"raffiner",
+"affiner",
+"adoucir"
+],
+"עיכס": [
+"se pavaner",
+"défiler avec affectation"
+],
+"פכפך": [
+"bouillonner",
+"gargouiller"
+],
+"פער": [
+"béer",
+"ouvrir grand"
+],
+"פצלח": [],
+"פצמר": [],
+"פצפץ": [
+"crépit­er",
+"pétiller"
+],
+"פקנק": [
+"pique-niquer"
+],
+"פקשש": [
+"foirer",
+"rater"
+],
+"פרזל": [
+"ferrer",
+"garnir de pièces métalliques"
+],
+"פרכס": [
+"tressaillir",
+"avoir des convulsions"
+],
+"פרשן": [
+"commenter",
+"interpréter"
+],
+"פשק": [
+"écarter"
+],
+"פשתן": [],
+"צברח": [
+"irriter",
+"mettre de mauvaise humeur"
+],
+"צומק": [
+"être rétréci"
+],
+"צונתר": [],
+"צופף": [
+"entasser",
+"serrer",
+"tasser"
+],
+"צ׳ופר": [
+"être gâté",
+"être gratifié"
+],
+"ציחק": [
+"plaisanter",
+"rire"
+],
+"צילק": [
+"cicatriser",
+"marquer d’une cicatrice"
+],
+"צימח": [
+"faire pousser",
+"faire croître"
+],
+"צימק": [
+"rétrécir",
+"ratatiner"
+],
+"צ׳יפח": [],
+"צנתר": [],
+"צ׳קמק": [],
+"צרצר": [
+"striduler",
+"gazouiller"
+],
+"קובע-pu": [
+"être fixé",
+"être établi",
+"être renforcé"
+],
+"קווקו": [],
+"קוזז": [
+"être déduit",
+"se compenser"
+],
+"קולח": [
+"être douché",
+"être arrosé"
+],
+"קולף": [
+"être pelé",
+"être épluché",
+"s’écailler"
+],
+"קולקל": [
+"être abîmé",
+"être gâté",
+"être détérioré"
+],
+"קומח": [
+"être enfariné"
+],
+"קופד": [
+"être coupé"
+],
+"קופח": [
+"être lésé",
+"être privé"
+],
+"קופל": [
+"être plié"
+],
+"קוצ׳ץ׳": [],
+"קטם": [
+"couper",
+"tronquer"
+],
+"קטרג": [
+"accuser",
+"poursuivre"
+],
+"קיבע-pi": [
+"fixer",
+"établir",
+"rendre permanent"
+],
+"קיטב-pi": [
+"polariser"
+],
+"קילח": [],
+"קירה": [
+"couvrir d’un toit"
+],
+"קלטר": [],
+"קמבן": [],
+"קמבץ": [],
+"קמבק": [],
+"קפח": [
+"priver",
+"léser"
+],
+"קרזל": [],
+"קרקף": [],
+"רגן": [
+"grogner",
+"murmurer"
+],
+"רגש": [
+"s’agiter",
+"s’émouvoir"
+],
+"רואין": [
+"être interviewé"
+],
+"רודד": [
+"être déroulé",
+"être aplati"
+],
+"רומה": [
+"être trompé"
+],
+"רוסס": [
+"être pulvérisé",
+"être aspergé"
+],
+"רוצף": [
+"être carrelé",
+"être pavé"
+],
+"רוצץ": [
+"être écrasé",
+"être broyé"
+],
+"רוצץ-pi": [
+"écraser",
+"broyer"
+],
+"רוקע": [
+"être aplati",
+"être martelé"
+],
+"רחק": [
+"s’éloigner",
+"être distant"
+],
+"ריבד": [
+"stratifier",
+"recouvrir d’une couche"
+],
+"ריבה": [
+"augmenter",
+"multiplier"
+],
+"ריחק": [
+"éloigner",
+"écarter",
+"séparer"
+],
+"רינן": [
+"chanter",
+"entonner"
+],
+"ריפט": [],
+"ריצץ": [
+"écraser",
+"fracasser"
+],
+"רמזר": [
+"équiper de feux tricolores"
+],
+"רפרר": [],
+"רצע": [
+"percer",
+"transpercer"
+],
+"רקק": [
+"cracher"
+],
+"רשף": [],
+"שוגל": [
+"être violé"
+],
+"שודך": [
+"être fiancé",
+"être marié"
+],
+"שודל": [
+"être incité",
+"être sollicité"
+],
+"שוחזר": [
+"être reconstitué",
+"être restauré"
+],
+"שוטח": [
+"être aplati",
+"être étendu"
+],
+"שויך": [
+"être associé",
+"être rattaché"
+],
+"שויף": [
+"être limé",
+"être poncé"
+],
+"שוכך": [
+"être apaisé",
+"être calmé"
+],
+"שוכל": [
+"être privé de ses enfants"
+],
+"שוכן": [
+"être logé",
+"être installé"
+],
+"שוכתב": [
+"être réécrit",
+"être remanié"
+],
+"שולח": [
+"être envoyé",
+"être expédié"
+],
+"שולט": [
+"être imposé"
+],
+"שולשל": [
+"être abaissé",
+"être déroulé"
+],
+"שוסה": [
+"être lancé contre",
+"être excité contre"
+],
+"שוסע": [
+"être déchiré",
+"être fendu"
+],
+"שוסף": [
+"être mutilé",
+"être tailladé"
+],
+"שוערך": [],
+"שופד": [
+"être embroché",
+"être empalé"
+],
+"תקנן": [
+"standardiser",
+"normaliser"
+],
+"תקצב": [
+"allouer un budget",
+"budgéter"
+],
+"תש": [],
+"תשאל": [
+"interroger",
+"questionner"
+],
+"שופה": [
+"être indemnisé",
+"être dédommagé"
+],
+"שופץ": [
+"être rénové",
+"être restauré"
+],
+"שוקלל": [
+"être surpassé",
+"être vaincu"
+],
+"שוקם": [
+"être réhabilité",
+"être restauré"
+],
+"שוקע": [
+"être immergé",
+"être investi"
+],
+"שוקף": [
+"être reflété"
+],
+"שורבב": [
+"être inséré",
+"être intercalé"
+],
+"שורבט": [
+"être gribouillé",
+"être esquissé"
+],
+"שורטט": [
+"être dessiné"
+],
+"שורין": [
+"être réservé",
+"être blindé"
+],
+"שזר": [
+"tisser",
+"entrelacer"
+],
+"שיזף": [
+"bronz­er"
+],
+"שילט": [
+"contrôler",
+"dominer"
+],
+"שיקע": [
+"immerger",
+"enfoncer",
+"investir"
+],
+"שיתך": [],
+"שלהב": [
+"enflammer",
+"enthousiasmer"
+],
+"שלטט": [
+"zapper"
+],
+"שערך": [
+"réévaluer",
+"indexer"
+],
+"שעתק": [
+"dupliquer",
+"reproduire"
+],
+"שפצר": [],
+"שרין": [
+"réserver",
+"blinder"
+],
+"שרשר": [
+"enchaîner",
+"relier"
+],
+"תבלן": [
+"assaisonner",
+"épic­er"
+],
+"תדרך": [
+"guider",
+"instruire"
+],
+"תואם": [
+"être adapté",
+"être ajusté",
+"être coordonné"
+],
+"תוארך": [
+"être prolongé",
+"être allongé"
+],
+"תובל-pu": [
+"être assaisonné",
+"être parfumé"
+],
+"תוגבר": [
+"être renforcé",
+"être augmenté"
+],
+"תווך": [
+"être médiatisé",
+"être négocié"
+],
+"תוזמן": [
+"être programmé",
+"être invité"
+],
+"תוזמר": [],
+"תויר": [],
+"תוכנת": [
+"être programmé"
+],
+"תולתל": [
+"être bouclé",
+"être frisé"
+],
+"תומלל": [
+"être transcrit",
+"être mis par écrit"
+],
+"תומצת": [
+"être résumé",
+"être condensé"
+],
+"תומרן": [
+"être manœuvré"
+],
+"תומרץ": [
+"être motivé",
+"être stimulé"
+],
+"תועל": [
+"être canalisé"
+],
+"תועתק": [
+"être copié",
+"être transféré"
+],
+"תופקד": [
+"être affecté"
+],
+"תוקנן": [
+"être normalisé"
+],
+"תוקצב": [
+"être budgété",
+"être financé"
+],
+"תוקצר": [
+"être raccourci",
+"être résumé"
+],
+"תוקשר": [
+"être relié",
+"être mis en communication"
+],
+"תורץ": [
+"être justifié",
+"être excusé"
+],
+"תושאל": [],
+"תזמר": [
+"jouer de la musique",
+"tailler"
+],
+"תחבל": [
+"saboter"
+],
+"תחכם": [
+"sophistiquer",
+"perfectionner"
+],
+"תיזז": [
+"déplacer"
+],
+"תיחח": [],
+"תייר": [
+"visiter",
+"parcourir"
+],
+"תכסס": [],
+"תכף": [],
+"תמחר": [
+"tarifer",
+"fixer le prix de"
+],
+"תמרץ": [
+"motiver",
+"stimuler"
+],
+"תסכת": [],
+"תסרט": [
+"filmer"
+],
+"תעתק": [
+"copier",
+"transcrire",
+"dupliquer"
+],
+"צהל": [
+"hennir",
+"exulter"
+],
+"צרב": [
+"brûler",
+"graver"
+],
+"קימח": [
+"fariner",
+"saupoudrer de farine"
+],
+"קשקש": [
+"griffonner",
+"bavarder",
+"jacasser"
+],
+"שובש": [
+"être perturbé",
+"être déréglé"
+],
+"שיבש": [
+"perturber",
+"dérégler",
+"brouiller"
+],
+"דיור": [
+"envoyer par courrier"
+],
+"הוסר": [
+"être retiré",
+"être enlevé"
+],
+"הופרד": [
+"être séparé"
+],
+"הורם": [
+"être levé",
+"être relevé"
+],
+"הושאר": [
+"être laissé",
+"être conservé"
+],
+"החתים": [
+"faire signer",
+"recueillir des signatures"
+],
+"הטריף": [
+"rendre fou",
+"rendre non casher",
+"fouetter"
+],
+"המריץ": [
+"stimuler",
+"encourager",
+"exciter"
+],
+"הניד": [
+"faire bouger",
+"secouer"
+],
+"הצטלב": [
+"se croiser",
+"se croiser les bras"
+],
+"הצמיא": [
+"donner soif"
+],
+"התבסס": [
+"s'établir",
+"se fonder",
+"se consolider"
+],
+"התמוגג": [
+"fondre",
+"se liquéfier"
+],
+"התמקם": [
+"se positionner",
+"s'installer"
+],
+"התנתק": [
+"se déconnecter",
+"se détacher",
+"se séparer"
+],
+"התעמת": [
+"s'affronter",
+"se confronter"
+],
+"זינק": [
+"bondir",
+"s'élancer",
+"s'envoler"
+],
+"זרה": [
+"disperser",
+"éparpiller",
+"vanner"
+],
+"חרג": [
+"dévier",
+"dépasser"
+],
+"חשמל": [
+"électrifier"
+],
+"כייר": [
+"illustrer"
+],
+"נמנה": [
+"être compté",
+"être inclus",
+"faire partie de"
+],
+"ננזף": [
+"être réprimandé",
+"se faire gronder"
+],
+"נרדף": [
+"être poursuivi",
+"être traqué"
+],
+"חרט": [
+"graver",
+"ciseler"
+],
+"מירק": [
+"polir",
+"nettoyer"
+],
+"נאנח": [
+"soupirer",
+"gémir"
+],
+"נגזר": [
+"être coupé",
+"être décrété"
+],
+"נגמל": [
+"être sevré"
+],
+"נותק": [
+"être déconnecté",
+"être détaché"
+],
+"נחתך": [
+"être coupé",
+"être tranché",
+"être décidé"
+],
+"סב": [
+"tourner",
+"pivoter",
+"contourner"
+],
+"סימס": [
+"envoyer un SMS",
+"envoyer un texto"
+],
+"עיקם": [
+"tordre",
+"courber"
+],
+"פונק": [
+"être dorloté",
+"être choyé",
+"être gâté"
+],
+"קבל": [
+"se plaindre",
+"protester"
+],
+"שיטה": [
+"tromper",
+"duper",
+"berner"
+],
+"תורבת": [
+"être cultivé",
+"être mis en culture"
+],
+"אוזן": [
+"être équilibré",
+"être réglé",
+"être accordé"
+],
+"בוצע": [
+"être exécuté",
+"être réalisé"
+],
+"הוזהר": [
+"être averti",
+"être prévenu"
+],
+"הועסק": [
+"être employé",
+"être occupé"
+],
+"הופנם": [
+"être intériorisé",
+"être assimilé"
+],
+"הושג": [
+"être obtenu",
+"être atteint"
+],
+"הושחת": [
+"être corrompu",
+"être détruit",
+"être détérioré"
+],
+"הטעין": [
+"charger",
+"recharger"
+],
+"העיק": [
+"gêner",
+"opprimer",
+"peser sur"
+],
+"התבצע": [
+"se dérouler",
+"être effectué",
+"être réalisé"
+],
+"התפצל": [
+"se diviser",
+"se scinder"
+],
+"התרחב": [
+"s'élargir",
+"s'étendre",
+"s'agrandir"
+],
+"טיפח": [
+"cultiver",
+"entretenir",
+"développer"
+],
+"יועד": [
+"être désigné",
+"être destiné",
+"être affecté"
+],
+"ננשך": [
+"être mordu"
+],
+"נפתר": [
+"être résolu",
+"être réglé"
+],
+"נשמט": [
+"se détacher",
+"tomber",
+"être omis"
+],
+"עימד": [
+"mettre en page",
+"composer"
+],
+"רותק": [
+"être captivé",
+"être fasciné"
+],
+"רפרף": [
+"voltiger",
+"feuilleter",
+"effleurer"
+],
+"שובב": [
+"revigorer",
+"ranimer"
+],
+"שיפץ": [
+"rénover",
+"réparer"
+],
+"שיקם": [
+"réhabiliter",
+"restaurer"
+],
+"אפף": [
+"entourer",
+"envelopper"
+],
+"געה": [
+"mugir",
+"beugler"
+],
+"געש": [
+"bouillonner",
+"entrer en éruption"
+],
+"דילג": [
+"sauter",
+"franchir"
+],
+"הובטח": [
+"être promis",
+"être garanti"
+],
+"הוגה": [
+"être éclairé",
+"être illuminé"
+],
+"הוסמך": [
+"être habilité",
+"être certifié",
+"être ordonné"
+],
+"הועף": [
+"être renvoyé",
+"être expulsé"
+],
+"הופנט": [
+"être hypnotisé"
+],
+"הופעל": [
+"être activé",
+"être mis en marche"
+],
+"הוקדש": [
+"être consacré",
+"être dédié"
+],
+"הורשה": [
+"être autorisé",
+"être permis"
+],
+"הושלך": [
+"être jeté",
+"être lancé"
+],
+"החליא": [
+"rendre malade",
+"infecter"
+],
+"הצמיח": [
+"faire pousser",
+"faire croître"
+],
+"השתקם": [
+"se rétablir",
+"se réhabiliter"
+],
+"התארס": [
+"se fiancer"
+],
+"יילל": [
+"hurler",
+"se lamenter"
+],
+"כבל": [
+"enchaîner",
+"entraver"
+],
+"ניתץ": [
+"démolir",
+"détruire"
+],
+"נענה": [
+"recevoir une réponse",
+"être exaucé"
+],
+"נשנש": [
+"grignoter"
+],
+"סומן": [
+"être marqué",
+"être désigné"
+],
+"הוצג": [
+"être présenté",
+"être exposé"
+],
+"הוקסם": [
+"être charmé",
+"être fasciné"
+],
+"הזדמן": [
+"se trouver par hasard",
+"arriver par hasard"
+],
+"המעיט": [
+"réduire",
+"diminuer"
+],
+"הניב": [
+"produire",
+"porter des fruits"
+],
+"השתטה": [
+"faire l’idiot",
+"faire le fou"
+],
+"התאפשר": [
+"devenir possible"
+],
+"התחולל": [
+"se produire",
+"avoir lieu"
+],
+"התפרפר": [
+"se débattre",
+"frémir",
+"battre des ailes"
+],
+"טיבע": [
+"frapper",
+"battre monnaie"
+],
+"כיסח": [
+"tondre",
+"tabasser"
+],
+"לחם": [
+"combattre",
+"lutter",
+"infliger",
+"manger"
+],
+"נמוג": [
+"fondre",
+"se dissiper"
+],
+"ננטש": [
+"être abandonné",
+"être délaissé"
+],
+"נעמד": [
+"se tenir debout",
+"se mettre debout"
+],
+"נצמד": [
+"s’attacher",
+"se coller"
+],
+"נשדד": [
+"être pillé",
+"être saccagé"
+],
+"סיבך": [
+"compliquer",
+"embrouiller"
+],
+"סלד": [
+"reculer",
+"tressaillir"
+],
+"עופף": [
+"voler",
+"voltiger"
+],
+"ערם": [
+"s’entasser",
+"s’accumuler"
+],
+"שובח": [
+"être loué",
+"être félicité"
+],
+"שיהק": [
+"avoir le hoquet"
+],
+"הוחבא": [
+"être caché",
+"être dissimulé"
+],
+"הוצב": [
+"être placé",
+"être posté"
+],
+"הערים": [
+"tromper",
+"ruser"
+],
+"הצריך": [
+"nécessiter",
+"exiger"
+],
+"התלהב": [
+"s’enthousiasmer",
+"s’enflammer"
+],
+"התעודד": [
+"reprendre courage",
+"se donner du courage"
+],
+"התעופף": [
+"voler",
+"voltiger"
+],
+"נרפא": [
+"guérir",
+"se rétablir"
+],
+"נשרט": [
+"être égratigné",
+"être griffé"
+],
+"סייר": [
+"patrouiller",
+"explorer"
+],
+"סירס": [
+"castrer",
+"émasculer"
+],
+"עוות": [
+"être déformé",
+"être tordu"
+],
+"פיצח": [
+"casser",
+"ouvrir",
+"déchiffrer"
+],
+"צותת": [
+"espionner",
+"écouter aux portes",
+"mettre sur écoute"
+],
+"צפצף": [
+"gazouiller",
+"siffler",
+"ignorer"
+],
+"קרקר": [
+"croasser",
+"gargouiller"
+],
+"שבק": [
+"abandonner",
+"laisser"
+],
+"אזר": [
+"ceindre",
+"entourer",
+"armer"
+],
+"בוטח": [
+"être assuré",
+"être garanti"
+],
+"ביתר": [
+"découper",
+"démembrer"
+],
+"בצע": [
+"couper",
+"diviser",
+"exécuter"
+],
+"הוזנח": [
+"être négligé",
+"être abandonné"
+],
+"הופץ": [
+"être diffusé",
+"être disséminé"
+],
+"הופרע": [
+"être dérangé",
+"être interrompu"
+],
+"הושרש": [
+"être enraciné",
+"être implanté"
+],
+"החניק": [
+"étrangler",
+"étouffer"
+],
+"הסתקרן": [
+"devenir curieux",
+"s’intéresser"
+],
+"הפיג": [
+"dissiper",
+"atténuer"
+],
+"הפרה": [
+"féconder",
+"fertiliser",
+"rendre fertile"
+],
+"הצטמצם": [
+"se réduire",
+"diminuer",
+"se restreindre"
+],
+"הקריח": [
+"rendre chauve",
+"dégarnir"
+],
+"השמיץ": [
+"diffamer",
+"dénigrer",
+"calomnier"
+],
+"השעין": [
+"appuyer",
+"adosser",
+"soutenir"
+],
+"חונן": [
+"gracier",
+"faire grâce"
+],
+"חונן-pu": [
+"être gracié",
+"être favorisé"
+],
+"חוסל": [
+"être éliminé",
+"être liquidé"
+],
+"חטב": [
+"couper",
+"tailler",
+"débiter"
+],
+"חלחל": [
+"s’infiltrer",
+"suint​er",
+"pénétrer"
+],
+"טפטף": [
+"goutter",
+"laisser goutter",
+"asperger goutte à goutte"
+],
+"טרטר": [
+"harceler",
+"importuner",
+"faire du bruit"
+],
+"נדבק": [
+"adhérer",
+"se coller",
+"être contaminé"
+],
+"נופח": [
+"être gonflé"
+],
+"נטרף": [
+"devenir fou",
+"être dévoré"
+],
+"נטרק": [
+"se refermer violemment",
+"être claqué"
+],
+"נמדד": [
+"être mesuré"
+],
+"נסק": [
+"monter",
+"s’élever",
+"grimper",
+"décoller"
+],
+"נרכש": [
+"être acquis",
+"être acheté"
+],
+"נשנה": [
+"se répéter",
+"être répété"
+],
+"עינג": [
+"réjouir",
+"faire plaisir à"
+],
+"פילח": [
+"fendre",
+"percer",
+"pénétrer"
+],
+"פרט": [
+"détailler",
+"énumérer"
+],
+"צורף": [
+"être joint",
+"être combiné"
+],
+"צידד": [
+"soutenir",
+"prendre parti pour"
+],
+"קושר": [
+"être relié",
+"être lié"
+],
+"שיסע": [
+"déchirer",
+"mettre en pièces",
+"fendre"
+],
+"תוקן": [
+"être réparé",
+"être corrigé"
+],
+"אוורר-pu": [
+"être aéré",
+"être ventilé"
+],
+"בוזבז": [
+"être gaspillé"
+],
+"גורד": [
+"être raclé"
+],
+"דגר": [
+"couver"
+],
+"האפיל": [
+"obscurcir",
+"éclipser",
+"assombrir"
+],
+"הבחיל": [
+"écœurer",
+"donner la nausée"
+],
+"הבעית": [
+"effrayer",
+"ter​rifier"
+],
+"הודפס": [
+"être imprimé"
+],
+"הוחלף": [
+"être remplacé",
+"être changé"
+],
+"הוטה": [
+"être incliné",
+"être penché"
+],
+"הומס": [
+"être dissous",
+"être fondu"
+],
+"הוענק": [
+"être attribué",
+"être accordé",
+"être décerné"
+],
+"הושבע": [
+"être assermenté",
+"être fait jurer"
+],
+"הושמד": [
+"être détruit",
+"être exterminé"
+],
+"הזרים": [
+"acheminer",
+"canaliser",
+"faire couler"
+],
+"החסיר": [
+"omettre",
+"retrancher",
+"soustraire"
+],
+"הלין": [
+"héberger",
+"loger"
+],
+"הניא": [
+"dissuader",
+"détourner"
+],
+"הסעיר": [
+"agiter",
+"bouleverser",
+"déchaîner"
+],
+"הפציע": [
+"blesser",
+"faire une blessure"
+],
+"הרתיע": [
+"dissuader",
+"effrayer",
+"faire reculer"
+],
+"השכיר": [
+"louer",
+"mettre en location",
+"employer"
+],
+"השתמע": [
+"être implicite",
+"ressortir"
+],
+"התחבק": [
+"s'étreindre",
+"s'embrasser"
+],
+"התחזה": [
+"se faire passer pour",
+"feindre d'être"
+],
+"התחרפן": [
+"devenir fou",
+"péter les plombs"
+],
+"התכחש": [
+"nier",
+"désavouer",
+"renier"
+],
+"התפגר": [
+"crever",
+"crever sa vie"
+],
+"התרתח": [
+"s'échauffer",
+"s'emporter"
+],
+"חבל": [
+"endommager",
+"saboter",
+"nuire"
+],
+"חולץ": [
+"être extrait",
+"être dégagé",
+"être secouru"
+],
+"חצץ": [
+"séparer",
+"s'interposer",
+"faire écran"
+],
+"נאסף": [
+"être recueilli",
+"être rassemblé",
+"décéder"
+],
+"נדפק": [
+"se faire baiser",
+"se faire avoir",
+"être foutu"
+],
+"נחבא": [
+"se cacher",
+"être caché"
+],
+"נסער": [
+"s'agiter",
+"être bouleversé",
+"s'affoler"
+],
+"עוטר": [
+"être couronné",
+"être décoré",
+"être orné"
+],
+"עורער": [
+"être contesté",
+"être remis en cause",
+"être ébranlé"
+],
+"עישב": [
+"désherber"
+],
+"ערפל": [
+"obscurcir",
+"brouiller"
+],
+"פירט": [
+"détailler",
+"énumérer"
+],
+"פקע": [
+"expirer",
+"se rompre"
+],
+"צבט": [
+"pincer"
+],
+"קימט": [
+"froisser",
+"plisser"
+],
+"קסם": [
+"plaire",
+"attirer",
+"séduire"
+],
+"שולם": [
+"être payé",
+"être acquitté"
+],
+"שיסה": [
+"exciter contre",
+"dresser contre"
+],
+"תלש": [
+"arracher",
+"cueillir"
+],
+"אייך": [
+"localiser"
+],
+"ארך": [
+"durer",
+"s'allonger"
+],
+"בהק": [
+"briller",
+"luire"
+],
+"הדליף": [
+"faire fuiter",
+"divulguer"
+],
+"הוגלה": [
+"être exilé"
+],
+"הוטל": [
+"être imposé",
+"être enlevé"
+],
+"הוטל-huf": [
+"être jeté",
+"être lancé"
+],
+"הומת": [
+"être tué",
+"être exécuté"
+],
+"הוסגר": [
+"être extradé",
+"être livré"
+],
+"הועלה": [
+"être élevé",
+"être soulevé"
+],
+"הועמד": [
+"être placé",
+"être mis debout"
+],
+"הוערך": [
+"être évalué",
+"être estimé"
+],
+"הופרך": [
+"être réfuté",
+"être invalidé"
+],
+"הושתת": [
+"être fondé sur",
+"reposer sur"
+],
+"הסדיר": [
+"organiser",
+"régler",
+"ordonner"
+],
+"הפיח": [
+"gonfler",
+"insuffler"
+],
+"הפשיל": [
+"retrousser",
+"relever"
+],
+"הרנין": [
+"réjouir",
+"enchanter"
+],
+"הרפה": [
+"relâcher",
+"desserrer"
+],
+"השחיל": [
+"enfiler",
+"insérer"
+],
+"השיק": [
+"mettre en contact",
+"lancer"
+],
+"התחנף": [
+"flagorner",
+"chercher à se faire bien voir"
+],
+"התנועע": [
+"bouger",
+"se déplacer",
+"se balancer"
+],
+"רכס": [
+"boutonner",
+"fermer"
+],
+"שאג": [
+"rugir"
+],
+"שובץ": [
+"être affecté",
+"être placé"
+],
+"שוגר": [
+"être lancé",
+"être envoyé"
+],
+"שיכל": [
+"priver d’un enfant",
+"rendre sans enfant"
+],
+"שיכל-pi": [
+"priver d’un enfant",
+"rendre sans enfant"
+],
+"תארך": [
+"dater"
+],
+"תוכנן": [
+"être planifié",
+"être conçu"
+],
+"אולף": [
+"être formé",
+"être enseigné"
+],
+"אומת": [
+"être authentifié",
+"être vérifié"
+],
+"אייד": [
+"faire évaporer",
+"vaporiser"
+],
+"בגר": [
+"mûrir",
+"atteindre l’âge adulte"
+],
+"בזז": [
+"piller",
+"saccager"
+],
+"בלס": [],
+"ברדק": [
+"désorganiser",
+"mettre en désordre"
+],
+"גוון": [
+"être diversifié",
+"varier"
+],
+"גיבש": [
+"cristalliser",
+"élaborer",
+"consolider"
+],
+"האפיר": [
+"griser",
+"rendre gris"
+],
+"האציל": [
+"ennoblir"
+],
+"הדהד": [
+"résonner",
+"réverbérer"
+],
+"ההדיר": [
+"publier",
+"éditer"
+],
+"הובן": [
+"être compris"
+],
+"הוטבל": [
+"être immergé",
+"être plongé",
+"être baptisé"
+],
+"הוכרע": [
+"être décidé",
+"être déterminé"
+],
+"הוכתם": [
+"être taché",
+"être souillé"
+],
+"הומלח": [
+"être salé"
+],
+"הומר": [
+"être converti",
+"être transformé"
+],
+"הוסכם": [
+"être convenu",
+"être accepté"
+],
+"הוסתר": [
+"être caché",
+"être dissimulé"
+],
+"הופצץ": [
+"être bombardé",
+"être mitraillé"
+],
+"התפכח": [
+"reprendre ses esprits",
+"dessaouler"
+],
+"זלג": [
+"goutter",
+"s’égoutter",
+"fuir"
+],
+"זמזם": [
+"fredonner",
+"bourdonner"
+],
+"חשק": [
+"désirer",
+"convoiter"
+],
+"כוסה": [
+"être couvert"
+],
+"כסס": [
+"ronger",
+"mâcher"
+],
+"משה": [
+"repêcher",
+"tirer de l’eau"
+],
+"משמש": [
+"palper",
+"tâter"
+],
+"נדף": [
+"être emporté par le vent",
+"se disperser",
+"se répandre (d’une odeur)"
+],
+"נוצל": [
+"être exploité",
+"être utilisé"
+],
+"נותץ": [
+"être démoli",
+"être détruit"
+],
+"נחרד": [
+"s’effrayer",
+"être effrayé"
+],
+"נחשק": [
+"être désiré",
+"être convoité"
+],
+"נחתם": [
+"être signé",
+"être scellé"
+],
+"נסדק": [
+"se fissurer",
+"se fendre"
+],
+"נעקץ": [
+"se faire piquer",
+"être piqué"
+],
+"נפרם": [
+"se découdre",
+"se défaire"
+],
+"נרקב": [
+"pourrir"
+],
+"סולק": [
+"être éliminé",
+"être écarté"
+],
+"עולל": [
+"maltraiter",
+"tourmenter",
+"abuser de"
+],
+"פיסק": [
+"ponctuer"
+],
+"פצח": [
+"éclater (en chants)",
+"s’ouvrir"
+],
+"צייץ": [
+"gazouiller",
+"pé pier"
+],
+"צמרר": [
+"faire frissonner",
+"donner la chair de poule"
+],
+"קודד": [
+"coder",
+"encoder"
+],
+"קורה": [
+"être couvert d’un toit"
+],
+"קמל": [
+"se flétrir",
+"dépérir"
+],
+"רוסק": [
+"être broyé",
+"être pulvérisé"
+],
+"רופף": [
+"desserrer",
+"relâcher"
+],
+"ריקד": [
+"faire danser",
+"faire sautiller"
+],
+"הורחק": [
+"être éloigné",
+"être tenu à distance"
+],
+"הטיח": [
+"enduire",
+"crépir"
+],
+"הכזיב": [
+"décevoir",
+"tromper"
+],
+"הנציח": [
+"commémorer",
+"immortaliser"
+],
+"הסית": [
+"inciter",
+"pousser à agir"
+],
+"הסתלבט": [
+"se prélasser",
+"glander",
+"se moquer de"
+],
+"הפגיש": [
+"mettre en contact",
+"présenter",
+"faire se rencontrer"
+],
+"הפריח": [
+"faire fleurir",
+"faire prospérer",
+"lancer"
+],
+"הרעיד": [
+"faire trembler",
+"secouer"
+],
+"הרשיע": [
+"condamner",
+"reconnaître coupable"
+],
+"השתכשך": [
+"barboter",
+"se baigner en pataugeant"
+],
+"התאבן": [
+"se pétrifier",
+"se figer"
+],
+"התברך": [
+"être béni",
+"s'enorgueillir de"
+],
+"התגודד": [
+"se rassembler",
+"se grouper"
+],
+"התחצף": [
+"se montrer insolent",
+"répondre avec impertinence"
+],
+"התמסר": [
+"se consacrer à",
+"se livrer",
+"se rendre"
+],
+"התמתן": [
+"se modérer",
+"s'assagir"
+],
+"התנוסס": [
+"se dresser",
+"flotter"
+],
+"התפלח": [
+"se faufiler",
+"s'introduire en douce"
+],
+"התפרש": [
+"être interprété",
+"s'expliquer"
+],
+"התפרש-hit": [
+"s'étendre",
+"se déployer"
+],
+"התרושש": [
+"s'appauvrir"
+],
+"התריס": [
+"défier",
+"braver",
+"protester"
+],
+"חולק": [
+"être divisé",
+"être réparti"
+],
+"חמצן": [
+"oxyder",
+"oxygéner"
+],
+"חרחר": [
+"attiser",
+"provoquer"
+],
+"יובא": [
+"être importé"
+],
+"ייסר": [
+"punir",
+"tourmenter",
+"corriger"
+],
+"כישף": [
+"ensorceler",
+"jeter un sort"
+],
+"מירר": [
+"rendre amer",
+"affliger"
+],
+"מסק": [
+"cueillir (des olives)"
+],
+"נבחן": [
+"être examiné",
+"être testé"
+],
+"נדר": [
+"jurer",
+"faire un vœu"
+],
+"נהה": [
+"se lamenter",
+"gémir"
+],
+"נהפך": [
+"se retourner",
+"être renversé",
+"se transformer"
+],
+"נחרב": [
+"être détruit",
+"être dévasté",
+"être ravagé"
+],
+"נחשד": [
+"être soupçonné"
+],
+"ניבל": [
+"profaner",
+"injurier",
+"dire des obscénités"
+],
+"נישב": [
+"souffler"
+],
+"נפגם": [
+"être endommagé",
+"s’altérer"
+],
+"נפלט": [
+"s’échapper",
+"être expulsé",
+"être émis"
+],
+"נפעם": [
+"être bouleversé",
+"être émerveillé",
+"être stupéfait"
+],
+"נצנץ": [
+"scintiller",
+"étinceler"
+],
+"נצץ": [
+"briller",
+"étinceler"
+],
+"נקנס": [
+"être verbalisé",
+"se voir infliger une amende"
+],
+"נקרע": [
+"se déchirer",
+"être déchiré"
+],
+"נשכב": [
+"se coucher",
+"s’allonger"
+],
+"נתמך": [
+"être soutenu",
+"s’appuyer"
+],
+"סבא": [
+"s’enivrer"
+],
+"סומם": [
+"être drogué",
+"être intoxiqué"
+],
+"עוכב": [
+"être retardé",
+"être retenu"
+],
+"פלה": [
+"distinguer",
+"séparer"
+],
+"פרמט": [
+"formater"
+],
+"צויר": [
+"être dessiné",
+"être représenté"
+],
+"צרם": [
+"grincer",
+"écorcher"
+],
+"קרקע": [
+"faire atterrir",
+"mettre à la terre"
+],
+"רוה": [
+"se désaltérer",
+"se rassasier"
+],
+"ריוח": [
+"espacer",
+"aérer"
+],
+"רימז": [
+"suggérer",
+"faire allusion"
+],
+"שינס": [
+"se ceindre",
+"se préparer",
+"se mobiliser"
+],
+"שעט": [
+"galoper",
+"foncer",
+"se précipiter"
+],
+"שצף": [
+"déferler",
+"jaillir",
+"se précipiter"
+],
+"שקק": [
+"jaillir",
+"affluer",
+"se précipiter"
+],
+"אגד": [
+"lier",
+"attacher",
+"regrouper"
+],
+"אובק": [
+"être épousseté",
+"être dépoussiéré"
+],
+"אולתר": [
+"être improvisé"
+],
+"אושש": [
+"être renforcé"
+],
+"אושש-pi": [
+"renforcer",
+"consolider"
+],
+"אושש-pu": [
+"être renforcé",
+"être consolidé"
+],
+"איגד": [
+"lier",
+"regrouper",
+"rassembler"
+],
+"בושל": [
+"être cuit",
+"être préparé"
+],
+"גדע": [
+"couper",
+"tronçonner",
+"abattre"
+],
+"גזם": [
+"tailler",
+"élaguer"
+],
+"גלען": [
+"dénoyauter"
+],
+"הגריל": [
+"être tiré au sort",
+"être désigné par tirage au sort"
+],
+"הדיר": [
+"exclure",
+"écarter"
+],
+"הוחזק": [
+"être détenu",
+"être maintenu"
+],
+"הוחזר": [
+"être rendu",
+"être retourné"
+],
+"הונף": [
+"être agité",
+"être brandi"
+],
+"הוסק": [
+"être déduit",
+"être conclu"
+],
+"הופנה": [
+"être dirigé",
+"être orienté"
+],
+"הופקר": [
+"être abandonné",
+"être livré"
+],
+"הוצמד": [
+"être attaché",
+"être fixé"
+],
+"הוצפן": [
+"être caché",
+"être chiffré"
+],
+"הוקצה": [
+"être alloué",
+"être affecté"
+],
+"הורכב": [
+"être monté",
+"être assemblé"
+],
+"הושט": [
+"être tendu",
+"être tendu vers"
+],
+"הושקע": [
+"être investi",
+"être immergé"
+],
+"הותאם": [
+"être adapté",
+"être ajusté"
+],
+"החניף": [
+"flatter",
+"flagorner"
+],
+"טווח": [
+"être visé",
+"être pris pour cible"
+],
+"יגע": [
+"se fatiguer",
+"peiner"
+],
+"יוצג": [
+"être présenté",
+"être exposé"
+],
+"ייצר": [
+"générer",
+"produire",
+"fabriquer"
+],
+"כושף": [
+"être ensorcelé"
+],
+"לוטש": [
+"être poli",
+"être affûté"
+],
+"לפת": [
+"saisir",
+"empoigner"
+],
+"מוחזר": [
+"être recyclé",
+"être retourné"
+],
+"מזמז": [
+"peloter",
+"tripoter"
+],
+"מילט": [
+"sauver",
+"faire échapper"
+],
+"נאנק": [
+"gémir"
+],
+"נגרר": [
+"être traîné",
+"se laisser entraîner"
+],
+"נדחק": [
+"être comprimé",
+"se serrer"
+],
+"נורה": [
+"être touché par un projectile",
+"être abattu"
+],
+"נזל": [
+"couler",
+"s'écouler",
+"goutter"
+],
+"נחרץ": [
+"être décidé",
+"être tranché"
+],
+"נטען": [
+"être chargé",
+"être allégué"
+],
+"נידב": [
+"donner",
+"faire don de",
+"contribuer"
+],
+"ניון": [
+"atrophier",
+"faire dépérir"
+],
+"ניתך": [
+"se déverser",
+"s'abattre"
+],
+"נכבה": [
+"s'éteindre"
+],
+"נלמד": [
+"être appris",
+"être étudié"
+],
+"נמסר": [
+"être remis",
+"être livré",
+"être communiqué"
+],
+"נספג": [
+"être absorbé",
+"s'imprégner"
+],
+"נקטע": [
+"être interrompu",
+"être sectionné"
+],
+"נשאל": [
+"être interrogé",
+"être questionné"
+],
+"נשקל": [
+"être pesé",
+"être pris en considération"
+],
+"נתלה": [
+"être suspendu",
+"pendre",
+"dépendre"
+],
+"נתלש": [
+"être arraché",
+"se détacher"
+],
+"סקל": [
+"lapider",
+"caillasser"
+],
+"החריף": [
+"aggraver",
+"s’intensifier",
+"empirer"
+],
+"היסה": [
+"faire taire",
+"réduire au silence"
+],
+"הכסיף": [
+"pâlir",
+"blanchir",
+"grisonner"
+],
+"הלחין": [
+"mettre en musique",
+"composer"
+],
+"המתיק": [
+"sucrer",
+"adoucir",
+"atténuer"
+],
+"הסתודד": [
+"chuchoter en secret",
+"se concerter en secret"
+],
+"העכיר": [
+"troubler",
+"rendre trouble",
+"assombrir"
+],
+"הפליל": [
+"incriminer",
+"accuser"
+],
+"הפנט": [
+"hypnotiser"
+],
+"הפריך": [
+"réfuter",
+"invalider"
+],
+"הצטופף": [
+"se serrer",
+"se presser",
+"s’entasser"
+],
+"הצטרד": [
+"devenir enroué",
+"s’enrouer"
+],
+"הרטיט": [
+"faire vibrer",
+"faire trembler",
+"émouvoir"
+],
+"הרקיב": [
+"faire pourrir",
+"pourrir"
+],
+"השכיח": [
+"faire oublier"
+],
+"השריש": [
+"enraciner",
+"implanter"
+],
+"התאבק": [
+"lutter",
+"se battre",
+"se débattre"
+],
+"התארח": [
+"être hébergé",
+"séjourner comme invité"
+],
+"התארך": [
+"s’allonger",
+"se prolonger"
+],
+"התגפף": [
+"se câliner",
+"s’embrasser"
+],
+"התחרז": [
+"rimer"
+],
+"התידד": [
+"se lier d’amitié",
+"devenir amis"
+],
+"התיעץ": [
+"consulter",
+"demander conseil"
+],
+"התנפנף": [
+"agiter",
+"flotter",
+"battre des ailes"
+],
+"התעדכן": [
+"se tenir au courant",
+"s’informer",
+"se mettre à jour"
+],
+"התעלס": [
+"faire l’amour",
+"s’enlacer"
+],
+"זוקק": [
+"être raffiné",
+"être distillé",
+"être purifié"
+],
+"חברת": [
+"socialiser",
+"socialiser (quelqu’un)"
+],
+"חורר": [
+"percer",
+"perforer"
+],
+"טוהר": [
+"être purifié"
+],
+"עג": [
+"encercler",
+"tourner autour de"
+],
+"עוצב": [
+"être attristé"
+],
+"עימם": [
+"assombrir",
+"obscurcir",
+"émousser"
+],
+"עמעם": [
+"atténuer",
+"assourdir",
+"obscurcir"
+],
+"פוענח": [
+"être déchiffré",
+"être décodé"
+],
+"פוצל": [
+"être divisé",
+"être scindé"
+],
+"פותה": [
+"être tenté",
+"être séduit"
+],
+"פשפש": [
+"fouiller",
+"inspecter",
+"examiner"
+],
+"צוח": [
+"crier",
+"hurler"
+],
+"צויד": [
+"être équipé",
+"être pourvu"
+],
+"צייד": [
+"équiper",
+"pourvoir"
+],
+"קונן": [
+"se lamenter",
+"déplorer"
+],
+"קושקש": [
+"être griffonné",
+"être barbouillé"
+],
+"קימר": [
+"voûter",
+"courber"
+],
+"קצב": [
+"fixer",
+"attribuer",
+"allouer"
+],
+"רטט": [
+"trembler",
+"vibrer"
+],
+"רמס": [
+"piétiner",
+"écraser"
+],
+"שולש": [
+"être triplé"
+],
+"שיבץ": [
+"insérer",
+"placer",
+"affecter"
+],
+"שירש": [
+"déraciner",
+"extirper"
+],
+"שכלל": [
+"perfectionner",
+"améliorer"
+],
+"תגמל": [
+"récompenser",
+"rétribuer"
+],
+"תועש": [
+"être industrialisé"
+],
+"אופס": [
+"être remis à zéro",
+"être réinitialisé"
+],
+"בויש": [
+"être humilié",
+"être couvert de honte"
+],
+"בושם": [
+"être parfumé",
+"être embaumé"
+],
+"בלגן": [
+"désorganiser",
+"dérégler",
+"mettre en désordre"
+],
+"גהר": [
+"se pencher",
+"se courber"
+],
+"גולף": [
+"être sculpté",
+"être gravé"
+],
+"גונן": [
+"défendre",
+"protéger",
+"abriter"
+],
+"גיון": [
+"diversifier",
+"varier"
+],
+"גרגר": [
+"se gargariser",
+"gargouiller"
+],
+"דולל": [
+"être dilué",
+"être éclairci"
+],
+"דורבן": [
+"être aiguillonné",
+"être encouragé"
+],
+"דושן": [
+"être fertilisé",
+"être enrichi"
+],
+"הדיף": [
+"dégager",
+"émettre",
+"diffuser"
+],
+"הדמיע": [
+"faire pleurer",
+"faire monter les larmes"
+],
+"הוגשם": [
+"être réalisé",
+"être concrétisé"
+],
+"הוחרם": [
+"être confisqué",
+"être boycotté"
+],
+"הונח": [
+"être posé",
+"être placé",
+"être supposé"
+],
+"הונח-huf": [
+"être posé",
+"être placé",
+"être supposé"
+],
+"הופק": [
+"être produit",
+"être émis"
+],
+"הוקרן": [
+"être projeté",
+"être diffusé"
+],
+"הורעב": [
+"être affamé",
+"être privé de nourriture"
+],
+"הושבת": [
+"être arrêté",
+"être mis hors service",
+"être interrompu"
+],
+"הושמע": [
+"être diffusé",
+"être joué",
+"être entendu"
+],
+"הזיל": [
+"verser",
+"faire couler"
+],
+"החצין": [
+"extérioriser"
+],
+"הטביל": [
+"immerger",
+"plonger",
+"baptiser"
+],
+"הטמיע": [
+"intégrer",
+"incorporer",
+"assimiler"
+],
+"הלקה": [
+"fouetter",
+"flageller"
+],
+"המריד": [
+"inciter à se rebeller",
+"soulever"
+],
+"הנעיל": [
+"chausser"
+],
+"הנעים": [
+"rendre agréable",
+"égayer"
+],
+"הנפיק": [
+"émettre",
+"délivrer",
+"produire"
+],
+"הסתחרר": [
+"avoir le vertige",
+"tournoyer"
+],
+"העגיל": [
+"arrondir"
+],
+"הצטדק": [
+"se justifier",
+"se disculper"
+],
+"הצטמרר": [
+"frissonner",
+"trembler"
+],
+"הקהה": [
+"émousser",
+"atténuer"
+],
+"הרדים": [
+"endormir",
+"anesthésier"
+],
+"הרעיב": [
+"affamer",
+"faire mourir de faim"
+],
+"הרעיף": [
+"couvrir de",
+"prodigue​​r",
+"déverser"
+],
+"השיל": [
+"faire tomber",
+"perdre",
+"se débarrasser de"
+],
+"השקיט": [
+"calmer",
+"apaiser",
+"faire taire"
+],
+"השתוה": [
+"s'égaler",
+"être égal à",
+"s'équivaloir"
+],
+"השתומם": [
+"s'étonner",
+"être stupéfait",
+"s'émerveiller"
+],
+"השתכח": [
+"être oublié",
+"tomber dans l'oubli"
+],
+"השתקף": [
+"se refléter",
+"apparaître"
+],
+"התאחה": [
+"se cicatriser",
+"se ressouder",
+"se refermer"
+],
+"התאמת": [
+"être vérifié",
+"s'authentifier"
+],
+"התבקע": [
+"se fendre",
+"éclater",
+"se fissurer"
+],
+"התגושש": [
+"lutter",
+"se battre",
+"s'empoigner"
+],
+"התגלע": [
+"éclater",
+"surgir",
+"apparaître"
+],
+"התגרה": [
+"provoquer",
+"chercher querelle",
+"s'en prendre à"
+],
+"התדמה": [
+"ressembler à",
+"s'apparenter à"
+],
+"התדפק": [
+"frapper à",
+"tambouriner à"
+],
+"התהלל": [
+"se vanter",
+"se glorifier"
+],
+"התוסף": [
+"s'ajouter",
+"se joindre à",
+"s'accroître"
+],
+"התחשל": [
+"s'endurcir",
+"se fortifier"
+],
+"התכלה": [
+"s'épuiser",
+"se consumer",
+"s'achever"
+],
+"התכסה": [
+"se couvrir",
+"se recouvrir",
+"se cacher"
+],
+"התמזג": [
+"fusionner",
+"se fondre",
+"se mélanger"
+],
+"התמזמז": [
+"se bécoter",
+"se peloter",
+"perdre son temps"
+],
+"התסיס": [
+"faire fermenter",
+"fomenter",
+"agiter"
+],
+"התעפש": [
+"moisir",
+"se couvrir de moisissure"
+],
+"התעצם": [
+"s'intensifier",
+"se renforcer",
+"s'accroître"
+],
+"התעשת": [
+"reprendre ses esprits",
+"se ressaisir"
+],
+"התקלף": [
+"s'écailler",
+"se peler",
+"s'éplucher"
+],
+"התרעם": [
+"se plaindre",
+"protester",
+"s'indigner"
+],
+"התרענן": [
+"se rafraîchir",
+"se revigorer"
+],
+"התרפס": [
+"ramper devant",
+"s'aplatir",
+"faire des courbettes"
+],
+"התרפק": [
+"se blottir contre",
+"se pelotonner contre"
+],
+"התרשל": [
+"se montrer négligent",
+"se relâcher"
+],
+"זיבל": [
+"fertiliser",
+"fumer"
+],
+"חב": [
+"devoir",
+"être redevable"
+],
+"חודד": [
+"être aiguisé",
+"être affûté"
+],
+"חכך": [
+"réfléchir",
+"méditer"
+],
+"חנט": [
+"commencer à mûrir",
+"embaumer"
+],
+"יוחס": [
+"être attribué",
+"être rapporté"
+],
+"ייגע": [
+"épuiser",
+"fatiguer"
+],
+"ייפה": [
+"embellir",
+"rendre plus beau"
+],
+"ייתר": [
+"rendre superflu",
+"rendre inutile"
+],
+"כובס": [
+"être lavé",
+"être lessivé"
+],
+"כווץ": [
+"être contracté",
+"être rétréci"
+],
+"ליבה": [
+"attiser",
+"raviver"
+],
+"ליכד": [
+"capturer",
+"saisir",
+"piéger"
+],
+"מונה": [
+"être nommé",
+"être désigné"
+],
+"מיגר": [
+"éradiquer",
+"éliminer"
+],
+"מיצה": [
+"extraire",
+"épuiser",
+"presser"
+],
+"מקלט": [],
+"משכן": [
+"hypothéquer",
+"mettre en gage"
+],
+"נאלם": [
+"se taire",
+"devenir silencieux",
+"rester sans voix"
+],
+"נבט": [
+"regarder",
+"observer"
+],
+"נגנז": [
+"être rangé",
+"être mis de côté",
+"être censuré"
+],
+"נדמה": [
+"sembler",
+"paraître",
+"ressembler"
+],
+"נהם": [
+"rugir",
+"gronder"
+],
+"נוקב": [
+"être percé",
+"être désigné"
+],
+"נחרך": [
+"être roussi",
+"être brûlé"
+],
+"נטפל": [
+"s'en prendre à",
+"harceler",
+"s'occuper de"
+],
+"ניטר": [
+"surveiller",
+"contrôler"
+],
+"נימק": [
+"justifier",
+"expliquer"
+],
+"נמעך": [
+"être écrasé",
+"être aplati"
+],
+"נמתח": [
+"être étiré",
+"être tendu"
+],
+"ננקט": [
+"être pris",
+"être adopté"
+],
+"נעזר": [
+"se faire aider",
+"recourir à"
+],
+"נפסל": [
+"être disqualifié",
+"être invalidé"
+],
+"נצרך": [
+"être nécessaire",
+"avoir besoin de"
+],
+"נקלט": [
+"être absorbé",
+"être capté",
+"être compris"
+],
+"נקשר": [
+"être relié",
+"être lié",
+"s’attacher"
+],
+"נשטף": [
+"être lavé",
+"être rincé",
+"être emporté",
+"être inondé"
+],
+"נשתל": [
+"être planté",
+"être implanté"
+],
+"סחרר": [
+"étourdir",
+"faire tourner"
+],
+"עוקם": [
+"être tordu",
+"être courbé"
+],
+"עימל": [
+"travailler",
+"peiner"
+],
+"עיקל": [
+"tordre",
+"courber"
+],
+"עכר": [
+"troubler",
+"gâter"
+],
+"ערף": [
+"décapiter"
+],
+"פואר": [
+"être embelli",
+"être glorifié"
+],
+"פותל": [
+"être tordu",
+"être entortillé"
+],
+"פזל": [
+"loucher",
+"regarder en biais"
+],
+"פייט": [
+"composer des poèmes",
+"écrire des poèmes"
+],
+"פרפר": [
+"se débattre",
+"battre des ailes"
+],
+"קולל": [
+"être maudit"
+],
+"קיפח": [
+"priver",
+"léser"
+],
+"קרטע": [
+"boiter",
+"avancer par à-coups"
+],
+"קרצף": [
+"récurer",
+"frotter"
+],
+"שופר": [
+"être amélioré"
+],
+"שח": [
+"parler",
+"converser"
+],
+"שרבט": [
+"gribouiller",
+"esquisser"
+],
+"הוסבר": [
+"être expliqué",
+"être clarifié"
+],
+"הוסרט": [
+"être filmé"
+],
+"הועתק": [
+"être copié",
+"être reproduit"
+],
+"הופסק": [
+"être arrêté",
+"être interrompu"
+],
+"הופר": [
+"être violé",
+"être enfreint"
+],
+"הוצהר": [
+"être déclaré",
+"être annoncé"
+],
+"הוצלב": [
+"être crucifié"
+],
+"הוצנע": [
+"être dissimulé",
+"être caché"
+],
+"הוקנה": [
+"être accordé",
+"être transmis"
+],
+"הוקפא": [
+"être congelé",
+"être gelé"
+],
+"הוקצב": [
+"être attribué",
+"être alloué"
+],
+"הורחב": [
+"être élargi",
+"être agrandi"
+],
+"הורע": [
+"être aggravé",
+"être détérioré"
+],
+"הושאל": [
+"être prêté"
+],
+"הושבח": [
+"être amélioré"
+],
+"הושמט": [
+"être omis",
+"être supprimé"
+],
+"הותך": [
+"être fondu"
+],
+"הזדהם": [
+"se contaminer"
+],
+"הזדקר": [
+"se dresser",
+"saillir"
+],
+"החיש": [
+"hâter",
+"accélérer"
+],
+"הכלים": [
+"humilier",
+"faire honte"
+],
+"הכפיש": [
+"calomnier",
+"diffamer"
+],
+"הלאה": [
+"fatiguer",
+"lasser"
+],
+"הסיג": [
+"repousser",
+"faire reculer"
+],
+"הסלים": [
+"aggraver",
+"intensifier"
+],
+"הסתנן": [
+"s'infiltrer"
+],
+"הסתער": [
+"charger",
+"se précipiter"
+],
+"הסתרק": [
+"se peigner"
+],
+"העשיר": [
+"enrichir"
+],
+"הפעים": [
+"impressionner",
+"bouleverser"
+],
+"אוחסן": [
+"être stocké",
+"être entreposé"
+],
+"אופר": [
+"être maquillé",
+"être couvert de cendres",
+"être grisé"
+],
+"איבן": [
+"pétrifier"
+],
+"אישש": [
+"renforcer",
+"consolider"
+],
+"אתחל": [
+"initialiser"
+],
+"בזק": [
+"saupoudrer",
+"disperser"
+],
+"ביצר": [
+"fortifier"
+],
+"בצבץ": [
+"jaillir",
+"poindre"
+],
+"גונה": [
+"être dénoncé",
+"être condamné"
+],
+"גורה": [
+"être excité",
+"être provoqué",
+"être irrité"
+],
+"גיבן": [
+"faire cailler"
+],
+"דהה": [
+"pâlir",
+"s'estomper",
+"se ternir"
+],
+"דולדל": [
+"être diminué",
+"être affaibli",
+"être appauvri"
+],
+"דורג": [
+"être noté",
+"être classé"
+],
+"דידה": [
+"trottiner",
+"marcher à petits pas"
+],
+"דקדק": [
+"examiner avec minutie",
+"être méticuleux",
+"pinailler"
+],
+"הבהיק": [
+"briller",
+"étinceler"
+],
+"הבריז": [
+"sécher",
+"faire faux bond"
+],
+"הגיר": [
+"faire couler",
+"verser"
+],
+"הדף": [
+"repousser",
+"écarter"
+],
+"הואט": [
+"être ralenti"
+],
+"הודח": [
+"être écarté",
+"être destitué",
+"être entraîné"
+],
+"הודח-huf": [
+"être rincé",
+"être lavé"
+],
+"הוזל": [
+"être réduit",
+"être soldé"
+],
+"הוטמן": [
+"être caché",
+"être dissimulé",
+"être enfoui"
+],
+"הוטס": [
+"être transporté par avion",
+"être piloté"
+],
+"הוכפל": [
+"être doublé",
+"être multiplié"
+],
+"הומלץ": [
+"être recommandé"
+],
+"הונהג": [
+"être instauré",
+"être mis en place",
+"être dirigé"
+],
+"הונפק": [
+"être émis",
+"être délivré"
+],
+"התלכד": [
+"se regrouper",
+"se rassembler",
+"s'unir"
+],
+"התמוסס": [
+"se dissoudre",
+"fondre"
+],
+"התמיה": [
+"étonner",
+"surprendre"
+],
+"התמנה": [
+"être nommé",
+"être désigné"
+],
+"התמשך": [
+"se prolonger",
+"durer",
+"s'étendre"
+],
+"התנגח": [
+"s'affronter",
+"se heurter",
+"se donner des coups de corne"
+],
+"התנופף": [
+"s'agiter",
+"flotter",
+"onduler"
+],
+"התעמק": [
+"s'approfondir",
+"creuser"
+],
+"התענה": [
+"souffrir",
+"se tourmenter",
+"jeûner"
+],
+"התערפל": [
+"s'embrumer",
+"se brouiller",
+"devenir brumeux"
+],
+"התקמצן": [
+"être pingre",
+"lésiner",
+"devenir avare"
+],
+"התקפל": [
+"se plier",
+"se replier",
+"reculer"
+],
+"התקצר": [
+"se raccourcir",
+"diminuer"
+],
+"התרכך": [
+"s'assouplir",
+"se ramollir",
+"s'attendrir"
+],
+"חוזר": [
+"être répété",
+"être révisé"
+],
+"חויב": [
+"être obligé",
+"être contraint",
+"être tenu de"
+],
+"חורר-pu": [
+"être perforé",
+"être percé"
+],
+"חושק": [
+"être désiré",
+"être convoité"
+],
+"חישק": [
+"désirer",
+"convoiter"
+],
+"חרפן": [
+"rendre fou",
+"faire perdre la tête"
+],
+"ייבב": [
+"gémir",
+"sangloter",
+"hurler"
+],
+"יישן": [
+"faire vieillir",
+"faire mûrir"
+],
+"יקד": [
+"brûler",
+"flamber"
+],
+"כחכח": [
+"se racler la gorge",
+"toussoter"
+],
+"כשכש": [
+"remuer",
+"agiter"
+],
+"לובה": [
+"être attisé",
+"être ravivé",
+"être enflammé"
+],
+"לחך": [
+"lécher",
+"brouter"
+],
+"לחלח": [
+"humidifier",
+"mouiller",
+"humecter"
+],
+"לטש": [
+"aiguiser",
+"affûter",
+"polir"
+],
+"מוכן": [
+"être préparé",
+"être apprêté",
+"être prêt"
+],
+"הצליף": [
+"fouetter",
+"flageller"
+],
+"הצניע": [
+"cacher",
+"dissimuler",
+"rendre discret"
+],
+"הצעיד": [
+"faire marcher",
+"faire avancer"
+],
+"הקדיר": [
+"assombrir",
+"obscurcir"
+],
+"הקנה": [
+"transmettre",
+"conférer",
+"faire acquérir"
+],
+"הרגיל": [
+"habituer",
+"accoutumer"
+],
+"הרה": [
+"concevoir",
+"imaginer"
+],
+"הרוה": [
+"désaltérer",
+"abreuver",
+"saturer"
+],
+"הרכין": [
+"incliner",
+"baisser",
+"courber"
+],
+"הרקיע": [
+"s'élever",
+"monter en flèche"
+],
+"השיט": [
+"tendre",
+"passer",
+"faire naviguer"
+],
+"השתחל": [
+"se faufiler",
+"se frayer un passage"
+],
+"השתחצן": [
+"se vanter",
+"faire le fanfaron"
+],
+"השתכן": [
+"s'installer",
+"habiter"
+],
+"השתפך": [
+"se déverser",
+"se répandre",
+"s'épancher"
+],
+"התאחר": [
+"être en retard",
+"s'attarder"
+],
+"התבדר": [
+"se divertir",
+"s'amuser",
+"se disperser"
+],
+"התבלט": [
+"se détacher",
+"ressortir",
+"saillir"
+],
+"התברג": [
+"se visser",
+"se classer"
+],
+"התגנדר": [
+"se parer",
+"s'apprêter"
+],
+"התגרד": [
+"se gratter"
+],
+"התהדר": [
+"se parer",
+"s'embellir",
+"se glorifier"
+],
+"התחלחל": [
+"frémir",
+"être horrifié"
+],
+"התחמש": [
+"s'armer",
+"s'équiper"
+],
+"התחקה": [
+"imiter",
+"suivre la trace de"
+],
+"התחרבן": [
+"échouer",
+"se gâter",
+"tourner mal"
+],
+"התחרבש": [
+"se compliquer",
+"tourner mal"
+],
+"התחשבן": [
+"régler ses comptes",
+"demander des comptes"
+],
+"התכתש": [
+"se battre",
+"se chamailler"
+],
+"התלחש": [
+"chuchoter",
+"se parler à voix basse"
+],
+"נערם": [
+"s’entasser",
+"s’accumuler"
+],
+"נפקח": [
+"s’ouvrir",
+"reprendre ses esprits"
+],
+"נפרץ": [
+"être fracturé",
+"s’ouvrir par effraction"
+],
+"נצבע": [
+"être peint",
+"se colorer"
+],
+"נשאב": [
+"être aspiré",
+"être puisé"
+],
+"נשחק": [
+"s’user",
+"être usé"
+],
+"נשלל": [
+"être privé de",
+"être annulé",
+"être exclu"
+],
+"נשפט": [
+"être jugé"
+],
+"נתבע": [
+"être poursuivi en justice",
+"être réclamé"
+],
+"סח": [
+"parler",
+"converser"
+],
+"סייג": [
+"nuancer",
+"assortir de réserves",
+"délimiter"
+],
+"סימם": [
+"droguer",
+"intoxiquer"
+],
+"עלב": [
+"offenser",
+"vexer"
+],
+"פידר": [
+"poudrer"
+],
+"פלח": [
+"servir",
+"adorer"
+],
+"פמפם": [
+"pomper"
+],
+"פשה": [
+"se propager",
+"s’étendre"
+],
+"צודד": [
+"être soutenu",
+"être appuyé"
+],
+"צודד-pi": [
+"soutenir",
+"prendre parti pour"
+],
+"צוות": [
+"être affecté",
+"être intégré à une équipe"
+],
+"צימד": [
+"attacher",
+"associer",
+"coupler"
+],
+"צרף": [
+"joindre",
+"combiner",
+"ajouter"
+],
+"צרר": [
+"lier",
+"ficeler",
+"enserrer"
+],
+"קוים": [
+"être exécuté",
+"être réalisé",
+"être respecté"
+],
+"קומט": [
+"être froissé",
+"se rider"
+],
+"קומם": [
+"soulever",
+"relever",
+"inciter"
+],
+"קומם-pu": [
+"être soulevé",
+"être relevé"
+],
+"קועקע": [
+"être tatoué",
+"être détruit",
+"être ruiné",
+"être sapé"
+],
+"קושט": [
+"être décoré",
+"être orné"
+],
+"קנס": [
+"infliger une amende",
+"verbaliser"
+],
+"הודבק": [
+"être collé",
+"être fixé"
+],
+"הודלף": [
+"être divulgué",
+"faire l’objet d’une fuite"
+],
+"הודרך": [
+"être guidé",
+"être formé"
+],
+"הוזן": [
+"être nourri",
+"être alimenté",
+"être saisi"
+],
+"הוזנק": [
+"être lancé",
+"être déclenché"
+],
+"הוזעק": [
+"être appelé d’urgence",
+"être mobilisé",
+"être alerté"
+],
+"הוחמץ": [
+"être manqué",
+"être raté"
+],
+"הוחתם": [
+"être fait signer",
+"être tamponné"
+],
+"הוטבע": [
+"être noyé",
+"être immergé",
+"être frappé",
+"être battu"
+],
+"הוכנע": [
+"être soumis",
+"être contraint de capituler"
+],
+"הוכפש": [
+"être diffamé",
+"être calomnié"
+],
+"הוכשל": [
+"être fait échouer",
+"être entravé"
+],
+"הוכתב": [
+"être dicté"
+],
+"הונחת": [
+"être posé",
+"être largué",
+"être imposé"
+],
+"הונצח": [
+"être commémoré",
+"être immortalisé"
+],
+"הוסדר": [
+"être réglé",
+"être organisé",
+"être mis en ordre"
+],
+"הוסט": [
+"être redirigé",
+"être détourné",
+"être dévié"
+],
+"הועמס": [
+"être chargé",
+"être encombré"
+],
+"הוענש": [
+"être puni",
+"être châtié"
+],
+"הועשר": [
+"être enrichi"
+],
+"הופלל": [
+"être incriminé",
+"être accusé"
+],
+"הופרה": [
+"être fécondé",
+"être fertilisé"
+],
+"הוצנח": [
+"être parachuté",
+"être largué"
+],
+"הוצת": [
+"être incendié",
+"être allumé"
+],
+"הוקרם": [
+"être recouvert de crème"
+],
+"הושכב": [
+"être couché",
+"être allongé",
+"être mis au lit"
+],
+"הושכר": [
+"être loué",
+"être donné en location"
+],
+"הושק": [
+"être lancé",
+"être mis en contact"
+],
+"הושקה": [
+"être arrosée",
+"être abreuvée"
+],
+"הושתל": [
+"être planté",
+"être implanté",
+"être greffé"
+],
+"הותנה": [
+"être conditionné",
+"être subordonné"
+],
+"הזהיב": [
+"dorer",
+"recouvrir d'or"
+],
+"הזניק": [
+"lancer",
+"déclencher",
+"propulser"
+],
+"החויר": [
+"faire pâlir",
+"blanchir"
+],
+"החטיף": [
+"gifler",
+"asséner",
+"frapper"
+],
+"החכיר": [
+"affermer",
+"donner en location"
+],
+"הטליא": [
+"rapiécer",
+"repriser"
+],
+"היתמר": [
+"s'élever",
+"se dresser",
+"monter en flèche"
+],
+"הכביר": [
+"augmenter considérablement",
+"multiplier"
+],
+"הכליא": [
+"emprisonner",
+"hybrider"
+],
+"המאיס": [
+"dégoûter",
+"répugner"
+],
+"המחה": [
+"transférer",
+"céder",
+"endosser"
+],
+"המטיר": [
+"faire pleuvoir",
+"déverser"
+],
+"המיט": [
+"faire s'effondrer",
+"faire s'abattre"
+],
+"המליט": [
+"sauver",
+"faire échapper"
+],
+"המרה": [
+"braver",
+"désobéir"
+],
+"הסכית": [
+"écouter attentivement",
+"prêter attention"
+],
+"הספיד": [
+"prononcer un éloge funèbre",
+"faire l'éloge funèbre"
+],
+"הסריט": [
+"filmer",
+"tourner"
+],
+"הסתכסך": [
+"se brouiller",
+"se quereller"
+],
+"הסתלסל": [
+"friser",
+"boucler"
+],
+"העיב": [
+"obscurcir",
+"assombrir"
+],
+"העליל": [
+"accuser faussement",
+"incriminer"
+],
+"הצליב": [
+"croiser",
+"crucifier"
+],
+"הצניח": [
+"parachuter",
+"faire tomber"
+],
+"הצעיר": [
+"rajeunir",
+"rendre plus jeune"
+],
+"הקציע": [
+"raboter",
+"dresser"
+],
+"הרביע": [
+"faire saillir",
+"faire s'accoupler"
+],
+"הרזה": [
+"faire maigrir",
+"amaigrir"
+],
+"השלה": [
+"leurrer",
+"tromper",
+"faire illusion"
+],
+"אזרח": [
+"naturaliser"
+],
+"אכסן": [
+"entreposer",
+"héberger"
+],
+"אסלם": [
+"islamiser"
+],
+"בוצר": [
+"être fortifié"
+],
+"בוקע": [
+"être fendu",
+"être percé"
+],
+"בזה": [
+"mépriser"
+],
+"בידד": [
+"isoler",
+"isoler thermiquement"
+],
+"ביזר": [
+"décentraliser",
+"disperser"
+],
+"בייץ": [
+"ovuler"
+],
+"ביתק": [
+"sectionner",
+"déchirer"
+],
+"בלש": [
+"enquêter",
+"espionner"
+],
+"גולח": [
+"être rasé"
+],
+"גיפר": [
+"vulcaniser"
+],
+"גירף": [
+"ratisser",
+"balayer"
+],
+"גמע": [
+"avaler",
+"engloutir"
+],
+"דובב": [
+"être incité à parler",
+"être amené à parler"
+],
+"דובב-pi": [
+"faire parler",
+"inciter à parler"
+],
+"דומם": [
+"immobiliser",
+"réduire au silence"
+],
+"דלדל": [
+"diminuer",
+"appauvrir",
+"affaiblir"
+],
+"דסקס": [
+"discuter"
+],
+"דשדש": [
+"stagner",
+"piétiner"
+],
+"האביק": [
+"épousseter",
+"dépoussiérer"
+],
+"הבזיק": [
+"saupoudrer",
+"disperser"
+],
+"הבליג": [
+"se retenir",
+"supporter"
+],
+"הגדיש": [
+"entasser",
+"accumuler"
+],
+"הגיה": [
+"éclairer",
+"illuminer"
+],
+"הדיד": [
+"chasser",
+"expulser",
+"faire errer"
+],
+"הובהר": [
+"être éclairci",
+"être clarifié"
+],
+"הוגבל": [
+"être limité",
+"être délimité"
+],
+"הוגף": [
+"être fermé"
+],
+"קץ": [
+"couper",
+"trancher"
+],
+"קרש": [
+"coaguler"
+],
+"רוח": [
+"avoir du répit",
+"être soulagé"
+],
+"רוסן": [
+"être freiné",
+"être réfréné",
+"être maîtrisé"
+],
+"ריוה": [
+"abreuver",
+"désaltérer",
+"saturer"
+],
+"ריצף": [
+"carreler",
+"paver"
+],
+"רכן": [
+"s’incliner",
+"se courber"
+],
+"שודד": [
+"être pillé",
+"être saccagé"
+],
+"שולב": [
+"être intégré",
+"être combiné"
+],
+"שופשף": [
+"être frotté",
+"être écorché"
+],
+"שטען": [],
+"שיגל": [
+"violer",
+"abuser sexuellement"
+],
+"שיוה": [
+"comparer",
+"égaliser",
+"assimiler"
+],
+"שייך": [
+"associer",
+"rattacher"
+],
+"שיסף": [
+"taillader",
+"mutiler"
+],
+"שכשך": [
+"agiter",
+"remuer"
+],
+"שלשל": [
+"abaisser",
+"faire descendre",
+"dérouler"
+],
+"שפעל": [
+"activer",
+"mettre en marche"
+],
+"שקשק": [
+"secouer",
+"agiter",
+"remuer"
+],
+"שרך": [
+"associer",
+"lier"
+],
+"תוחזק": [
+"être maintenu",
+"être entretenu",
+"être renforcé"
+],
+"תחמן": [
+"berner",
+"duper",
+"escroquer"
+],
+"תיאם": [
+"coordonner",
+"faire concorder"
+],
+"תיעל": [
+"canaliser",
+"acheminer"
+],
+"תיעש": [
+"industrialiser"
+],
+"תצפת": [
+"surveiller",
+"observer"
+],
+"תקצר": [
+"raccourcir",
+"résumer"
+],
+"תקתק": [
+"faire tic-tac",
+"taper",
+"expédier"
+],
+"אושרר": [
+"être ratifié"
+],
+"אותגר": [
+"être mis au défi",
+"être défié"
+],
+"התחרש": [
+"devenir sourd",
+"faire la sourde oreille"
+],
+"התכבס": [
+"se laver"
+],
+"התכנה": [
+"se faire appeler",
+"se nommer"
+],
+"התלהט": [
+"s’enflammer",
+"s’échauffer"
+],
+"התלמד": [
+"se former",
+"s’exercer"
+],
+"התמסד": [
+"s’institutionnaliser",
+"se stabiliser"
+],
+"התמסטל": [
+"se défoncer",
+"planer"
+],
+"התנגן": [
+"résonner",
+"se jouer"
+],
+"התנענע": [
+"se balancer",
+"bouger"
+],
+"התעדן": [
+"se prélasser",
+"vivre dans le luxe"
+],
+"התעור": [
+"devenir aveugle"
+],
+"התעכל": [
+"se digérer"
+],
+"התעמעם": [
+"s’atténuer",
+"s’assourdir",
+"s’estomper"
+],
+"התענן": [
+"se couvrir",
+"s’obscurcir"
+],
+"התעקל": [
+"se courber",
+"faire un coude"
+],
+"התעקם": [
+"se tordre",
+"se courber"
+],
+"התערה": [
+"s’intégrer",
+"se mêler"
+],
+"התפוקק": [
+"se déboîter"
+],
+"התפיל": [
+"dessaler",
+"désaliniser"
+],
+"התפלמס": [
+"polémiquer",
+"débattre"
+],
+"התקרנף": [
+"se conformer",
+"suivre le troupeau"
+],
+"התקשח": [
+"se durcir",
+"se raidir"
+],
+"התרועע": [
+"fréquenter",
+"se lier avec"
+],
+"ווסת": [
+"être régulé",
+"être réglé"
+],
+"זורז": [
+"être accéléré",
+"être hâté"
+],
+"זיכך": [
+"purifier",
+"épurer",
+"affiner"
+],
+"זינב": [
+"suivre de près",
+"talonner"
+],
+"חודש": [
+"être renouvelé"
+],
+"חושל": [
+"être endurci",
+"être renforcé"
+],
+"חיטב": [
+"tailler",
+"sculpter"
+],
+"השפיך": [
+"déverser",
+"verser"
+],
+"השריץ": [
+"pondre",
+"frayer",
+"faire pulluler"
+],
+"השתבח": [
+"se vanter",
+"se glorifier"
+],
+"השתובב": [
+"faire le fou",
+"s'amuser",
+"folâtrer"
+],
+"השתטח": [
+"s'étendre",
+"se prosterner"
+],
+"השתית": [
+"faire saigner"
+],
+"השתלהב": [
+"s'enflammer",
+"s'enthousiasmer"
+],
+"השתעבד": [
+"s'asservir",
+"se soumettre"
+],
+"השתרך": [
+"traîner",
+"s'étirer"
+],
+"התאדם": [
+"rougir",
+"devenir rouge"
+],
+"התאונן": [
+"se plaindre",
+"se lamenter"
+],
+"התאפס": [
+"se remettre à zéro",
+"se ressaisir"
+],
+"התאשפז": [
+"être hospitalisé",
+"se faire hospitaliser"
+],
+"התבולל": [
+"s'assimiler",
+"se fondre"
+],
+"התביש": [
+"avoir honte",
+"être gêné"
+],
+"התבסם": [
+"s'enivrer",
+"se droguer"
+],
+"התבצר": [
+"se retrancher",
+"se fortifier"
+],
+"התברבר": [
+"s'égarer",
+"divaguer"
+],
+"התבשם": [
+"se parfumer",
+"s'enivrer de"
+],
+"התבשר": [
+"apprendre une bonne nouvelle",
+"recevoir une bonne nouvelle"
+],
+"התגולל": [
+"se rouler",
+"se vautrer"
+],
+"התגלם": [
+"s'incarner",
+"se matérialiser"
+],
+"התגמד": [
+"rapetisser",
+"diminuer"
+],
+"התדלדל": [
+"s'appauvrir",
+"s'affaiblir",
+"diminuer"
+],
+"התחבב": [
+"se faire apprécier",
+"se rendre sympathique"
+],
+"התחבט": [
+"se débattre",
+"hésiter",
+"se tourmenter"
+],
+"התחכך": [
+"se frotter",
+"se frôler"
+],
+"התחלה": [
+"faire semblant d'être malade"
+],
+"התחמצן": [
+"s'oxyder"
+],
+"התחסד": [
+"faire le dévot",
+"se montrer pieux"
+],
+"חילט": [
+"confisquer",
+"saisir"
+],
+"חיפף": [
+"bâcler",
+"faire à la va-vite"
+],
+"חכר": [
+"affermer",
+"prendre à bail"
+],
+"חלטר": [
+"bricoler",
+"faire des petits boulots"
+],
+"חלמן": [],
+"חלש": [
+"s'affaiblir",
+"devenir faible"
+],
+"חרבש": [
+"bâcler",
+"faire n'importe quoi"
+],
+"חרת": [
+"graver",
+"sculpter",
+"ciseler"
+],
+"טורטר": [
+"être harcelé",
+"être importuné"
+],
+"טייב": [
+"améliorer",
+"bonifier"
+],
+"יופה": [
+"être embelli"
+],
+"יורט": [
+"être intercepté"
+],
+"יושם": [
+"être mis en œuvre",
+"être appliqué"
+],
+"ייחל": [
+"espérer",
+"attendre"
+],
+"ייצב": [
+"stabiliser",
+"positionner"
+],
+"יירט": [
+"intercepter"
+],
+"כדרר": [
+"dribbler"
+],
+"כותר": [
+"être couronné"
+],
+"ליהק": [
+"distribuer les rôles",
+"faire le casting"
+],
+"ליפף": [
+"enrouler",
+"envelopper"
+],
+"מגנט": [
+"aimanter",
+"magnétiser"
+],
+"מולכד": [
+"être piégé"
+],
+"מולל": [
+"émietter",
+"broyer"
+],
+"מוסגר": [
+"être encadré",
+"être enfermé"
+],
+"מוסד": [
+"être institutionnalisé",
+"être fondé"
+],
+"מיען": [
+"refuser",
+"rejeter"
+],
+"מרקר": [
+"surligner",
+"marquer au feutre"
+],
+"נבדל": [
+"se séparer",
+"être séparé",
+"se distinguer"
+],
+"נבזז": [
+"être pillé",
+"être saccagé"
+],
+"נגרס": [
+"être broyé",
+"être déchiqueté"
+],
+"נגרע": [
+"être retranché",
+"être soustrait",
+"diminuer"
+],
+"נדבר": [
+"se parler",
+"discuter"
+],
+"נוטרל": [
+"être neutralisé"
+],
+"נועץ": [
+"être consulté"
+],
+"נושק": [
+"être embrassé"
+],
+"נחבל": [
+"être blessé",
+"être endommagé"
+],
+"נייד": [
+"déplacer",
+"transférer",
+"mobiliser"
+],
+"ניכס": [
+"s’approprier"
+],
+"ניפק": [
+"émettre",
+"délivrer"
+],
+"ניקד": [
+"ponctuer",
+"vocaliser"
+],
+"נכסף": [
+"désirer ardemment",
+"aspirer à"
+],
+"נכפה": [
+"être contraint",
+"être forcé"
+],
+"נלוה": [
+"se joindre",
+"accompagner"
+],
+"נמרח": [
+"être étalé",
+"être tartiné"
+],
+"נסחט": [
+"être pressé",
+"être extorqué"
+],
+"נסרק": [
+"être scanné",
+"être peigné"
+],
+"נעטף": [
+"être enveloppé",
+"se couvrir"
+],
+"נעצב": [
+"être attristé",
+"s’attrister"
+],
+"נעצם": [
+"se fermer"
+],
+"נעקף": [
+"être contourné"
+],
+"נעתק": [
+"être déplacé",
+"être transféré"
+],
+"נעתר": [
+"accéder à",
+"consentir"
+],
+"נפרע": [
+"être payé",
+"être remboursé",
+"être réglé"
+],
+"נפרש": [
+"être séparé",
+"être sécrété"
+],
+"נפרש-nif": [
+"être étendu",
+"être déployé"
+],
+"נצלב": [
+"être crucifié"
+],
+"נקהל": [
+"se rassembler",
+"être rassemblé"
+],
+"נקף": [
+"encercler",
+"frapper"
+],
+"נקצב": [
+"être attribué",
+"être alloué"
+],
+"נרגם": [
+"être lapidé"
 ]
 }

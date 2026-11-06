@@ -30,7 +30,7 @@ and deploys to Cloudflare Pages on `main` if secrets exist. There is no linter; 
 | `src/search.ts` | `SearchIndex` (all modes: auto, root, contains, subseq, anyorder, pattern `?`/`*`, fr, translit) + `SECTIONS` labels for grouped results. |
 | `src/style.css` | Single stylesheet; theme via CSS custom properties. |
 | `scripts/prerender.ts` | Writes `dist/verbe/<id>.html`, `dist/racine/<root>.html`, static pages, `sitemap.xml`; stamps `public/sw.js` `__VERSION__` with a content hash. |
-| `scripts/*.py` | Data pipeline (`fetch_sources.py`, `build_data.py`, `translate_mt.py`). Machine translations are versioned in `data/fr_mt.json`. |
+| `scripts/*.py` | Data pipeline (`fetch_sources.py`, `build_data.py`, `eran_tomer.py`, `translate_mt.py`). Wiktionary verbs come first; `eran_tomer.py` adds verbs without a Wiktionary table (`src: "et"`, root learnt per inflection class) and fills empty cells — existing ids never change. Machine translations are versioned in `data/fr_mt.json` (`translate_mt.py` uses Gemini when `GEMINI_API_KEY` is set). |
 | `public/data/{verbs,examples}.json` | Generated but **committed** data (CC BY-SA / CC BY). Don't hand-edit; regenerate via the scripts. |
 | `public/sw.js`, `public/_headers` | Offline PWA (navigations network-first, assets cache-first) and Cloudflare cache headers. |
 
@@ -49,7 +49,7 @@ and deploys to Cloudflare Pages on `main` if secrets exist. There is no linter; 
 - **Hebrew text:** wrap in `lang="he" dir="rtl"`; compare words with `hkey()`, never raw strings (niqqud/final letters differ).
 - **URLs:** `/verbe/<id>?hl=cell1,cell2` highlights table rows (`tr.hl`, ids `c-<cell>` with `.` → `-`); `/racine/<rootKey>`; `/liste?b=&g=&l=&tri=freq&page=`; `/?q=&mode=&b=&g=`; `/comparer?v=id1,id2`.
 - **Cache busting:** `vite.config.ts` hashes the data files into `__DATA_V__`; the service worker version is stamped at prerender time. No manual bumps needed.
-- **Licences:** site/code CC BY-NC 4.0; data CC BY-SA 4.0 (Wiktionary) and CC BY 2.0 FR (Tatoeba). Keep attribution links intact.
+- **Licences:** site/code CC BY-NC 4.0; data CC BY-SA 4.0 (Wiktionary), CC BY 4.0 (Eran Tomer verbs) and CC BY 2.0 FR (Tatoeba). Keep attribution links intact.
 
 ## Verifying UI changes
 

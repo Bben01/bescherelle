@@ -201,6 +201,7 @@ html.no-niqqud .form.big .u { font-size: 2.4rem; }
 .chip { padding: 3px 10px; border-radius: 999px; border: 1px solid var(--line); text-decoration: none; color: var(--fg); background: var(--card); font-size: .88rem; }
 .chip.on { background: var(--accent); color: #fff; border-color: var(--accent); }
 .letters .chip { font-size: 1.1rem; min-width: 34px; text-align: center; }
+.list-filters { display: none; }
 .pager { display: flex; gap: 16px; justify-content: center; align-items: center; margin: 18px 0; }
 .scroll { overflow-x: auto; }
 table.recap, table.compare { border-collapse: collapse; width: 100%; background: var(--card); }
@@ -244,6 +245,9 @@ table.recap, table.compare { border-collapse: collapse; width: 100%; background:
   .hero .lead, .home-grid .explore, .foot .tip { display: none; }
   .search { margin: 10px 0; }
   .examples .ex:nth-child(n+6) { display: none; }
+  .list-chips { display: none; }
+  .list-filters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; margin: 8px 0; }
+  .list-filters select { width: 100%; padding: 6px 8px; font-size: .9rem; }
   .home-grid { margin-top: 12px; }
   .common .card:nth-child(n+7) { display: none; }
   .cards { gap: 8px; }

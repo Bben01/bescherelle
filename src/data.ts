@@ -17,6 +17,7 @@ export interface RawVerb {
   pass?: string;
   act?: string;
   ex?: { he: string; en: string; tr?: string; fr?: string }[];
+  src?: 'et'; // conjugation from Eran Tomer's verb lists (CC BY 4.0) instead of Wiktionary
 }
 
 export interface DataFile { v: number; cells: string[]; verbs: RawVerb[] }

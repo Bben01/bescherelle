@@ -14,7 +14,8 @@ import re
 import sys
 import urllib.parse
 import urllib.request
-from concurrent.futures import ThreadPoolExecutor
+
+import eran_tomerfrom concurrent.futures import ThreadPoolExecutor
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, ".cache")
@@ -36,6 +37,7 @@ def fetch_bulk():
     files = {
         "he.jsonl": "https://kaikki.org/dictionary/Hebrew/kaikki.org-dictionary-Hebrew.jsonl",
         "fr_hebreu.jsonl": "https://kaikki.org/frwiktionary/H%C3%A9breu/kaikki.org-dictionary-H%C3%A9breu.jsonl",
+        eran_tomer.FILE: eran_tomer.URL,
     }
     for name, url in files.items():
         dest = os.path.join(CACHE, name)
