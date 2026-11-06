@@ -1,5 +1,5 @@
 import './style.css';
-import { BINYANIM, BINYAN_ORDER, CODE_TO_HEBREW, KEYBOARD_ROWS, hkey, isHebrew } from './hebrew.ts';
+import { BINYANIM, BINYAN_ORDER, CODE_TO_HEBREW, KEYBOARD_ROWS, hkey, isHebrew, stripNiqqud } from './hebrew.ts';
 import { CELL_LABEL, TENSES, headForm, loadExamples, loadVerbs, type Verb } from './data.ts';
 import { SearchIndex, type SearchMode } from './search.ts';
 import {
@@ -173,6 +173,12 @@ function readForm() {
   return { q: String(fd.get('q') ?? ''), mode: String(fd.get('mode') ?? 'auto') as SearchMode, b: String(fd.get('b') ?? ''), g: String(fd.get('g') ?? '') };
 }
 
+// Live search waits for a pause in typing; short queries (many broad matches) wait longer.
+const searchDelay = (q: string) => {
+  const n = stripNiqqud(q).replace(/\s+/g, '').length;
+  return n ? Math.max(150, 700 - 150 * n) : 0;
+};
+
 function runSearch(updateUrl = true) {
   const { q, mode, b, g } = readForm();
   const res = document.getElementById('results')!;
@@ -204,9 +210,17 @@ let searchTimer = 0;
 function bindSearch() {
   const form = app.querySelector<HTMLFormElement>('form.search');
   if (!form) return;
-  form.addEventListener('submit', (e) => { e.preventDefault(); dismissKeyboard(); runSearch(); });
-  form.addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = window.setTimeout(() => runSearch(), 120); });
-  form.addEventListener('change', () => runSearch());
+  form.addEventListener('submit', (e) => { e.preventDefault(); clearTimeout(searchTimer); dismissKeyboard(); runSearch(); });
+  form.addEventListener('input', (e) => {
+    if (!(e.target instanceof HTMLInputElement) || !['search', 'text'].includes(e.target.type)) return;
+    clearTimeout(searchTimer);
+    searchTimer = window.setTimeout(() => runSearch(), searchDelay(e.target.value));
+  });
+  form.addEventListener('change', (e) => {
+    if (e.target instanceof HTMLInputElement && ['search', 'text'].includes(e.target.type)) return;
+    clearTimeout(searchTimer);
+    runSearch();
+  });
   const adv = form.querySelector<HTMLDetailsElement>('details.adv');
   if (adv && matchMedia('(min-width: 641px)').matches) adv.open = true;
   bindKeyboard(form);
@@ -274,11 +288,19 @@ function showCompare(params: URLSearchParams) {
   };
   draw();
   const input = document.getElementById('cmp-q') as HTMLInputElement, sugg = document.getElementById('cmp-sugg')!;
-  input.addEventListener('input', () => {
+  let timer = 0;
+  const suggest = () => {
+    clearTimeout(timer);
     const hits = index.search(input.value, { limit: 8 });
     sugg.innerHTML = hits.map((h) => `<button type="button" data-add="${esc(h.verb.id)}">${formHtml(headForm(h.verb), { button: false })} <small>${esc(h.verb.fr[0] ?? h.verb.en[0] ?? '')} · ${esc(BINYANIM[h.verb.b]?.fr ?? '')}</small></button>`).join('');
+  };
+  input.addEventListener('input', () => { clearTimeout(timer); timer = window.setTimeout(suggest, searchDelay(input.value)); });
+  input.form!.addEventListener('submit', (e) => {
+    e.preventDefault();
+    dismissKeyboard();
+    if (input.value.trim()) suggest();
+    sugg.querySelector<HTMLButtonElement>('[data-add]')?.click();
   });
-  input.form!.addEventListener('submit', (e) => { e.preventDefault(); dismissKeyboard(); sugg.querySelector<HTMLButtonElement>('[data-add]')?.click(); });
   app.onclick = (e) => {
     const t = e.target as HTMLElement;
     const add = t.closest<HTMLElement>('[data-add]')?.dataset.add;
